@@ -6,13 +6,14 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
-from typing import Any, TypeVar
+from typing import Any, Iterable, TypeVar
 
 try:  # support running as a module or script
     from .conflict_and_stakes_judge import ConflictAndStakesJudge
     from .flesch_reading_ease import flesch_reading_ease
     from .motivation_consistency_judge import MotivationConsistencyJudge
     from .text_llm_judge import ModelRunner, TextLLMJudge
+    from .surprise import surprise_score
 except ImportError:  # pragma: no cover
     import sys
     from pathlib import Path as _Path
@@ -22,6 +23,7 @@ except ImportError:  # pragma: no cover
     from eval.flesch_reading_ease import flesch_reading_ease  # type: ignore
     from eval.motivation_consistency_judge import MotivationConsistencyJudge  # type: ignore
     from eval.text_llm_judge import ModelRunner, TextLLMJudge  # type: ignore
+    from eval.surprise import surprise_score  # type: ignore
 
 from util.openai_runner import OpenAIConfigError, create_openai_runner
 
@@ -72,6 +74,7 @@ def run_all_metrics(text_path: Path, *, runner: ModelRunner | None = None) -> di
         text_path=text_path,
         runner=llm_runner,
     )
+    results["surprise"] = surprise_score(text)
 
     aggregate = compute_aggregate_score(results)
 
