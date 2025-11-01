@@ -14,6 +14,8 @@ try:  # support running as a module or script
     from .motivation_consistency_judge import MotivationConsistencyJudge
     from .text_llm_judge import ModelRunner, TextLLMJudge
     from .surprise import surprise_score
+    from .five_second_judge import FiveSecondJudge
+    from .setting_judge import SettingJudge
 except ImportError:  # pragma: no cover
     import sys
     from pathlib import Path as _Path
@@ -24,6 +26,8 @@ except ImportError:  # pragma: no cover
     from eval.motivation_consistency_judge import MotivationConsistencyJudge  # type: ignore
     from eval.text_llm_judge import ModelRunner, TextLLMJudge  # type: ignore
     from eval.surprise import surprise_score  # type: ignore
+    from eval.five_second_judge import FiveSecondJudge
+    from eval.setting_judge import SettingJudge
 
 from util.openai_runner import OpenAIConfigError, create_openai_runner
 
@@ -75,6 +79,12 @@ def run_all_metrics(text_path: Path, *, runner: ModelRunner | None = None) -> di
         runner=llm_runner,
     )
     results["surprise"] = surprise_score(text)
+    results["five_second"] = run_llm_judge(
+        FiveSecondJudge,
+        text_path=text_path,
+        runner=llm_runner
+    )
+    results["setting"] = SettingJudge(model_runner=llm_runner).evaluate(text)
 
     aggregate = compute_aggregate_score(results)
 
