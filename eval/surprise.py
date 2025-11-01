@@ -13,9 +13,8 @@ def surprise_score(input) -> dict:
     total = 0
     for i in range(1, len(distances)):
         total += distances[i] - distances[i - 1]
-    breakpoint()
     score = 2 * total / (len(distances) - 1)
-    return {"surprise": score}
+    return {"surprise": score.item()}
 
 if __name__ == "__main__":
     with open("texts/sample_aitah/s1.txt", "r", encoding="utf-8") as f:

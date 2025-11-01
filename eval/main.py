@@ -142,7 +142,7 @@ def main() -> None:
         report = run_all_metrics(target)
     except OpenAIConfigError as exc:
         raise SystemExit(str(exc)) from exc
-
+    breakpoint()
     print(json.dumps(report, indent=2))
 
 
