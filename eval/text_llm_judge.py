@@ -18,7 +18,7 @@ class TextLLMJudge(ABC):
     """Reusable base class for LLM-as-judge evaluations over text input."""
 
     model_runner: ModelRunner
-    prompt_template: str
+    prompt_template: str = ""
     model_kwargs: dict[str, Any] = field(default_factory=dict)
     metadata: dict[str, Any] = field(default_factory=dict)
 
