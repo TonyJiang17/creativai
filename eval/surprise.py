@@ -1,7 +1,7 @@
 from sentence_transformers import SentenceTransformer
 import re
 
-def surprise_score(input):
+def surprise_score(input) -> dict:
     model = SentenceTransformer("thenlper/gte-large", use_auth_token=True)
     sentences = [s.strip() for s in re.split(r'(?<=[.!?])\s+', input) if s.strip()]
     if len(sentences) < 2:
@@ -15,7 +15,7 @@ def surprise_score(input):
         total += distances[i] - distances[i - 1]
     breakpoint()
     score = 2 * total / (len(distances) - 1)
-    return score
+    return {"surprise": score}
 
 if __name__ == "__main__":
     with open("texts/sample_aitah/s1.txt", "r", encoding="utf-8") as f:
