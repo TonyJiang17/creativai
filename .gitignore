@@ -68,3 +68,6 @@ htmlcov/
 .pyre/
 
 AGENTS.md
+
+.claude/local*
+CLAUDE.local.md
