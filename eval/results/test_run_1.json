@@ -1,0 +1,725 @@
+{
+  "source_directory": "texts/sample_aitah",
+  "files": {
+    "texts/sample_aitah/s10_1400.txt": {
+      "source": "texts/sample_aitah/s10_1400.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 67.92937671628849,
+          "total_sentences": 22,
+          "total_words": 629,
+          "total_syllables": 817
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\n  \"consistent_motivation\": true,\n  \"rationale\": \"Both characters' actions, emotions, and escalation logically follow from their established motives and constraints: the narrator is time-, energy-, and money-limited and thus prioritizes work/school/household duties over gym time, while the boyfriend consistently values fitness and pressures her (even hypocritically) to conform, with his offer-to-help-then-anger arc matching that goal.\"\n}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": true,
+          "raw_response": "{\n  \"conflict_and_stakes\": true,\n  \"rationale\": \"Yes \u2014 the piece sets a clear, embodied dominant stake (whether she will sacrifice time, money, schooling, and household care to meet his gym demand or keep those obligations and risk relationship fallout), shows escalation and tightening when his help proves conditional and he repeatedly explodes at her, and makes her agency feel costly and concrete.\"\n}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.01305845845490694
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\n  \"has_compelling_hook\": true,\n  \"rationale\": \"The opening quickly presents a clear, relatable conflict\u2014an overbearing boyfriend pressuring his overworked partner to join an expensive gym while she juggles two jobs, school, and household labor\u2014creating immediate emotional stakes, injustice, and gossip-worthy tension.\"\n}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "Title: AITAH for refusing to go to the gym? I, 31 (F) have been with my boyfriend 37 (M) for about a year. We have recently been getting in repeated arguments about my lack of going to the gym and working out. For context, I am not overweight and have",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nTitle: AITAH for refusing to go to the gym? I, 31 (F) have been with my boyfriend 37 (M) for about a year. We have recently been getting in repeated arguments about my lack of going to the gym and working out. For context, I am not overweight and have\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"A 31-year-old woman (the narrator) and her 37-year-old boyfriend; the conflict centers on the narrator's refusal to go to the gym.\",\n  \"where\": \"Not specified in the excerpt; implied to be in their personal/domestic life (contemporary everyday setting).\",\n  \"when\": \"Present/ongoing (recent events\u2014they have 'recently been getting in repeated arguments').\"\n}",
+            "result": {
+              "who": "A 31-year-old woman (the narrator) and her 37-year-old boyfriend; the conflict centers on the narrator's refusal to go to the gym.",
+              "where": "Not specified in the excerpt; implied to be in their personal/domestic life (contemporary everyday setting).",
+              "when": "Present/ongoing (recent events\u2014they have 'recently been getting in repeated arguments')."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: A 31-year-old woman (the narrator) and her 37-year-old boyfriend; the conflict centers on the narrator's refusal to go to the gym.\n- Where: Not specified in the excerpt; implied to be in their personal/domestic life (contemporary everyday setting).\n- When: Present/ongoing (recent events\u2014they have 'recently been getting in repeated arguments').\n\nCOMPLETE STORY:\nTitle: AITAH for refusing to go to the gym?\n\nI, 31 (F) have been with my boyfriend 37 (M) for about a year. We have recently been getting in repeated arguments about my lack of going to the gym and working out. For context, I am not overweight and have no known health issues. I weigh about 110 lbs 5\u20195, I am active at work, and eat extremely healthy. I have been working two jobs 7 days a week for over 2 years, one medical M-F and one as a bartender on Sat/Sun, usually I do a double at least one weekend day. I am also taking college courses right now for nursing school. I live with my boyfriend and until very recently I did 100% of the housework (we will get to that). My boyfriend (37 M) works as a bartender and works checking soda machines at fast food restaurants during his free time for extra money. He\u2019s goes to the gym a couple nights a week, he\u2019s been going to this gym for about 10 years, and he pays around $170 a month for the membership. A few weeks ago he said he would start helping out around the house in exchange for me going to the gym, I asked him if was unhappy with how I look and he insisted he isn\u2019t, but the gym is important to him and being with someone who wants to better themselves is important to him. I told him with both jobs and school, the gym is not a priority, but that I would try to workout if I had free time since it was important to him.\n\nI did go to our apartment gym a few times after that conversation and he did start helping around the house, but leaves big tasks like laundry, cooking and cleaning to me. I usually get home, go grocery shopping/get dinner made/the house cleaned up while he works out so he can relax and eat as soon as he gets home from the gym. The first time I get to sit down and do school work or relax is like 9:30 pm after dinner while he plays Video games. If I\u2019m being honest I just don\u2019t have energy to go to the gym and I can\u2019t afford a gym membership to his gym, so we wouldn\u2019t even be working out together. (I asked if he wanted to work out with me at our apartment gym and he said he won\u2019t workout there since it\u2019s not a nice enough gym) I can\u2019t afford to cut back on work either because even with both jobs I struggle to pay bills.\n\nHe\u2019s blown up at me several times since the initial conversation, he tells me I\u2019m lazy and that working two jobs and going to school is no excuse for not working out. I\u2019ve told him I don\u2019t really have time after work to go the gym because I\u2019m taking care of him and the house and the animals after work and have study time in the evenings, and he said I should be waking up at 6 am and go before work if that\u2019s the case. That he only started helping out around the house so I would go to the gym and I\u2019m disrespecting what he wants out of a relationship and disrespecting what\u2019s important to him by not going. Ive asked him again if he was unhappy with how my body looks and he said no he just wants me to go because it\u2019s important to him that I better myself. I can\u2019t help but think there\u2019s no possible way I\u2019m the asshole in this but am I wrong?\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The opening correctly identifies the narrator (31F) and boyfriend (37M) and the gym-related conflict. The initial lack of a specific location but domestic implication matches the apartment/home setting in the full story. The timing as ongoing/recent arguments also aligns.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The opening correctly identifies the narrator (31F) and boyfriend (37M) and the gym-related conflict. The initial lack of a specific location but domestic implication matches the apartment/home setting in the full story. The timing as ongoing/recent arguments also aligns."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 67.92937671628849,
+        "motivation_consistency": true,
+        "conflict_and_stakes": true,
+        "surprise": 0.01305845845490694,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/sample_aitah/s1_18000.txt": {
+      "source": "texts/sample_aitah/s1_18000.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 78.73782293470819,
+          "total_sentences": 37,
+          "total_words": 671,
+          "total_syllables": 870
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\"consistent_motivation\": true, \"rationale\": \"The narrator's refusal to disclose or share the money is consistently grounded in an explicit promise to his late wife and a clear fiduciary boundary, while the wife's push to pool resources logically arises from financial stress and concern for fairness among the children, so both characters' goals and pressure-responses align with the setup and remain internally coherent.\"}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": false,
+          "raw_response": "{\n  \"conflict_and_stakes\": false,\n  \"rationale\": \"The passage sets up a clear conflict\u2014husband protecting late-wife-designated savings vs. wife pressing for transparency and pooling\u2014but it doesn't meaningfully escalate or tighten stakes: threats remain interpersonal (trust and planning) without concrete consequences, reversals, or on-page costs that narrow options or deepen the dilemma.\"\n}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.007952849380671978
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\n  \"has_compelling_hook\": true,\n  \"rationale\": \"The opening immediately presents an emotionally charged conflict\u2014an widower keeping his late wife's savings for their son secret from his current wife\u2014combining betrayal, loyalty, financial stakes, and family dynamics that are gossip-worthy and pull the reader in.\"\n}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "title: because I won't tell my wife what my son/her stepson has in savings from my late wife? My wife (40s) and I (40s) have a blended family. I have a 16 year old son with my late wife. My wife has a 13 year old daughter and a 12",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\ntitle: because I won't tell my wife what my son/her stepson has in savings from my late wife? My wife (40s) and I (40s) have a blended family. I have a 16 year old son with my late wife. My wife has a 13 year old daughter and a 12\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"A middle\u2011aged married couple (both in their 40s) and their blended family: the narrator (a widower), his 16\u2011year\u2011old son from his late wife, and his current wife\u2019s 13\u2011year\u2011old daughter and a 12\u2011year\u2011old child.\",\n  \"where\": \"A domestic/family setting (within a blended family household).\",\n  \"when\": \"Present (contemporary).\"\n}",
+            "result": {
+              "who": "A middle\u2011aged married couple (both in their 40s) and their blended family: the narrator (a widower), his 16\u2011year\u2011old son from his late wife, and his current wife\u2019s 13\u2011year\u2011old daughter and a 12\u2011year\u2011old child.",
+              "where": "A domestic/family setting (within a blended family household).",
+              "when": "Present (contemporary)."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: A middle\u2011aged married couple (both in their 40s) and their blended family: the narrator (a widower), his 16\u2011year\u2011old son from his late wife, and his current wife\u2019s 13\u2011year\u2011old daughter and a 12\u2011year\u2011old child.\n- Where: A domestic/family setting (within a blended family household).\n- When: Present (contemporary).\n\nCOMPLETE STORY:\ntitle: because I won't tell my wife what my son/her stepson has in savings from my late wife?\n\nMy wife (40s) and I (40s) have a blended family. I have a 16 year old son with my late wife. My wife has a 13 year old daughter and a 12 year old son with her ex-husband and they share custody. We have a 4 and a 2 year old together.\n\nWhen my late wife was sick she told me she wanted a % of the compensation she was issued for her medical misdiagnosis to go to our son's savings. She also had a second savings account she wanted to add to it. This was on top of what the two of us had saved for him before her illness. I honored her wishes and I continued saving for our son's future. This is a promise I made to my late wife that I have stood by. I also promised I would protect it and make sure it was only ever for him, nobody else.\n\nWhen my present wife and I started seriously dating we talked about what saving would look like for our kids if/when we married. She knew I had always saved as had my late wife. We didn't discuss how much either of us had saved for our existing kids but we agreed to an amount every month that would be saved for all three and this was talked about again when we had children together.\n\nRecently there has been a lot of stress on my wife. Her ex has refused to discuss my stepkids savings and if he pays anything or not. She also feels like we haven't been able to save enough every month like promised because it was just one thing after another. There are month's we've missed because of things beyond our control. Life stuff mostly like things breaking, etc.\n\nA few weeks ago my wife told me we should put all the cards on the table and discuss what all five kids have and decide how we proceed with making sure everyone gets what they need for the future. I told her I would happily discuss what I have saved for my oldest, but I would not be discussing the money left by his mom. She pushed back on it and said all the money should be taken into consideration. I told her we don't know what all the money is. I said our parents could be saving money for the kids' futures, her ex could have money for my stepkids, his parents could have money for my stepkids. We can't say for certainty what everyone will have at the end and it's only fair to discuss what she and I have and can save.\n\nShe told me it sounds like I don't trust her. I responded by asking why she wants to know this so badly. By only talking about what we've saved we're on an even footing. She told me if we knew everything we could focus on the kids who will have less a little more. That our younger two are probably going to be the worst off long term and she would be open to combining all the money and dividing it. I told her I was not on board with that and what my son has from his mom is not going to be shared or used for any of the other kids.\n\nWe argued about it but I refused to say. She feels like that's wrong when we're married. I told her it's not my money, nor is it her money or money that we can or should be accessing. It's from my late wife to our son and that's all there is to it. My wife said she feels like I'm keeping her in the dark and not trusting her with something important. She said it cuts her ability to fully engage in conversations we need to be able to have and decisions we need to make as a couple.\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The full story describes a 40s married couple with a blended family including the widower narrator, a 16\u2011year\u2011old son, the wife\u2019s 13 and 12\u2011year\u2011old children, and younger kids they share; it is set in a domestic family context and written in the present/contemporary timeframe, so all three elements match.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The full story describes a 40s married couple with a blended family including the widower narrator, a 16\u2011year\u2011old son, the wife\u2019s 13 and 12\u2011year\u2011old children, and younger kids they share; it is set in a domestic family context and written in the present/contemporary timeframe, so all three elements match."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 78.73782293470819,
+        "motivation_consistency": true,
+        "conflict_and_stakes": false,
+        "surprise": 0.007952849380671978,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/sample_aitah/s2_16000.txt": {
+      "source": "texts/sample_aitah/s2_16000.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 76.30000000000001,
+          "total_sentences": 24,
+          "total_words": 336,
+          "total_syllables": 462
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\n  \"consistent_motivation\": true,\n  \"rationale\": \"True \u2014 the husband's frustration about financial strain and lost family time and the wife's refusal to admit defeat (seeking identity and growth) are established on-page and coherently drive their actions and the negotiated compromise, so motivations remain internally consistent.\"\n}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": false,
+          "raw_response": "{\"conflict_and_stakes\": false, \"rationale\": \"The passage establishes a clear domestic/financial conflict early but never meaningfully tightens or escalates stakes\u2014tension stays at irritation and inconvenience, the costs are not vividly embodied, and the quick compromise feels like a tidy resolution rather than an earned narrowing of options.\"}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.015511828474700451
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\n  \"has_compelling_hook\": true,\n  \"rationale\": \"The opening immediately delivers a high-stakes domestic conflict\u2014money, time, secrecy, and marital resentment\u2014that feels emotionally charged, relatable, and gossip-worthy, pulling the reader in within seconds.\"\n}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "Title: Wife has been working in \u201csales\u201d 100% commission for the past 9 months. She hasn\u2019t made a penny. Title sums up the situation. She spends 6-7 hours a day and demands to be uninterrupted in her home office. We have 3 kids and I work full time paying for",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nTitle: Wife has been working in \u201csales\u201d 100% commission for the past 9 months. She hasn\u2019t made a penny. Title sums up the situation. She spends 6-7 hours a day and demands to be uninterrupted in her home office. We have 3 kids and I work full time paying for\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"A married couple: the wife (working in 100% commission sales and not earning money) and the narrator/spouse; they have three children.\",\n  \"where\": \"At home, specifically referencing the wife's home office within their household.\",\n  \"when\": \"Present/ongoing \u2014 the wife has been doing this for the past nine months up to now.\"\n}",
+            "result": {
+              "who": "A married couple: the wife (working in 100% commission sales and not earning money) and the narrator/spouse; they have three children.",
+              "where": "At home, specifically referencing the wife's home office within their household.",
+              "when": "Present/ongoing \u2014 the wife has been doing this for the past nine months up to now."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: A married couple: the wife (working in 100% commission sales and not earning money) and the narrator/spouse; they have three children.\n- Where: At home, specifically referencing the wife's home office within their household.\n- When: Present/ongoing \u2014 the wife has been doing this for the past nine months up to now.\n\nCOMPLETE STORY:\nTitle: Wife has been working in \u201csales\u201d 100% commission for the past 9 months. She hasn\u2019t made a penny.\n\nTitle sums up the situation. She spends 6-7 hours a day and demands to be uninterrupted in her home office. We have 3 kids and I work full time paying for everything, getting off work at noon. So as soon am I\u2019m home she\u2019s MIA until dinner time. It\u2019s really starting to piss me off because she has literally not made a single penny and she even has to spend money to buy her own leads. I wouldn\u2019t care if she didn\u2019t have a job at all and was just a stay at home mother. It\u2019s the hiding in her office or too busy to do any chores or spend time with the family while listening to \u201cagent academy\u201d or other motivational lectures from team leaders. She claims I don\u2019t support her. I did at first but it\u2019s very difficult after 9 months with literally negative profit. AITA for complaining about this?\n\n***Update - Really appreciate everyone\u2019s advice. We had a long fight, then talk. I think she sees the light now. She is going to use her insurance license to look for a real opportunity, so at least there was a bright side to starting this. She admitted she didn\u2019t see a future here but felt like she couldn\u2019t just give up and admit defeat. She is going to stop buying leads from them and use some of the alternate lead generating sites people recommended here to keep practicing while she job hunts. It did help her a lot with her social and emotional growth I think. She has realized it was scratching an itch to just do something and be something more. I understand that aspect and am helping her find a new outlet. She even worked out with me for the first time! I think we made a good compromise for going forward. Hopefully all turns out well.\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The full story confirms a married narrator and wife with three children, the wife working 100% commission sales for nine months without earnings, and she isolates herself in a home office\u2014matching all three initial impressions.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The full story confirms a married narrator and wife with three children, the wife working 100% commission sales for nine months without earnings, and she isolates herself in a home office\u2014matching all three initial impressions."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 76.30000000000001,
+        "motivation_consistency": true,
+        "conflict_and_stakes": false,
+        "surprise": 0.015511828474700451,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/sample_aitah/s3_3100.txt": {
+      "source": "texts/sample_aitah/s3_3100.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 79.1799111675127,
+          "total_sentences": 28,
+          "total_words": 394,
+          "total_syllables": 528
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\n  \"consistent_motivation\": true,\n  \"rationale\": \"The narrator's clear goal of protecting their property, dog, and family is consistently supported by expressed frustration and proportionate, non-escalatory actions (talking to the parents, signs, camera, lock) with no abrupt or unearned contradictions.\"\n}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": true,
+          "raw_response": "{\"conflict_and_stakes\": true, \"rationale\": \"True \u2014 the post establishes a clear dominant stake (ongoing trespass/theft and potential safety risk to their dog and children) early and shows escalation as repeated incidents persist despite signs, conversations, and parental involvement, forcing the protagonists to install locks and cameras and narrow their options.\"}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.014897138811647892
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\"has_compelling_hook\": true, \"rationale\": \"Yes \u2014 the opening immediately presents a personal, morally fraught conflict (the neighbors' adult autistic son repeatedly taking property and interfering with their yard/dog), creating clear injustice, emotional frustration, and gossip-worthy tension that hooks the reader.\"}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "Title: AITAH because I'm frustrated our neighbors Autistic adult son steals our bottles and yard supplies... As the title says, I am pretty fed up. Our neighbors have an adult son with Autism. He goes with a worker every day, is quite friendly for the most part. However, he has",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nTitle: AITAH because I'm frustrated our neighbors Autistic adult son steals our bottles and yard supplies... As the title says, I am pretty fed up. Our neighbors have an adult son with Autism. He goes with a worker every day, is quite friendly for the most part. However, he has\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"A neighbor-narrator who is frustrated and their neighbors' adult son (an autistic man who attends with a worker) \u2014 the son is described as stealing bottles and yard supplies.\",\n  \"where\": \"A residential neighborhood \u2014 around neighboring yards/outdoor property.\",\n  \"when\": \"Present (an ongoing, current situation).\"\n}",
+            "result": {
+              "who": "A neighbor-narrator who is frustrated and their neighbors' adult son (an autistic man who attends with a worker) \u2014 the son is described as stealing bottles and yard supplies.",
+              "where": "A residential neighborhood \u2014 around neighboring yards/outdoor property.",
+              "when": "Present (an ongoing, current situation)."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: A neighbor-narrator who is frustrated and their neighbors' adult son (an autistic man who attends with a worker) \u2014 the son is described as stealing bottles and yard supplies.\n- Where: A residential neighborhood \u2014 around neighboring yards/outdoor property.\n- When: Present (an ongoing, current situation).\n\nCOMPLETE STORY:\nTitle: AITAH because I'm frustrated our neighbors Autistic adult son steals our bottles and yard supplies...\n\nAs the title says, I am pretty fed up. Our neighbors have an adult son with Autism. He goes with a worker every day, is quite friendly for the most part. However, he has consistently come into our yard since we moved in, taken multiple snow shovels, regular shovels and rakes. He will put fallen branches into our backyard from theirs, he will move stuff around from our front yard to our backyard (we had a large tree branch break in high winds and spouse cut it up in the front to dispose of - neighbor moved it all to the backyard). He also comes and takes our bags of bottles. He has once opened our door to let our dog in because he doesn't like our dog. We have spoken to our neighbors about it. They have spoken to him. They have a sign on their gate saying not to come into the yard, we have a sign saying he isn't allowed to take our things. We have been nice about it until recently it's just really started to get on our nerves. He is definitely aware he isn't supposed to do it because he rushed in and out of our yard. AITAH? I feel like an asshole but at the end of the day he is stealing our stuff...\n\n*Edit/update:\n\nSpoke to his parent again. They had him come out and we all talked and she seemed very upset he is doing this still. We will monitor it... I will not be getting loud sirens, we already have a camera. We have a lock on the gate, our whole yard is fenced and a high fence, you cannot see into our yard. The shovels he has taken has been during winter - we are Canadian, we get a lot of snow, we have our shovels out in our fenced yard because we shovel daily. The bottles are up on our back deck in a bin. Our dog is young and small and too friendly and has gotten out by the neighbor not closing our gate all the way. We gave two small children. One of which is disabled themselves. We are trying to handle the situation calmly without escalation. This is not bait. I appreciate everyone's comments.\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The full story confirms the narrator is a frustrated neighbor and describes the autistic adult son (with a worker) taking bottles and yard items in the shared residential yards; the issue is ongoing/current.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The full story confirms the narrator is a frustrated neighbor and describes the autistic adult son (with a worker) taking bottles and yard items in the shared residential yards; the issue is ongoing/current."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 79.1799111675127,
+        "motivation_consistency": true,
+        "conflict_and_stakes": true,
+        "surprise": 0.014897138811647892,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/sample_aitah/s4_3000.txt": {
+      "source": "texts/sample_aitah/s4_3000.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 69.95012121212123,
+          "total_sentences": 30,
+          "total_words": 594,
+          "total_syllables": 820
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\n  \"consistent_motivation\": true,\n  \"rationale\": \"The narrator's refusal to use names tied to her husband's abuser coheres with the earlier setup\u2014documented domestic violence, Paige's manipulation through Luna, and the couple's boundary-setting\u2014while her later guilt about alienating Luna provides a believable, earned emotional conflict rather than an unmotivated reversal.\"\n}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": true,
+          "raw_response": "{\"conflict_and_stakes\": true, \"rationale\": \"Yes\u2014there\u2019s a clear, embodied dominant stake (who gets to name the baby and whether doing so will empower the abusive ex or alienate the stepdaughter), the discovery of the messages and Luna\u2019s angry threat plus the grandparents\u2019 backlash tighten the dilemma, and the parents\u2019 refusal carries an on-page cost that escalates the conflict.\"}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.013937991112470627
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\n  \"has_compelling_hook\": true,\n  \"rationale\": \"The opening immediately presents domestic violence and custody tension plus a manipulative ex using an eleven-year-old to control baby-naming, creating emotional intensity, clear conflict, and gossip-worthy stakes.\"\n}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "Title: AITAH for rejecting the names my stepdaughter suggested for my son because my husband and I know they're from her mom? My husband has an 11 year old daughter \"Luna\" with his ex \"Paige\". There was DV in my husband's relationship with Paige and he filed a police report",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nTitle: AITAH for rejecting the names my stepdaughter suggested for my son because my husband and I know they're from her mom? My husband has an 11 year old daughter \"Luna\" with his ex \"Paige\". There was DV in my husband's relationship with Paige and he filed a police report\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"A narrator (the stepmother) and her husband; their son; the husband's 11-year-old daughter Luna (the stepdaughter); and the husband's ex, Paige. The conflict centers on the stepdaughter's suggested names and the parents' rejection of them, with mention of past domestic violence involving Paige.\",\n  \"where\": \"A domestic/family/household setting \u2014 within a blended family (home) context.\",\n  \"when\": \"Present/contemporary (an ongoing recent situation).\"\n}",
+            "result": {
+              "who": "A narrator (the stepmother) and her husband; their son; the husband's 11-year-old daughter Luna (the stepdaughter); and the husband's ex, Paige. The conflict centers on the stepdaughter's suggested names and the parents' rejection of them, with mention of past domestic violence involving Paige.",
+              "where": "A domestic/family/household setting \u2014 within a blended family (home) context.",
+              "when": "Present/contemporary (an ongoing recent situation)."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: A narrator (the stepmother) and her husband; their son; the husband's 11-year-old daughter Luna (the stepdaughter); and the husband's ex, Paige. The conflict centers on the stepdaughter's suggested names and the parents' rejection of them, with mention of past domestic violence involving Paige.\n- Where: A domestic/family/household setting \u2014 within a blended family (home) context.\n- When: Present/contemporary (an ongoing recent situation).\n\nCOMPLETE STORY:\nTitle: AITAH for rejecting the names my stepdaughter suggested for my son because my husband and I know they're from her mom?\n\nMy husband has an 11 year old daughter \"Luna\" with his ex \"Paige\". There was DV in my husband's relationship with Paige and he filed a police report when he finally worked up the courage to leave when Luna was 10 months old. No charges ever came to pass from the report but his injuries were documented at the hospital at the time. Because there was no charges pressed, when it came to custody of Luna a judge ordered 50-50 and didn't agree that Paige should lose any time with Luna over \"accusations such as those\".\n\nI met my husband when Lana was 4 and I met Luna just before she turned 6. I knew going into our relationship that Paige was using Luna to try and control my husband. He didn't allow it and he is so good at keeping all contact through the parenting app and not engaging in drama. But sometimes Luna will come out with demands from her mom and say if my husband loved her or if he wanted her to be happy he'd do something. These can be things like spend the night at Paige's house to family days with the three of them.\n\nIt's not simple to navigate but my husband maintains firm boundaries and has Luna in therapy and he's had some tough conversations with her about her requests for him and Paige to spend time together and that they will not happen.\n\nMy husband and I are expecting a baby boy together. Luna has been very indifferent, boarding on negative about him. Then suddenly a few weeks ago she told us she had name ideas for her brother. All the names sounded like they were from her mom. Her mom named Luna (not her real name, all names are fake) after a character in a franchise she loves. The boys names Luna suggested were all from said franchise. The franchise isn't HP but they were as obvious as Harry, Ron and Draco as boy names would be. Then my husband saw messages between Luna and Paige where Paige was encouraging Luna to push the names and say she wouldn't love the baby if she couldn't name him, which she actually said. He saw these because Luna left the app page open on the family PC when she rushed outside to be with her BFF.\n\nSo we said no to using any of the names. We said we had a name in mind already (technically two but it's definitely between those). Luna said we shouldn't expect her to love the baby then and she stormed off. She told my husband's parents about it and they were mad at us for not doing everything to get her excited for her brother. They asked why I wouldn't tell my husband it doesn't matter who came up with the names first because Luna should feel included. I told them it only feeds Paige's want for control and our son's name is not being decided by the woman who assaulted their son. They told my husband he was being dumb and playing into Paige's hands and alienating Luna in the process.\n\nI still disagree and I don't want our son to be given a name we don't love. But I have some hesitations over this too because Luna isn't Paige and if she does want them for any reason I wonder if saying no to them is pushing her away. It's so hard.\n\n\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The full story confirms the narrator is the stepmother, husband, their expected son, Luna (11) and ex Paige with past DV; the conflict about names and family dynamics occurs in a domestic/blended-family setting and is a present/contemporary situation.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The full story confirms the narrator is the stepmother, husband, their expected son, Luna (11) and ex Paige with past DV; the conflict about names and family dynamics occurs in a domestic/blended-family setting and is a present/contemporary situation."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 69.95012121212123,
+        "motivation_consistency": true,
+        "conflict_and_stakes": true,
+        "surprise": 0.013937991112470627,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/sample_aitah/s5_7400.txt": {
+      "source": "texts/sample_aitah/s5_7400.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 72.2970621607191,
+          "total_sentences": 34,
+          "total_words": 661,
+          "total_syllables": 897
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\n  \"consistent_motivation\": true,\n  \"rationale\": \"The narrator consistently pursues sexual and emotional fulfillment established earlier in the scene\u2014after years of failed communication and his wife's decision to remove sex as an option, his reassessment and move toward separation logically follow from his stated needs and the couple's incompatibility, without sudden, unearned shifts in motive.\"\n}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": true,
+          "raw_response": "{\n  \"conflict_and_stakes\": true,\n  \"rationale\": \"True \u2014 the dominant stake (his need for sexual/romantic fulfillment versus staying in the marriage for kids/finances) is established early and made concrete (possible loss of custody time, shared wealth, and emotional intimacy), and the wife's decision to take sex \\\"off the table\\\" plus his declaration meaningfully tightens options and provokes immediate backlash.\"\n}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.010084714740514755
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\"has_compelling_hook\": true, \"rationale\": \"The opening immediately presents a high-stakes, gossip-worthy marital conflict\u2014sexless marriage, therapy, a threatened separation with kids and a prenup\u2014that creates strong emotions, clear injustice/tension, and immediate curiosity about what will happen next.\"}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "Title: So I told my wife that our marriage isn\u2019t the right fit for me anymore when she took sex off the table. AITAH? I (38M) have a high libido, and my wife (36F) has a low one. We\u2019ve been in a dead bedroom for about 4 years now, and",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nTitle: So I told my wife that our marriage isn\u2019t the right fit for me anymore when she took sex off the table. AITAH? I (38M) have a high libido, and my wife (36F) has a low one. We\u2019ve been in a dead bedroom for about 4 years now, and\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"A 38-year-old man (the narrator) and his 36-year-old wife \u2014 a married couple dealing with sexual incompatibility (the narrator has a high libido, the wife a low one).\",\n  \"where\": \"Not explicitly stated; implied domestic/marital setting (their home/relationship).\",\n  \"when\": \"Present-day; an ongoing situation (they've been in a 'dead bedroom' for about four years up to now).\"\n}",
+            "result": {
+              "who": "A 38-year-old man (the narrator) and his 36-year-old wife \u2014 a married couple dealing with sexual incompatibility (the narrator has a high libido, the wife a low one).",
+              "where": "Not explicitly stated; implied domestic/marital setting (their home/relationship).",
+              "when": "Present-day; an ongoing situation (they've been in a 'dead bedroom' for about four years up to now)."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: A 38-year-old man (the narrator) and his 36-year-old wife \u2014 a married couple dealing with sexual incompatibility (the narrator has a high libido, the wife a low one).\n- Where: Not explicitly stated; implied domestic/marital setting (their home/relationship).\n- When: Present-day; an ongoing situation (they've been in a 'dead bedroom' for about four years up to now).\n\nCOMPLETE STORY:\nTitle: So I told my wife that our marriage isn\u2019t the right fit for me anymore when she took sex off the table. AITAH?\n\nI (38M) have a high libido, and my wife (36F) has a low one. We\u2019ve been in a dead bedroom for about 4 years now, and we have kids together. She recently told me she wants me to go to individual therapy to stop making her responsible for my sexual needs.\n\nI\u2019ve tried my best to communicate over the years, but as soon as she said that phrase I\u2019ve had a deep realization that I\u2019ve had it all wrong. Of course, I don\u2019t want to have sex that isn\u2019t fully consensual. But I think by constantly talking to her about it, asking for more effort in the bedroom, initiative and playfulness in our day to day interactions - I had made her feel responsible for my happiness.\n\nI still am struggling to understand because when I promised to forsake all others, I thought I was choosing to be in a relationship where my partner would proactively want to meet my relationship needs not out of responsibility or duty, but because we were in tune with each other. I thought we shared the same values when it comes to intimacy and had the same desires so that it wouldn\u2019t be a chore.\n\nThe truth is, I still have those needs, and she doesn\u2019t and that\u2019s okay. She\u2019s not wrong for being where she is. But it also means this relationship is no longer the right fit for me. And I don\u2019t think I owe it to the marriage to keep depriving myself of something that makes me feel loved and alive.\n\nWe are in couples therapy, and she proposed taking sex entirely off the table so we can focus our energies elsewhere while I wait for her to regain her sex drive which she mentioned isn\u2019t a guarantee. She says she loves me and loves our partnership as best friends and parents, and partners in the romantic sense but she says sex is off the table.\n\nSo after a few days of just mulling over I told her that I thank her for being honest with me. I said you\u2019re not responsible for my needs, but I owe it to myself to be in a relationship where those needs are met. And if that\u2019s not possible with you anymore, then this marriage just isn\u2019t the right fit for me.\u201d\n\nI also said I am grateful to her for being honest about why sex is off the table, because it gives me time to plan things out. We have a prenup and we\u2019ve both worked hard to build our wealth together. It\u2019s scary, and I know that separating might mean losing active access to my kids 50% of the time. But I\u2019ll be fine.\n\nThe fault isn\u2019t hers. But it\u2019s also true that she\u2019s stopped being the person I can feel happy and fulfilled with.\n\nShe has taken this extremely badly. She has made all sorts of assumptions about me, and demands an answer as to why I wasn\u2019t \u201ccurious\u201d about her thought process behind what she wants us to do. She said that I blindsided her. But honestly I am not angry with her anymore. She takes an issue with the language I used but I don\u2019t see how? She has mentioned she doesn\u2019t want the blame and responsibility for my relationship needs not being met, and I thought: isn\u2019t this exactly what I was doing? I took upon the responsibility of all the choices I made, and sadly that included choosing her. She\u2019s been acting defensive and angry even when it comes to discussing kids and not our relationship. Part of me thinks she isn\u2019t as mature as she makes herself sound.\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The full story confirms a 38M narrator and 36F wife with sexual incompatibility, a domestic/marital context (kids, couples therapy), and an ongoing present-day situation (about four years of a 'dead bedroom').\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The full story confirms a 38M narrator and 36F wife with sexual incompatibility, a domestic/marital context (kids, couples therapy), and an ongoing present-day situation (about four years of a 'dead bedroom')."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 72.2970621607191,
+        "motivation_consistency": true,
+        "conflict_and_stakes": true,
+        "surprise": 0.010084714740514755,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/sample_aitah/s6_7000.txt": {
+      "source": "texts/sample_aitah/s6_7000.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 73.71227747714127,
+          "total_sentences": 23,
+          "total_words": 466,
+          "total_syllables": 620
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\"consistent_motivation\": true, \"rationale\": \"The narrator's refusal to help is directly and repeatedly grounded in specific, established resentment\u2014parents' long history of favoritism, denying support and forcing them to fend for themselves\u2014so pushing responsibility onto the sister logically follows from those on-page motivations.\"}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": false,
+          "raw_response": "{\n  \"conflict_and_stakes\": false,\n  \"rationale\": \"The passage sets up interpersonal unfairness and a clear refusal but fails to establish a single dominant, embodied stake or show any tightening/reversal\u2014consequences remain limited to anger rather than escalating, concretely narrowing options or exacting a palpable cost.\"\n}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.012569448910653591
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\"has_compelling_hook\": true, \"rationale\": \"Yes \u2014 it opens with a direct, relatable accusation of parental favoritism and financial injustice that establishes immediate family conflict, strong emotions, and gossip-worthy stakes.\"}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "Title: AITA for not helping my parents during their financial troubles and telling them to get help from my sister instead since she gets everything from them and I get nothing? My sister (21) and I (24) were raised differently by our parents. They would throw money at her whenever",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nTitle: AITA for not helping my parents during their financial troubles and telling them to get help from my sister instead since she gets everything from them and I get nothing? My sister (21) and I (24) were raised differently by our parents. They would throw money at her whenever\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"The narrator (24-year-old) and their 21-year-old sister, plus their parents \u2014 a family conflict where the parents favor the sister and the narrator feels slighted.\",\n  \"where\": \"Not specified; implied domestic/family setting (at home/within the family household).\",\n  \"when\": \"Present-day / contemporary \u2014 the situation is current (the narrator is asking about their current actions).\"\n}",
+            "result": {
+              "who": "The narrator (24-year-old) and their 21-year-old sister, plus their parents \u2014 a family conflict where the parents favor the sister and the narrator feels slighted.",
+              "where": "Not specified; implied domestic/family setting (at home/within the family household).",
+              "when": "Present-day / contemporary \u2014 the situation is current (the narrator is asking about their current actions)."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: The narrator (24-year-old) and their 21-year-old sister, plus their parents \u2014 a family conflict where the parents favor the sister and the narrator feels slighted.\n- Where: Not specified; implied domestic/family setting (at home/within the family household).\n- When: Present-day / contemporary \u2014 the situation is current (the narrator is asking about their current actions).\n\nCOMPLETE STORY:\nTitle: AITA for not helping my parents during their financial troubles and telling them to get help from my sister instead since she gets everything from them and I get nothing?\n\nMy sister (21) and I (24) were raised differently by our parents. They would throw money at her whenever she wanted it and they would spend it even if she didn't ask for something, just because they could. I had to ask for everything and most of the time I had to justify why I needed my request met. And to do that I had to write or type out a detailed argument on why I should get any of their money. Most times I was denied because they didn't think it was a need. Whenever they denied me I got lectured on learning to work my ass off and learning how to beg just right and doing whatever it took for money only to be told afterward that I needed my own money because theirs was not for me.\n\nWhen I was 16 my parents told me they would not help me with college in any way. They wouldn't even fill out FASA forms for me to find out what I was eligible for. When my guidance counselor asked them to reconsider they said no and if I wanted to go to college I would need to put myself through college and take on the debt myself.\n\nMy guidance counselor still wanted me to go and so did many of my teachers. But I chose to do something else. I didn't want a lifetime of debt to follow me around. My parents didn't care because either way I was expected to find my own way and pay for everything myself.\n\nWith my sister it was different. They bought her a brand new car, bought all kinds of stuff she wanted and liked, paid 100% of everything for her college expenses. They were even sending her extra money to buy stuff while she was attending college.\n\nAnd now they have run out of money and they're in debt because they borrowed to pay more college expenses for her. Then they turned to me and asked for my help because they weren't sure if they could eat or pay any bills with the debt they are now in.\n\nI didn't even get much of an explanation at first. But I have told them no each time and I told them to get my sister to help them since she's the one who gets everything from them anyway and I couldn't even get a stupid form signed by them.\n\nThey're mad about it and so is my sister who thinks I am wildly unfair to push this back on her. She said I'm older anyway so I should be helping them.\n\n\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\"who_match\":\"yes\",\"where_match\":\"yes\",\"when_match\":\"yes\",\"overall_rating\":\"complete\",\"explanation\":\"The first 50 words correctly identify the narrator (24), sister (21), and parents and the favoritism conflict. The setting is domestic/family (unspecified) which the full story confirms, and the timing is contemporary/current \u2014 all three align.\"}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The first 50 words correctly identify the narrator (24), sister (21), and parents and the favoritism conflict. The setting is domestic/family (unspecified) which the full story confirms, and the timing is contemporary/current \u2014 all three align."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 73.71227747714127,
+        "motivation_consistency": true,
+        "conflict_and_stakes": false,
+        "surprise": 0.012569448910653591,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/sample_aitah/s7_2800.txt": {
+      "source": "texts/sample_aitah/s7_2800.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 73.85023529411765,
+          "total_sentences": 25,
+          "total_words": 680,
+          "total_syllables": 847
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\n  \"consistent_motivation\": true,\n  \"rationale\": \"The stepmother's refusal and escalating bluntness coherently follow the scene setup\u2014she has limited resources (twins, no obligation), previously received special sympathy for fertility issues, and Abby repeatedly presses for help so the narrator's mounting frustration and eventual harsh remark feel earned and internally consistent.\"\n}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": true,
+          "raw_response": "{\n  \"conflict_and_stakes\": true,\n  \"rationale\": \"The passage establishes a clear central conflict\u2014Abby is pregnant and expects family help that the stepmother refuses\u2014and conveys concrete, embodied stakes (childcare, money, housing, social isolation) that meaningfully tighten as family withdraws support, the father criticizes the stepmother, and the boyfriend is unreachable, narrowing Abby's options.\"\n}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.012286012060940266
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\n  \"has_compelling_hook\": true,\n  \"rationale\": \"Yes \u2014 the opening immediately presents a high-stakes family conflict (a 16-year-old's pregnancy, an absent boyfriend, and the stepmother's blunt refusal and harsh revelation), creating emotional intensity, gossip-worthy tension, and a clear moral dilemma that pulls the reader in.\"\n}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "Title: Aitah for giving my stepdaughter a reality check? Me and my husband are in out late 30s and early 40s, he has a kid from a previous relationship who will call Abby, shes 16 and pregnant. From my understanding of the whole situation its her boyfriends who's 18 and",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nTitle: Aitah for giving my stepdaughter a reality check? Me and my husband are in out late 30s and early 40s, he has a kid from a previous relationship who will call Abby, shes 16 and pregnant. From my understanding of the whole situation its her boyfriends who's 18 and\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"A stepmother narrator and her husband (late 30s/early 40s), his 16-year-old daughter Abby who is pregnant, and Abby's 18-year-old boyfriend.\",\n  \"where\": \"Not specified; implied domestic/family setting (home/family context).\",\n  \"when\": \"Present day / contemporary (happening now).\"\n}",
+            "result": {
+              "who": "A stepmother narrator and her husband (late 30s/early 40s), his 16-year-old daughter Abby who is pregnant, and Abby's 18-year-old boyfriend.",
+              "where": "Not specified; implied domestic/family setting (home/family context).",
+              "when": "Present day / contemporary (happening now)."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: A stepmother narrator and her husband (late 30s/early 40s), his 16-year-old daughter Abby who is pregnant, and Abby's 18-year-old boyfriend.\n- Where: Not specified; implied domestic/family setting (home/family context).\n- When: Present day / contemporary (happening now).\n\nCOMPLETE STORY:\nTitle: Aitah for giving my stepdaughter a reality check?\n\nMe and my husband are in out late 30s and early 40s, he has a kid from a previous relationship who will call Abby, shes 16 and pregnant. From my understanding of the whole situation its her boyfriends who's 18 and In college and is refusing to answer her calls, she wants to keep the baby but thinks everyone is going to bend over backwards for her to do so. Everyone has told her multiple times that they aren't going to help her and that she will be on her own. Me and Abby have a decent relationship I met her 3 years ago when she was 14 and we have a civil relationship, she has a mom so I'm just dads wife to her mainly.\n\nRecently she's been getting closer to me and trying to talk to me more, which was werid because normally when she does that she wants something. After around a week she got tried and told me what she wanted. She wants me to watch her kid during the day while shes in school. I told her no as I have my own two kids I have to watch (twins). She got upset and said she doesn't understand why when I had my kid people offered to help and did things for me and now that shes pregnant no one wants to help her and is making her do everything her self. I explained to her that my kids were rainbow babies and lot of people knew we struggled with fertility, and that me and her dad are adults and we had a plan, money, and a happy home for our kids and she has none of that. I explained that nobody is going to help her because she got herself here and she's going to have to act like an adult if she wants to keep her kid. She kept screaming and saying stuff about how its unfair and we need to support her and she needs help and lot of other stuff.\n\nI told her go to someone else because no one in her family is going to help her and she got mad and kept yelling about the same thing. I told her to leave me alone and she didn't and went on talking about her life and how this pregnancy is making her parents and friends distant and how its not fair. I eventually got tried of her and told her that her mom thinks shes a disappointment and that no one has to help you because you got yourself here, if you want help ask the father and if u cant ask him them ask his family or something because no one is going to help you the way you expect them too.\n\nShe got mad and told her dad what I said, he got upset and said that it was too far and even if its right I shouldn't have said that. So aitah?\n\nNote: she has a late birthday so thats why it's a 16 to 18 age gap she turns 17 in November.\n\nThe reason I told her what her mom thinks is because she was complaining about how her mom doesn't want her at the house, and yes her mom has told her before that she is a disappointment.\n\nEdit: A lot of you are under the assumption that no one told her the options. They have multiple times she is choosing to keep this kid. Me and her dad told her that if she wants this kid she will need to get a job, and we told her how much it will cost to raise that kid, she just says okay and moves on. Another thing is we/ her parents do not know where his parents are, they have moved as they no longer feel the need to live in the school district. The boy is over 14 hours away at college and it seems the only way to contact him is to see him and me nor her dad is driving 14 hours away.\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The full story confirms the narrator is the stepmother, husband in late 30s/40s, Abby (16, pregnant) and her 18-year-old boyfriend; the events occur in a domestic/family setting; the timeline is contemporary.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The full story confirms the narrator is the stepmother, husband in late 30s/40s, Abby (16, pregnant) and her 18-year-old boyfriend; the events occur in a domestic/family setting; the timeline is contemporary."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 73.85023529411765,
+        "motivation_consistency": true,
+        "conflict_and_stakes": true,
+        "surprise": 0.012286012060940266,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/sample_aitah/s8_2700.txt": {
+      "source": "texts/sample_aitah/s8_2700.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 71.64586629001886,
+          "total_sentences": 27,
+          "total_words": 354,
+          "total_syllables": 510
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\"consistent_motivation\": true, \"rationale\": \"The narrator\u2019s aversion to parenthood, initial hysteria, subsequent acceptance, and stated priority of protecting her and the baby\u2019s wellbeing coherently explain choosing adoption and confiding only in supportive people while excluding pushy, judgmental relatives, so her choices remain aligned and believable.\"}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": false,
+          "raw_response": "{\"conflict_and_stakes\": false, \"rationale\": \"The piece sets up a clear dilemma (hide the pregnancy and adoption plans from family) but fails to deliver meaningful escalation or embodied stakes\u2014choices are stated rather than tested, consequences remain abstract (hurt feelings, \\\"protecting my peace\\\") and there\u2019s no tightening, reversal, or on\u2011page cost that narrows options or makes the stakes feel concrete.\"}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.010961317457258701
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\n  \"has_compelling_hook\": true,\n  \"rationale\": \"The opening immediately delivers a shocking reveal \u2014 'Like... 8 months pregnant' \u2014 which creates emotional intensity, clear conflict (unplanned pregnancy, secrecy, looming adoption) and gossip-worthy family tension that hooks the reader.\" \n}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "Title: AITA for not telling my family about my pregnancy? I (40F) just recently found out that I am pregnant. Like... 8 months pregnant at this point. My fianc\u00e9 (40M) and I weren't ever planning on having children. I have never wanted kids of my own and have always been",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nTitle: AITA for not telling my family about my pregnancy? I (40F) just recently found out that I am pregnant. Like... 8 months pregnant at this point. My fianc\u00e9 (40M) and I weren't ever planning on having children. I have never wanted kids of my own and have always been\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"A 40-year-old woman (the narrator) who just discovered she is about eight months pregnant; her 40-year-old fianc\u00e9 is also mentioned.\",\n  \"where\": \"Not specified (implied family/domestic context).\",\n  \"when\": \"Present (current time; she just recently found out).\"\n}",
+            "result": {
+              "who": "A 40-year-old woman (the narrator) who just discovered she is about eight months pregnant; her 40-year-old fianc\u00e9 is also mentioned.",
+              "where": "Not specified (implied family/domestic context).",
+              "when": "Present (current time; she just recently found out)."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: A 40-year-old woman (the narrator) who just discovered she is about eight months pregnant; her 40-year-old fianc\u00e9 is also mentioned.\n- Where: Not specified (implied family/domestic context).\n- When: Present (current time; she just recently found out).\n\nCOMPLETE STORY:\nTitle: AITA for not telling my family about my pregnancy?\n\nI (40F) just recently found out that I am pregnant. Like... 8 months pregnant at this point. My fianc\u00e9 (40M) and I weren't ever planning on having children. I have never wanted kids of my own and have always been up-front about this with my family and friends.\n\nDue to a series of bizarre medical events, I ended up pregnant despite long-term use of very effective (for me) birth control. I didn't know because a medication masked basically all the symptoms of early pregnancy. It was a fluke that I found out at 28 weeks -- and it wasn\u2019t a happy surprise. I spent several days in complete hysterics.\n\nNow, a month later, I have come to terms for the most part. At this point there's nothing to do but finish this strange and unplanned journey. My fianc\u00e9 and I have decided to pursue adoption through a very good agency. We're doing all the right things for the baby medically and we think we're doing the right thing with the adoption as well. We believe that kids deserve a family who is excited for them and delighted by them... and we can't give this child that experience.\n\nHere's where we may be AHs. We have told only the people closest to us about the pregnancy and our plans. This includes our closest friends and confidants... but only includes two members of my family, namely two that I thought would support us without pressuring us to do anything aside from what we've chosen. We're both close to my family as a whole, but they can be... pushy. The other members of my extended family are very religious and honestly pretty judgmental. I think they would probably \"mean well\" but would actually end up stressing both myself and my fianc\u00e9 out during a time that's already stressful.\n\nOf course, this means shutting them out of everything. No part in the birth, no information about the adoption, nothing. I know this would hurt them if they knew, but I think protecting my peace is priority right now.\n\n\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The narrator is indeed a 40-year-old woman who discovered she is ~8 months pregnant and mentions a 40-year-old fianc\u00e9 (who are the main people). The location is not specified in the opening and remains unspecified in the story. The timing (recent discovery, present) is consistent.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The narrator is indeed a 40-year-old woman who discovered she is ~8 months pregnant and mentions a 40-year-old fianc\u00e9 (who are the main people). The location is not specified in the opening and remains unspecified in the story. The timing (recent discovery, present) is consistent."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 71.64586629001886,
+        "motivation_consistency": true,
+        "conflict_and_stakes": false,
+        "surprise": 0.010961317457258701,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/sample_aitah/s9_2100.txt": {
+      "source": "texts/sample_aitah/s9_2100.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 73.73414936290706,
+          "total_sentences": 26,
+          "total_words": 489,
+          "total_syllables": 659
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\n  \"consistent_motivation\": true,\n  \"rationale\": \"The narrator's refusal is consistently grounded in the scene's setup\u2014exclusive grandparent visitation, a lack of closeness with the stepsister, and a long-standing preference for private 'girly' time with cousins\u2014so her repeated 'I don't want to' stance aligns with her established feelings and shows no abrupt, unearned reversal.\"\n}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": false,
+          "raw_response": "{\"conflict_and_stakes\": false, \"rationale\": \"The passage presents interpersonal tension\u2014her refusal to include a stepsister and the mother's anger\u2014but it never establishes a clear, dominant stake or any concrete escalation or tightening (threatened losses or hard choices) so consequences remain vague and unearned.\"}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.010198049247264862
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\n  \"has_compelling_hook\": true,\n  \"rationale\": \"The opening quickly establishes a morally charged, relatable family conflict \u2014 grandparents fought for visitation rights while the narrator deliberately excludes a stepsister and faces the mother's fury \u2014 creating immediate emotional stakes and gossip-worthy tension.\"\n}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "Title: AITAH for never inviting my stepsister to my grandparents house when I know they make the most of their time with me and my brother? My family is blended. My mom has me (16f) and my brother (19m). My stepdad has my three stepbrothers (17, 12, 11) and my",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nTitle: AITAH for never inviting my stepsister to my grandparents house when I know they make the most of their time with me and my brother? My family is blended. My mom has me (16f) and my brother (19m). My stepdad has my three stepbrothers (17, 12, 11) and my\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"A 16-year-old female narrator (and her 19-year-old brother) in a blended family that includes a stepdad, three stepbrothers (ages 17, 12, 11) and a stepsister mentioned in the title.\",\n  \"where\": \"A family/domestic setting, specifically the grandparents' house.\",\n  \"when\": \"Present (contemporary/current time).\"\n}",
+            "result": {
+              "who": "A 16-year-old female narrator (and her 19-year-old brother) in a blended family that includes a stepdad, three stepbrothers (ages 17, 12, 11) and a stepsister mentioned in the title.",
+              "where": "A family/domestic setting, specifically the grandparents' house.",
+              "when": "Present (contemporary/current time)."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: A 16-year-old female narrator (and her 19-year-old brother) in a blended family that includes a stepdad, three stepbrothers (ages 17, 12, 11) and a stepsister mentioned in the title.\n- Where: A family/domestic setting, specifically the grandparents' house.\n- When: Present (contemporary/current time).\n\nCOMPLETE STORY:\nTitle: AITAH for never inviting my stepsister to my grandparents house when I know they make the most of their time with me and my brother?\n\nMy family is blended. My mom has me (16f) and my brother (19m). My stepdad has my three stepbrothers (17, 12, 11) and my stepsister (15). My mom and stepdad were both widowed when they met. I was 3 when my dad died and my brother was 6. We were 6 and 9 when mom remarried. My mom and dad's family never got along and when she started dating my stepdad she tried to cut us off from our dad's whole family which forced my grandparents to fight for grandparents rights and they won three days a month of visitation.\n\nThe visitation has always been a touchy subject with my mom and stepdad. They don't like that we have access to a whole bunch of family who only included me and my brother. It was worse when my grandma and aunts would take me and my girl cousins out for girly days. My stepsister started getting jealous because we're not close anyway and then I was doing girly stuff she always wanted to do with me with others. I just never wanted to do girly stuff with her. She had no real sisters either so she got tired of it being mostly boys and I always loved having a brother so didn't miss the sister stuff like she did.\n\nOur grandparents (and dad's side in general) did other stuff with us. Trips to the beach, taking us to nice restaurants, amusement parks and other fun stuff. They bought us stuff too but mostly they focused on taking us places or experiences. We never invited our stepsiblings and my stepsister wanted to be invited a lot. Mostly to the girly stuff times but in general she wanted to be included and I never wanted to include her.\n\nMy mom would bring it up to me when my stepsister wasn't around and she would show her frustration when I didn't change my mind or invite her next time. Last week my mom got so mad over it for the first time. My stepsister asked me why I never invite her to my grandparents so we can do girly stuff with my grandma, aunts and cousins and I told her because I don't want to. My mom was furious and she told me never inviting her is a huge problem when I know how much she wants to do that stuff. She told me I don't do it any other time so I should invite her for that reason alone. That I should want to make my \"sister\" (instead of stepsister which is what I always say she is) happy and I shouldn't make this a bigger source of rejection for her but I could never manage that. She said it's cruel to know someone wants to be included and to never include them.\n\n\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The full story confirms a 16-year-old female narrator with a 19-year-old brother in a blended family including the stepdad, three stepbrothers (17, 12, 11) and a stepsister; the conflict centers on visits to the grandparents' house; the timeline is contemporary/present-tense.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The full story confirms a 16-year-old female narrator with a 19-year-old brother in a blended family including the stepdad, three stepbrothers (17, 12, 11) and a stepsister; the conflict centers on visits to the grandparents' house; the timeline is contemporary/present-tense."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 73.73414936290706,
+        "motivation_consistency": true,
+        "conflict_and_stakes": false,
+        "surprise": 0.010198049247264862,
+        "five_second": true,
+        "setting": "complete"
+      }
+    }
+  }
+}

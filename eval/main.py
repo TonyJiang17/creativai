@@ -29,6 +29,10 @@ except ImportError:  # pragma: no cover
     from eval.five_second_judge import FiveSecondJudge
     from eval.setting_judge import SettingJudge
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 from util.openai_runner import OpenAIConfigError, create_openai_runner
 
 MetricResult = dict[str, Any]
@@ -141,7 +145,11 @@ def main() -> None:
             "files": {},
         }
 
-        for text_file in _iter_text_files(target):
+        files = list(_iter_text_files(target))
+        total = len(files)
+
+        for index, text_file in enumerate(files, start=1):
+            print(f"Processing {index}/{total}: {text_file}")
             aggregate_report["files"][str(text_file)] = run_all_metrics(
                 text_file,
                 runner=runner,
@@ -155,7 +163,7 @@ def main() -> None:
         report = run_all_metrics(target)
     except OpenAIConfigError as exc:
         raise SystemExit(str(exc)) from exc
-    breakpoint()
+    # breakpoint()
     print(json.dumps(report, indent=2))
 
 
