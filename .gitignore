@@ -66,3 +66,5 @@ htmlcov/
 .tox/
 .mypy_cache/
 .pyre/
+
+AGENTS.md
