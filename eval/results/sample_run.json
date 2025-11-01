@@ -1,0 +1,61 @@
+{
+  "source_directory": "texts/sample_aitah",
+  "files": {
+    "texts/sample_aitah/s1.txt": {
+      "source": "texts/sample_aitah/s1.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 78.73782293470819,
+          "total_sentences": 37,
+          "total_words": 671,
+          "total_syllables": 870
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\"consistent_motivation\": true, \"rationale\": \"True\u2014his refusal to disclose the late wife's funds consistently follows the on-page promise to protect that money for his son and his defensive responses under pressure are logical extensions of that established motive without abrupt, unexplained reversals.\"}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": false,
+          "raw_response": "{\"conflict_and_stakes\": false, \"rationale\": \"The central conflict\u2014protecting a late wife's designated savings for the narrator's son versus the stepmother's demand for transparency and potential redistribution\u2014is clear and emotionally grounded, but the passage never delivers a concrete tightening, reversal, or embodied consequence that narrows options or escalates stakes beyond an unresolved argument and mutual distrust, so the stakes feel underdeveloped.\"}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        }
+      },
+      "aggregate": null
+    },
+    "texts/sample_aitah/s2.txt": {
+      "source": "texts/sample_aitah/s2.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 82.25452205882353,
+          "total_sentences": 16,
+          "total_words": 238,
+          "total_syllables": 308
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\n  \"consistent_motivation\": true,\n  \"rationale\": \"The narrator's insistence on honesty to protect the marriage and the wife's initial minimization then avoidance out of fear of confrontation are believable and coherent with the behaviors shown, so their choices follow logically from the setup.\"\n}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": true,
+          "raw_response": "{\n  \"conflict_and_stakes\": true,\n  \"rationale\": \"True \u2014 the passage establishes a clear, coherent conflict (whether to cover for a cheating friend) centered on marital trust, shows escalation when the husband insists and the wife responds by skipping the wedding, and yields a concrete, embodied cost (missed wedding and damaged trust) tied to the protagonists' choices.\"\n}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        }
+      },
+      "aggregate": null
+    }
+  }
+}
