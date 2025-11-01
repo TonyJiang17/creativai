@@ -50,7 +50,7 @@ def compute_aggregate_score(results: dict[str, MetricResult]) -> Any:
     return None
 
 
-def run_all_metrics(text_path: Path) -> dict[str, Any]:
+def run_all_metrics(text_path: Path, *, runner: ModelRunner | None = None) -> dict[str, Any]:
     if not text_path.exists():
         raise FileNotFoundError(f"Input file '{text_path}' does not exist.")
     if text_path.is_dir():
@@ -58,19 +58,19 @@ def run_all_metrics(text_path: Path) -> dict[str, Any]:
 
     text = text_path.read_text(encoding="utf-8")
 
-    runner = create_openai_runner()
+    llm_runner = runner or create_openai_runner()
 
     results: dict[str, MetricResult] = {}
     results["flesch_reading_ease"] = flesch_reading_ease(text)
     results["motivation_consistency"] = run_llm_judge(
         MotivationConsistencyJudge,
         text_path=text_path,
-        runner=runner,
+        runner=llm_runner,
     )
     results["conflict_and_stakes"] = run_llm_judge(
         ConflictAndStakesJudge,
         text_path=text_path,
-        runner=runner,
+        runner=llm_runner,
     )
 
     aggregate = compute_aggregate_score(results)
@@ -82,22 +82,64 @@ def run_all_metrics(text_path: Path) -> dict[str, Any]:
     }
 
 
+def _iter_text_files(directory: Path) -> Iterable[Path]:
+    for path in sorted(directory.glob("*.txt")):
+        if path.is_file():
+            yield path
+
+
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Run all configured metrics against a text file.")
-    parser.add_argument("input", type=Path, help="Path to the input .txt file")
-    parser.add_argument("--output", type=Path, help="Optional path for JSON output")
+    parser = argparse.ArgumentParser(description="Run configured metrics against text files.")
+    parser.add_argument("input", type=Path, help="Path to the input .txt file or directory of .txt files")
+    parser.add_argument(
+        "--batch-output-file-name",
+        type=str,
+        help="When input is a directory, required name (without extension) for the JSON report saved in eval/results/.",
+    )
     args = parser.parse_args()
 
+    target = args.input
+
+    if target.is_dir():
+        if not args.batch_output_file_name:
+            raise SystemExit("--batch-output-file-name is required when input is a directory")
+
+        results_dir = Path(__file__).resolve().parent / "results"
+        results_dir.mkdir(parents=True, exist_ok=True)
+        output_path = results_dir / f"{args.batch_output_file_name}.json"
+
+        runner = create_openai_runner()
+
+        aggregate_report: dict[str, Any] = {
+            "source_directory": str(target),
+            "files": {},
+        }
+
+        for text_file in _iter_text_files(target):
+            aggregate_report["files"][str(text_file)] = run_all_metrics(
+                text_file,
+                runner=runner,
+            )
+
+        output_path.write_text(json.dumps(aggregate_report, indent=2), encoding="utf-8")
+        print(f"Wrote batch results to {output_path}")
+        return
+
     try:
-        report = run_all_metrics(args.input)
+        report = run_all_metrics(target)
     except OpenAIConfigError as exc:
         raise SystemExit(str(exc)) from exc
 
-    if args.output:
-        args.output.write_text(json.dumps(report, indent=2), encoding="utf-8")
-    else:
-        print(json.dumps(report, indent=2))
+    print(json.dumps(report, indent=2))
 
 
 if __name__ == "__main__":
     main()
+
+
+""" 
+Usage examples:
+
+  - Single file: python eval/main.py texts/sample_aitah/s1.txt
+  - Directory: python eval/main.py texts/sample_aitah --batch-output-file-name sample_run (saves to eval/results/sample_run.json)
+"""
