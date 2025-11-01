@@ -1,0 +1,68 @@
+# === Python artifacts ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+.python-version
+
+# === Package management ===
+# For uv / poetry / pipenv lock & build caches
+uv.lock
+poetry.lock
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# === Jupyter / notebooks ===
+.ipynb_checkpoints/
+*.ipynb~
+*.nbconvert.ipynb
+
+# === IDE / editor files ===
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+*.log
+
+# === OS generated files ===
+Thumbs.db
+ehthumbs.db
+
+# === Data, cache, and experiments ===
+data/
+datasets/
+checkpoints/
+runs/
+outputs/
+logs/
+cache/
+tmp/
+
+# === Model weights & large binaries ===
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+
+# === Environment and secrets ===
+.env
+.env.*
+secrets.json
+credentials.json
+
+# === Testing ===
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.mypy_cache/
+.pyre/
