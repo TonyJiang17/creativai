@@ -14,6 +14,8 @@ try:  # support running as a module or script
     from .motivation_consistency_judge import MotivationConsistencyJudge
     from .text_llm_judge import ModelRunner, TextLLMJudge
     from .surprise import surprise_score
+    from .five_second_judge import FiveSecondJudge
+    from .setting_judge import SettingJudge
 except ImportError:  # pragma: no cover
     import sys
     from pathlib import Path as _Path
@@ -24,6 +26,8 @@ except ImportError:  # pragma: no cover
     from eval.motivation_consistency_judge import MotivationConsistencyJudge  # type: ignore
     from eval.text_llm_judge import ModelRunner, TextLLMJudge  # type: ignore
     from eval.surprise import surprise_score  # type: ignore
+    from eval.five_second_judge import FiveSecondJudge
+    from eval.setting_judge import SettingJudge
 
 from util.openai_runner import OpenAIConfigError, create_openai_runner
 
@@ -52,6 +56,17 @@ def compute_aggregate_score(results: dict[str, MetricResult]) -> Any:
     return None
 
 
+def clean_results(results: dict[str, MetricResult]) -> Any:
+    cleaned = {}
+    for k, v in results.items():
+        if k == 'flesch_reading_ease':
+            cleaned[k] = v['score']
+        if k in ['motivation_consistency', 'conflict_and_stakes', 'five_second', 'setting']:
+            cleaned[k] = v['result']
+        if k == 'surprise':
+            cleaned[k] = v['surprise']
+    return cleaned
+
 def run_all_metrics(text_path: Path, *, runner: ModelRunner | None = None) -> dict[str, Any]:
     if not text_path.exists():
         raise FileNotFoundError(f"Input file '{text_path}' does not exist.")
@@ -75,13 +90,21 @@ def run_all_metrics(text_path: Path, *, runner: ModelRunner | None = None) -> di
         runner=llm_runner,
     )
     results["surprise"] = surprise_score(text)
+    results["five_second"] = run_llm_judge(
+        FiveSecondJudge,
+        text_path=text_path,
+        runner=llm_runner
+    )
+    results["setting"] = SettingJudge(model_runner=llm_runner).evaluate(text)
 
+    cleaned_results = clean_results(results)
     aggregate = compute_aggregate_score(results)
 
     return {
         "source": str(text_path),
         "metrics": results,
         "aggregate": aggregate,
+        "cleaned_metrics": cleaned_results
     }
 
 
@@ -132,7 +155,7 @@ def main() -> None:
         report = run_all_metrics(target)
     except OpenAIConfigError as exc:
         raise SystemExit(str(exc)) from exc
-
+    breakpoint()
     print(json.dumps(report, indent=2))
 
 
