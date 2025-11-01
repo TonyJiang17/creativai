@@ -86,3 +86,16 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+"""
+| Score Range | Reading Level    | Description       |
+| ----------- | ---------------- | ----------------- |
+| 90–100      | 5th grade        | Very easy to read |
+| 80–89       | 6th grade        | Easy              |
+| 70–79       | 7th grade        | Fairly easy       |
+| 60–69       | 8th–9th grade    | Plain English     |
+| 50–59       | 10th–12th grade  | Fairly difficult  |
+| 30–49       | College          | Difficult         |
+| 0–29        | College graduate | Very difficult    |
+"""
