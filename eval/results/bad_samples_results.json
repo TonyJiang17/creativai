@@ -1,0 +1,235 @@
+{
+  "source_directory": "texts/bad_samples",
+  "files": {
+    "texts/bad_samples/b1.txt": {
+      "source": "texts/bad_samples/b1.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "Yes \u2014 it quickly reveals a betrayal (friend hooked up with OP\u2019s boyfriend) and ongoing family tension, creating emotional stakes, a clear conflict with the mom, relatable themes (betrayal, boundaries, family dynamics), and a gossip-worthy setup that hooks the reader early.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Yes \u2014 it quickly reveals a betrayal (friend hooked up with OP\u2019s boyfriend) and ongoing family tension, creating emotional stakes, a clear conflict with the mom, relatable themes (betrayal, boundaries, family dynamics), and a gossip-worthy setup that hooks the reader early.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "Narrator describes adult situations (dating, parties, parental friends, living/visiting arrangements) and nothing indicates a high\u2011school/child setting, so the main character is an adult.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Narrator describes adult situations (dating, parties, parental friends, living/visiting arrangements) and nothing indicates a high\u2011school/child setting, so the main character is an adult.\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": false,
+          "reason": "Aside from the title, the body is a single long paragraph \u2014 it should be split (e.g., background, current conflict, and reaction) into multiple shorter paragraphs for better readability.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"Aside from the title, the body is a single long paragraph \u2014 it should be split (e.g., background, current conflict, and reaction) into multiple shorter paragraphs for better readability.\"\n}"
+        }
+      }
+    },
+    "texts/bad_samples/b10.txt": {
+      "source": "texts/bad_samples/b10.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": false,
+          "reason": "Mild, low-stakes annoyance rather than high-emotion or scandalous conflict. It\u2019s relatable but not urgent or gossip-worthy, the opening is mundane, and there\u2019s no cliffhanger or strong character positioning to immediately hook readers.",
+          "raw_response": "{\"answer\": false, \"reason\": \"Mild, low-stakes annoyance rather than high-emotion or scandalous conflict. It\u2019s relatable but not urgent or gossip-worthy, the opening is mundane, and there\u2019s no cliffhanger or strong character positioning to immediately hook readers.\"}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "Narrator and boyfriend are adults \u2014 they\u2019ve dated three years and recently moved in together; the context (living together, adult leisure like hunting) shows an adult main character.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Narrator and boyfriend are adults \u2014 they\u2019ve dated three years and recently moved in together; the context (living together, adult leisure like hunting) shows an adult main character.\"}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The post is divided into three short, focused paragraphs (situation, feelings/intent, and questions), each only a few sentences, making it easy to read.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The post is divided into three short, focused paragraphs (situation, feelings/intent, and questions), each only a few sentences, making it easy to read.\"}"
+        }
+      }
+    },
+    "texts/bad_samples/b2.txt": {
+      "source": "texts/bad_samples/b2.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": false,
+          "reason": "While it contains a clear conflict and relatable, gossip\u2011worthy drama, the opening is a bland setup with low emotional stakes and no urgent hook or cliffhanger in the first lines\u2014it doesn\u2019t grab the reader immediately.",
+          "raw_response": "{\"answer\": false, \"reason\": \"While it contains a clear conflict and relatable, gossip\u2011worthy drama, the opening is a bland setup with low emotional stakes and no urgent hook or cliffhanger in the first lines\u2014it doesn\u2019t grab the reader immediately.\"}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "No explicit age or high-school setting is given. The scene (Discord server, admin/owner roles, hanging out with friends) doesn\u2019t indicate child behavior, so the main character can be an adult.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"No explicit age or high-school setting is given. The scene (Discord server, admin/owner roles, hanging out with friends) doesn\u2019t indicate child behavior, so the main character can be an adult.\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "Yes \u2014 the text is divided into several short, focused paragraphs that separate context, the confrontation, escalation, and aftermath, making it easy to read.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Yes \u2014 the text is divided into several short, focused paragraphs that separate context, the confrontation, escalation, and aftermath, making it easy to read.\"}"
+        }
+      }
+    },
+    "texts/bad_samples/b3.txt": {
+      "source": "texts/bad_samples/b3.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "The opening presents a high-stakes, emotionally intense parenting crisis\u2014single mom facing hunger, unsafe neighborhood, legal/ethical childcare limits and a tempting job\u2014creating clear conflict, relatable themes and immediate suspense that invites discussion.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The opening presents a high-stakes, emotionally intense parenting crisis\u2014single mom facing hunger, unsafe neighborhood, legal/ethical childcare limits and a tempting job\u2014creating clear conflict, relatable themes and immediate suspense that invites discussion.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The narrator explicitly states she is 33 years old and is a single mother; the story focuses on adult responsibilities (employment, DV, childcare) while her daughter is 9.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The narrator explicitly states she is 33 years old and is a single mother; the story focuses on adult responsibilities (employment, DV, childcare) while her daughter is 9.\"}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The text is split into multiple short paragraphs with clear topic shifts (background, work/finances, job offer, childcare risk, consequences), making it easy to read.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The text is split into multiple short paragraphs with clear topic shifts (background, work/finances, job offer, childcare risk, consequences), making it easy to read.\"}"
+        }
+      }
+    },
+    "texts/bad_samples/b4.txt": {
+      "source": "texts/bad_samples/b4.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "Yes \u2014 it opens with a clear, emotionally charged marital conflict (rejection, crying, damaged self\u2011esteem) that\u2019s highly relatable and gossip\u2011worthy (sex life after marriage), positions the narrator as wronged, and engages immediately, prompting readers to want to know what happens next.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Yes \u2014 it opens with a clear, emotionally charged marital conflict (rejection, crying, damaged self\u2011esteem) that\u2019s highly relatable and gossip\u2011worthy (sex life after marriage), positions the narrator as wronged, and engages immediately, prompting readers to want to know what happens next.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The narrator is married (recently), refers to adult relationship details and a spouse\u2019s medical history, indicating an adult main character.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The narrator is married (recently), refers to adult relationship details and a spouse\u2019s medical history, indicating an adult main character.\"}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": false,
+          "reason": "The post is one long block with no paragraph breaks. It should be split into shorter paragraphs by topic (background, ongoing issues, the recent incident, and reaction).",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The post is one long block with no paragraph breaks. It should be split into shorter paragraphs by topic (background, ongoing issues, the recent incident, and reaction).\"\n}"
+        }
+      }
+    },
+    "texts/bad_samples/b5.txt": {
+      "source": "texts/bad_samples/b5.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "Yes \u2014 it opens immediately with a clear relationship conflict (stonewalling after being ignored for hours), invokes relatable themes of trust/betrayal and communication, positions the narrator as wronged, and poses a direct cliffhanger question that invites gossip and discussion (despite some typos/awkward phrasing).",
+          "raw_response": "{\"answer\": true, \"reason\": \"Yes \u2014 it opens immediately with a clear relationship conflict (stonewalling after being ignored for hours), invokes relatable themes of trust/betrayal and communication, positions the narrator as wronged, and poses a direct cliffhanger question that invites gossip and discussion (despite some typos/awkward phrasing).\"}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The narrator is a 30-year-old adult (girlfriend is 21), and the story describes an adult romantic relationship rather than a high-school or child setting.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The narrator is a 30-year-old adult (girlfriend is 21), and the story describes an adult romantic relationship rather than a high-school or child setting.\"}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The text is divided into multiple short paragraphs, each covering a distinct part of the story (what happened, explanation, her reaction, considering a breakup, and context), so the paragraphing is reasonable.",
+          "raw_response": "{\"answer\": true, \"reason\":\"The text is divided into multiple short paragraphs, each covering a distinct part of the story (what happened, explanation, her reaction, considering a breakup, and context), so the paragraphing is reasonable.\"}"
+        }
+      }
+    },
+    "texts/bad_samples/b6.txt": {
+      "source": "texts/bad_samples/b6.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "The post opens quickly into a sexually charged, gossip-worthy situation (making out, clothes off) with a clear conflict\u2014her boundary vs. his expectations\u2014and relatable themes (dating, honesty, embarrassment). It establishes tension and moral ambiguity that compels readers to want to know who\u2019s right.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The post opens quickly into a sexually charged, gossip-worthy situation (making out, clothes off) with a clear conflict\u2014her boundary vs. his expectations\u2014and relatable themes (dating, honesty, embarrassment). It establishes tension and moral ambiguity that compels readers to want to know who\u2019s right.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The narrator and the other character are explicitly described as 'college-age,' indicating adult main characters rather than a high-school-or-younger setting.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator and the other character are explicitly described as 'college-age,' indicating adult main characters rather than a high-school-or-younger setting.\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The text is divided into two clear paragraphs that separate background/boundary info from the incident and reflection, so the story is broken into reasonably sized chunks.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The text is divided into two clear paragraphs that separate background/boundary info from the incident and reflection, so the story is broken into reasonably sized chunks.\"\n}"
+        }
+      }
+    },
+    "texts/bad_samples/b7.txt": {
+      "source": "texts/bad_samples/b7.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "Yes \u2014 the opening lines are provocative (hidden marriage, \u2018AH\u2019 husband with mental\u2011health issues), and the story quickly presents emotional stakes, family conflict, betrayal, and safety concerns. It\u2019s gossip\u2011worthy, relatable, and hooks the reader within the first sentences.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Yes \u2014 the opening lines are provocative (hidden marriage, \u2018AH\u2019 husband with mental\u2011health issues), and the story quickly presents emotional stakes, family conflict, betrayal, and safety concerns. It\u2019s gossip\u2011worthy, relatable, and hooks the reader within the first sentences.\"}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The narrator is an adult \u2014 married with a newborn and dealing with parental/partner conflicts and living arrangements, not a high-school/child setting.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The narrator is an adult \u2014 married with a newborn and dealing with parental/partner conflicts and living arrangements, not a high-school/child setting.\"}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The narrative is split into short, focused paragraphs (each describing a distinct event or point), making it easy to follow and not a wall of text.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrative is split into short, focused paragraphs (each describing a distinct event or point), making it easy to follow and not a wall of text.\"\n}"
+        }
+      }
+    },
+    "texts/bad_samples/b8.txt": {
+      "source": "texts/bad_samples/b8.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "Yes \u2014 it establishes clear conflict (longtime friend turned boastful/one\u2011sided), relatable themes (betrayal, boundaries, friendship), and positions the narrator as wronged. It\u2019s gossip\u2011worthy and emotionally engaging from the start, prompting immediate curiosity and judgment.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Yes \u2014 it establishes clear conflict (longtime friend turned boastful/one\u2011sided), relatable themes (betrayal, boundaries, friendship), and positions the narrator as wronged. It\u2019s gossip\u2011worthy and emotionally engaging from the start, prompting immediate curiosity and judgment.\"}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The narrator states he is M 40s and the story involves adult life stages (college, jobs, debts, dating, social media), so the main character is an adult.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator states he is M 40s and the story involves adult life stages (college, jobs, debts, dating, social media), so the main character is an adult.\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The text is broken into multiple short paragraphs (typically 1\u20134 sentences) with blank lines between them, making it easy to read and follow.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The text is broken into multiple short paragraphs (typically 1\u20134 sentences) with blank lines between them, making it easy to read and follow.\"}"
+        }
+      }
+    },
+    "texts/bad_samples/b9.txt": {
+      "source": "texts/bad_samples/b9.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": false,
+          "reason": "The setup is low-stakes and mild \u2014 a common workplace/social obligation vs. personal comfort dilemma. It lacks strong emotional intensity, gossip-worthiness, an urgent conflict, or a suspenseful hook in the opening lines, so it doesn't immediately compel readers to keep going.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The setup is low-stakes and mild \u2014 a common workplace/social obligation vs. personal comfort dilemma. It lacks strong emotional intensity, gossip-worthiness, an urgent conflict, or a suspenseful hook in the opening lines, so it doesn't immediately compel readers to keep going.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "Workplace context (franchise owner, coworkers, driving, alcohol) indicates an adult main character rather than a school/child setting.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Workplace context (franchise owner, coworkers, driving, alcohol) indicates an adult main character rather than a school/child setting.\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": false,
+          "reason": "The text is one continuous paragraph; it would be clearer if split into smaller paragraphs (e.g., setup, concerns/constraints, and the final question).",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The text is one continuous paragraph; it would be clearer if split into smaller paragraphs (e.g., setup, concerns/constraints, and the final question).\"\n}"
+        }
+      }
+    }
+  }
+}
