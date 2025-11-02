@@ -1,0 +1,7 @@
+[
+    {
+        "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+        "true_example_file": "texts/sample_aitah/s1_18000.txt",
+        "false_example_file": "texts/weak_hook.txt" 
+    }
+]
