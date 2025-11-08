@@ -1,0 +1,581 @@
+{
+  "source_directory": "texts/good_samples",
+  "files": {
+    "texts/good_samples/s10_1400.txt": {
+      "source": "texts/good_samples/s10_1400.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "Yes \u2014 it opens immediately with a clear, relatable relationship conflict (partner demanding she go to the gym), evokes sympathy and frustration (she\u2019s working two jobs and school), is gossip-worthy, establishes who\u2019s wronged/righteous, and ends with a direct cliffhanger asking if she\u2019s the asshole.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Yes \u2014 it opens immediately with a clear, relatable relationship conflict (partner demanding she go to the gym), evokes sympathy and frustration (she\u2019s working two jobs and school), is gossip-worthy, establishes who\u2019s wronged/righteous, and ends with a direct cliffhanger asking if she\u2019s the asshole.\"}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The narrator states she is 31 and describes adult responsibilities (two jobs, bills, living with a partner, college for nursing), so the main character is an adult.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator states she is 31 and describes adult responsibilities (two jobs, bills, living with a partner, college for nursing), so the main character is an adult.\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The text is divided into clear, reasonably sized paragraphs: background/context, daily logistics (jobs/chores/gym), and the conflict/closing question, making it readable and well-structured.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The text is divided into clear, reasonably sized paragraphs: background/context, daily logistics (jobs/chores/gym), and the conflict/closing question, making it readable and well-structured.\"\n}"
+        },
+        "judge_3": {
+          "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
+          "answer": true,
+          "reason": "The scenario is morally ambiguous: the boyfriend values self\u2011improvement and wants a partner who shares that priority, while the OP faces heavy work/school demands, financial limits, and unequal domestic labor\u2014reasonable people could side with either position.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The scenario is morally ambiguous: the boyfriend values self\u2011improvement and wants a partner who shares that priority, while the OP faces heavy work/school demands, financial limits, and unequal domestic labor\u2014reasonable people could side with either position.\"\n}"
+        },
+        "judge_4": {
+          "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
+          "answer": false,
+          "reason": "The narrator is mainly recounting circumstances and asking for judgment ('am I wrong?') to justify their choices, rather than reflecting on personal growth or an emotional journey.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The narrator is mainly recounting circumstances and asking for judgment ('am I wrong?') to justify their choices, rather than reflecting on personal growth or an emotional journey.\"\n}"
+        },
+        "judge_5": {
+          "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
+          "answer": false,
+          "reason": "The dispute is a direct conflict between the OP and her boyfriend over gym attendance/housework. No clear third party (other than pets or employers, who aren\u2019t part of the interpersonal conflict) is affected.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The dispute is a direct conflict between the OP and her boyfriend over gym attendance/housework. No clear third party (other than pets or employers, who aren\u2019t part of the interpersonal conflict) is affected.\"\n}"
+        },
+        "judge_6": {
+          "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
+          "answer": true,
+          "reason": "This is a clash of priorities and principles \u2014 his value on fitness/self\u2011improvement and expectations for partner behavior vs her obligations (two jobs, school, household labor), financial limits, and need for rest/fair division of work \u2014 not just simple hurt feelings.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This is a clash of priorities and principles \u2014 his value on fitness/self\u2011improvement and expectations for partner behavior vs her obligations (two jobs, school, household labor), financial limits, and need for rest/fair division of work \u2014 not just simple hurt feelings.\"\n}"
+        }
+      },
+      "score": 0.7142857142857143
+    },
+    "texts/good_samples/s11_7300.txt": {
+      "source": "texts/good_samples/s11_7300.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "Yes \u2014 the opening line delivers immediate emotional shock (a body-shaming remark), establishing clear conflict and sympathy for the narrator. It's a relatable, gossip\u2011worthy dating scenario that positions the narrator as wronged, engages quickly, and ends on an unresolved moral question (AITAH), compelling readers to keep reading.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Yes \u2014 the opening line delivers immediate emotional shock (a body-shaming remark), establishing clear conflict and sympathy for the narrator. It's a relatable, gossip\u2011worthy dating scenario that positions the narrator as wronged, engages quickly, and ends on an unresolved moral question (AITAH), compelling readers to keep reading.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The narrator is on an adult dating outing (met online, paid the bill) and discusses adult topics like career ambitions, marriage, and having children \u2014 not a high school/child setting.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator is on an adult dating outing (met online, paid the bill) and discusses adult topics like career ambitions, marriage, and having children \u2014 not a high school/child setting.\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The story is split into three short paragraphs, each covering a distinct part of the date (initial comment/vibe, art conversation, family/kids and aftermath), making it easy to read.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The story is split into three short paragraphs, each covering a distinct part of the date (initial comment/vibe, art conversation, family/kids and aftermath), making it easy to read.\"\n}"
+        },
+        "judge_3": {
+          "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
+          "answer": true,
+          "reason": "The situation involves conflicting norms (self-respect/boundaries vs. giving someone a chance or handling conflict calmly). Some will see walking out as justified after repeated insulting comments; others will see it as an overreaction or prefer addressing the issues first, so reasonable people could disagree.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The situation involves conflicting norms (self-respect/boundaries vs. giving someone a chance or handling conflict calmly). Some will see walking out as justified after repeated insulting comments; others will see it as an overreaction or prefer addressing the issues first, so reasonable people could disagree.\"}"
+        },
+        "judge_4": {
+          "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
+          "answer": false,
+          "reason": "The post mainly recounts events and asks 'AITAH?'\u2014seeking judgment/validation\u2014rather than reflecting on personal growth or an emotional journey, aside from a brief doubt at the end.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The post mainly recounts events and asks 'AITAH?'\u2014seeking judgment/validation\u2014rather than reflecting on personal growth or an emotional journey, aside from a brief doubt at the end.\"\n}"
+        },
+        "judge_5": {
+          "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
+          "answer": false,
+          "reason": "This is a dispute between the OP and her date only; no third party is affected, so it\u2019s a two-party conflict.",
+          "raw_response": "{\"answer\": false, \"reason\": \"This is a dispute between the OP and her date only; no third party is affected, so it\u2019s a two-party conflict.\"}"
+        },
+        "judge_6": {
+          "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
+          "answer": true,
+          "reason": "Beyond hurtful comments about her weight, he dismisses her artistic ambitions as impractical and treats her not wanting children as a dealbreaker \u2014 showing a clash of values (passion vs pragmatism; procreation/family vs personal choice/independence).",
+          "raw_response": "{\"answer\": true, \"reason\": \"Beyond hurtful comments about her weight, he dismisses her artistic ambitions as impractical and treats her not wanting children as a dealbreaker \u2014 showing a clash of values (passion vs pragmatism; procreation/family vs personal choice/independence).\"}"
+        }
+      },
+      "score": 0.7142857142857143
+    },
+    "texts/good_samples/s12_6700.txt": {
+      "source": "texts/good_samples/s12_6700.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "Yes \u2014 the opening line is provocative and emotionally charged, immediately presenting betrayal, clear conflict, and moral tension. It\u2019s gossip-worthy and relatable (infidelity, revenge, lost friendship), positions the narrator as wronged, and hooks the reader within the first sentence.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Yes \u2014 the opening line is provocative and emotionally charged, immediately presenting betrayal, clear conflict, and moral tension. It\u2019s gossip-worthy and relatable (infidelity, revenge, lost friendship), positions the narrator as wronged, and hooks the reader within the first sentence.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The narrator is an adult \u2014 they describe being engaged, married, owning a house and concerns about divorce/financial ruin, so the main character is not a child or high\u2011schooler.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The narrator is an adult \u2014 they describe being engaged, married, owning a house and concerns about divorce/financial ruin, so the main character is not a child or high\u2011schooler.\"}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The story is split into several short-to-moderate paragraphs with clear topical breaks (discovery, background betrayal, the mother's visit, current feelings), making it easy to read.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The story is split into several short-to-moderate paragraphs with clear topical breaks (discovery, background betrayal, the mother's visit, current feelings), making it easy to read.\"\n}"
+        },
+        "judge_3": {
+          "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
+          "answer": true,
+          "reason": "The post pits competing moral pulls \u2014 compassion/forgiveness for a dying person and the betrayed person's right to refuse contact after a severe, calculated betrayal \u2014 so reasonable people could disagree about whether the OP should engage or stay aloof.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The post pits competing moral pulls \u2014 compassion/forgiveness for a dying person and the betrayed person's right to refuse contact after a severe, calculated betrayal \u2014 so reasonable people could disagree about whether the OP should engage or stay aloof.\"\n}"
+        },
+        "judge_4": {
+          "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
+          "answer": true,
+          "reason": "The narrator recounts the betrayal, their past anger, and how their feelings have changed to indifference and closure (now happily married). This describes an emotional journey and resolution rather than only seeking validation.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator recounts the betrayal, their past anger, and how their feelings have changed to indifference and closure (now happily married). This describes an emotional journey and resolution rather than only seeking validation.\"\n}"
+        },
+        "judge_5": {
+          "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
+          "answer": true,
+          "reason": "There is a clear interpersonal conflict (the narrator vs. his ex\u2011best friend over the affair and alleged scheme) that also involves the ex\u2011fianc\u00e9e and others (the ex\u2019s mother, the narrator\u2019s life), so it affects at least three parties.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"There is a clear interpersonal conflict (the narrator vs. his ex\u2011best friend over the affair and alleged scheme) that also involves the ex\u2011fianc\u00e9e and others (the ex\u2019s mother, the narrator\u2019s life), so it affects at least three parties.\"\n}"
+        },
+        "judge_6": {
+          "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
+          "answer": true,
+          "reason": "This is more than simple hurt feelings \u2014 it pits compassion/forgiveness and the duty to offer closure against principles of justice, boundary-setting, and refusal to reward betrayal after the ex attempted to ruin the narrator\u2019s life.",
+          "raw_response": "{\"answer\": true, \"reason\": \"This is more than simple hurt feelings \u2014 it pits compassion/forgiveness and the duty to offer closure against principles of justice, boundary-setting, and refusal to reward betrayal after the ex attempted to ruin the narrator\u2019s life.\"}"
+        }
+      },
+      "score": 1.0
+    },
+    "texts/good_samples/s1_18000.txt": {
+      "source": "texts/good_samples/s1_18000.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "Strong emotional stakes (inheritance from a late wife), clear conflict and betrayal/trust theme between spouses, gossip-worthy and relatable (blended family, money, fairness), positions narrator as protecting a promise, and the title/opening immediately grabs attention and leaves readers wanting to know how the dispute resolves.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Strong emotional stakes (inheritance from a late wife), clear conflict and betrayal/trust theme between spouses, gossip-worthy and relatable (blended family, money, fairness), positions narrator as protecting a promise, and the title/opening immediately grabs attention and leaves readers wanting to know how the dispute resolves.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The narrator and spouse are adults (both described as in their 40s); the story centers on adult parents and family finances rather than a high-school/child perspective.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The narrator and spouse are adults (both described as in their 40s); the story centers on adult parents and family finances rather than a high-school/child perspective.\"}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The text is divided into short paragraphs that each cover a single idea or moment (family setup, the late wife\u2019s wishes, agreements with current wife, the recent dispute, and the fallout), making it easy to follow.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The text is divided into short paragraphs that each cover a single idea or moment (family setup, the late wife\u2019s wishes, agreements with current wife, the recent dispute, and the fallout), making it easy to follow.\"}"
+        },
+        "judge_3": {
+          "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
+          "answer": true,
+          "reason": "The post raises a real moral tension: honoring a late spouse\u2019s explicit gift to a child and protecting that money versus spousal transparency, fairness, and shared financial planning. Reasonable people can disagree about whether keeping the funds private to honor the deceased\u2019s wishes or sharing information (or pooling resources) as a married couple is the right choice.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The post raises a real moral tension: honoring a late spouse\u2019s explicit gift to a child and protecting that money versus spousal transparency, fairness, and shared financial planning. Reasonable people can disagree about whether keeping the funds private to honor the deceased\u2019s wishes or sharing information (or pooling resources) as a married couple is the right choice.\"}"
+        },
+        "judge_4": {
+          "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
+          "answer": true,
+          "reason": "The narrator explains personal values and a moral commitment (a promise to his late wife), describes standing by that promise, and reflects on the conflict with his current wife\u2014showing an emotional stance and boundary-setting rather than merely asking for validation.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator explains personal values and a moral commitment (a promise to his late wife), describes standing by that promise, and reflects on the conflict with his current wife\u2014showing an emotional stance and boundary-setting rather than merely asking for validation.\"\n}"
+        },
+        "judge_5": {
+          "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
+          "answer": true,
+          "reason": "There's a clear dispute between the husband and his wife about disclosing/using money meant for his son; the disagreement directly affects multiple children (the son, the stepchildren and the couple's young children) and family financial planning.",
+          "raw_response": "{\"answer\": true, \"reason\": \"There's a clear dispute between the husband and his wife about disclosing/using money meant for his son; the disagreement directly affects multiple children (the son, the stepchildren and the couple's young children) and family financial planning.\"}"
+        },
+        "judge_6": {
+          "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
+          "answer": true,
+          "reason": "This is a clash of principles: duty to honor the late wife's explicit wish and protect the son's dedicated inheritance versus the wife's value of transparency, joint financial planning, and equitable support for all children.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This is a clash of principles: duty to honor the late wife's explicit wish and protect the son's dedicated inheritance versus the wife's value of transparency, joint financial planning, and equitable support for all children.\"\n}"
+        }
+      },
+      "score": 1.0
+    },
+    "texts/good_samples/s2_16000.txt": {
+      "source": "texts/good_samples/s2_16000.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "Yes \u2014 the title and opening lines immediately present a relatable, gossip\u2011worthy conflict (money, time, childcare) with clear emotional intensity (anger/frustration) and character positioning (spouse perceived as neglectful/unproductive). The AITA question hooks readers to judge the situation, making it compelling.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Yes \u2014 the title and opening lines immediately present a relatable, gossip\u2011worthy conflict (money, time, childcare) with clear emotional intensity (anger/frustration) and character positioning (spouse perceived as neglectful/unproductive). The AITA question hooks readers to judge the situation, making it compelling.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The protagonists are a married couple (husband and wife) with three kids; they discuss full-time work, commissions, and insurance licensing, clearly indicating adult characters.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The protagonists are a married couple (husband and wife) with three kids; they discuss full-time work, commissions, and insurance licensing, clearly indicating adult characters.\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": false,
+          "reason": "The main portion is one long, dense paragraph that should be split (setup, finances/lead purchases, emotional impact/questions). The update is its own paragraph and is fine.",
+          "raw_response": "{\"answer\": false, \"reason\": \"The main portion is one long, dense paragraph that should be split (setup, finances/lead purchases, emotional impact/questions). The update is its own paragraph and is fine.\"}"
+        },
+        "judge_3": {
+          "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
+          "answer": true,
+          "reason": "The situation is morally ambiguous: some will side with the husband for shouldering finances and resenting the wife's unpaid, time-consuming effort and expenses, while others will sympathize with the wife's attempts to pursue work, personal growth, and the reality that commission businesses often take time and investment. Reasonable people could disagree about who is right and what the priorities should be.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The situation is morally ambiguous: some will side with the husband for shouldering finances and resenting the wife's unpaid, time-consuming effort and expenses, while others will sympathize with the wife's attempts to pursue work, personal growth, and the reality that commission businesses often take time and investment. Reasonable people could disagree about who is right and what the priorities should be.\"\n}"
+        },
+        "judge_4": {
+          "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
+          "answer": true,
+          "reason": "The narrator moves from anger/complaint to a constructive conversation and compromise\u2014acknowledging the wife's emotional growth, expressing understanding, helping find a new outlet, and changing his own stance, which shows personal growth rather than only seeking validation.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator moves from anger/complaint to a constructive conversation and compromise\u2014acknowledging the wife's emotional growth, expressing understanding, helping find a new outlet, and changing his own stance, which shows personal growth rather than only seeking validation.\"\n}"
+        },
+        "judge_5": {
+          "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
+          "answer": true,
+          "reason": "This is a clear conflict between the spouses over her commission job, time use, and finances, and it directly affects their three children/household\u2014so more than two parties are impacted.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This is a clear conflict between the spouses over her commission job, time use, and finances, and it directly affects their three children/household\u2014so more than two parties are impacted.\"\n}"
+        },
+        "judge_6": {
+          "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
+          "answer": true,
+          "reason": "The dispute is about competing priorities\u2014supporting the wife's pursuit of a commission career and personal growth versus the family's financial stability, time with the kids, and shared household responsibilities\u2014rather than only hurt feelings.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The dispute is about competing priorities\u2014supporting the wife's pursuit of a commission career and personal growth versus the family's financial stability, time with the kids, and shared household responsibilities\u2014rather than only hurt feelings.\"\n}"
+        }
+      },
+      "score": 0.8571428571428571
+    },
+    "texts/good_samples/s3_3100.txt": {
+      "source": "texts/good_samples/s3_3100.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "The title and opening lines deliver immediate emotional intensity and a clear, gossip-worthy conflict\u2014repeated trespassing/theft by a neighbor's adult son\u2014touching on relatable themes (safety, boundaries, family) and positioning the narrator as wronged while inviting readers to want to know what happens next.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The title and opening lines deliver immediate emotional intensity and a clear, gossip-worthy conflict\u2014repeated trespassing/theft by a neighbor's adult son\u2014touching on relatable themes (safety, boundaries, family) and positioning the narrator as wronged while inviting readers to want to know what happens next.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The narrator references a spouse, moving into the home, and having two small children\u2014indicating the main character is an adult (the neighbor's son is described as an adult as well).",
+          "raw_response": "{\"answer\": true, \"reason\": \"The narrator references a spouse, moving into the home, and having two small children\u2014indicating the main character is an adult (the neighbor's son is described as an adult as well).\"}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The post is split into an initial main paragraph and a separate 'Edit/update' paragraph; the division clearly separates the original account from the follow-up and the paragraph lengths are reasonable.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The post is split into an initial main paragraph and a separate 'Edit/update' paragraph; the division clearly separates the original account from the follow-up and the paragraph lengths are reasonable.\"}"
+        },
+        "judge_3": {
+          "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
+          "answer": true,
+          "reason": "There\u2019s moral complexity: some will emphasize property rights and safety (OP\u2019s frustration and steps to secure yard are reasonable), while others will stress compassion, disability accommodations and parental responsibility for the autistic adult\u2019s behavior\u2014reasonable people could disagree about blame and appropriate response.",
+          "raw_response": "{\"answer\": true, \"reason\": \"There\u2019s moral complexity: some will emphasize property rights and safety (OP\u2019s frustration and steps to secure yard are reasonable), while others will stress compassion, disability accommodations and parental responsibility for the autistic adult\u2019s behavior\u2014reasonable people could disagree about blame and appropriate response.\"}"
+        },
+        "judge_4": {
+          "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
+          "answer": false,
+          "reason": "The post recounts incidents and asks if they're in the wrong, focusing on actions taken and seeking judgment. It lacks a reflective emotional journey or clear personal growth narrative beyond trying to stay calm.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The post recounts incidents and asks if they're in the wrong, focusing on actions taken and seeking judgment. It lacks a reflective emotional journey or clear personal growth narrative beyond trying to stay calm.\"\n}"
+        },
+        "judge_5": {
+          "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
+          "answer": true,
+          "reason": "This is an ongoing dispute between your household and your neighbors (including their adult son and caregiver), affecting at least three parties: you/your family (including your children), the neighbors/parents, and their adult son.",
+          "raw_response": "{\"answer\": true, \"reason\": \"This is an ongoing dispute between your household and your neighbors (including their adult son and caregiver), affecting at least three parties: you/your family (including your children), the neighbors/parents, and their adult son.\"}"
+        },
+        "judge_6": {
+          "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
+          "answer": true,
+          "reason": "The dispute pits protecting property, safety, and fairness (preventing theft/trespass and safeguarding children) against compassion and accommodation for a neighbor's adult child with autism and the desire to avoid escalation.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The dispute pits protecting property, safety, and fairness (preventing theft/trespass and safeguarding children) against compassion and accommodation for a neighbor's adult child with autism and the desire to avoid escalation.\"\n}"
+        }
+      },
+      "score": 0.8571428571428571
+    },
+    "texts/good_samples/s4_3000.txt": {
+      "source": "texts/good_samples/s4_3000.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "Yes. It opens with domestic violence and manipulation, quickly establishing emotional intensity and a clear family conflict over the baby\u2019s name. The situation is gossip-worthy, relatable (blended-family/parenting tension and loyalty), and positions characters morally, engaging the reader immediately.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Yes. It opens with domestic violence and manipulation, quickly establishing emotional intensity and a clear family conflict over the baby\u2019s name. The situation is gossip-worthy, relatable (blended-family/parenting tension and loyalty), and positions characters morally, engaging the reader immediately.\"}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The narrator and her husband are adults (they're expecting a baby, discussing custody, DV, and parenting choices). The child (Luna, 11) is a secondary character, not the main character.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The narrator and her husband are adults (they're expecting a baby, discussing custody, DV, and parenting choices). The child (Luna, 11) is a secondary character, not the main character.\"}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The text is divided into multiple short paragraphs, each focusing on a single point or scene, which makes it easy to read and follow.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The text is divided into multiple short paragraphs, each focusing on a single point or scene, which makes it easy to read and follow.\"\n}"
+        },
+        "judge_3": {
+          "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
+          "answer": true,
+          "reason": "The post presents competing legitimate values: protecting the newborn and resisting the abusive ex\u2019s influence versus including and not alienating the stepdaughter who may simply be echoing her mother. Reasonable people could disagree about whether refusing those names is a rightful boundary or an unnecessary punishment of the child.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The post presents competing legitimate values: protecting the newborn and resisting the abusive ex\u2019s influence versus including and not alienating the stepdaughter who may simply be echoing her mother. Reasonable people could disagree about whether refusing those names is a rightful boundary or an unnecessary punishment of the child.\"\n}"
+        },
+        "judge_4": {
+          "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
+          "answer": true,
+          "reason": "The narrator reflects on their feelings, moral reasoning, and internal conflict (protecting their son vs. possibly pushing Luna away), describing their stance and hesitations rather than merely asking for approval.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The narrator reflects on their feelings, moral reasoning, and internal conflict (protecting their son vs. possibly pushing Luna away), describing their stance and hesitations rather than merely asking for approval.\"}"
+        },
+        "judge_5": {
+          "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
+          "answer": true,
+          "reason": "This is a dispute between the OP/husband and the ex (Paige) \u2014 played out through Luna \u2014 and it also involves the husband\u2019s parents; multiple parties (OP, husband, Luna/Paige, and in\u2011laws) are affected.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This is a dispute between the OP/husband and the ex (Paige) \u2014 played out through Luna \u2014 and it also involves the husband\u2019s parents; multiple parties (OP, husband, Luna/Paige, and in\u2011laws) are affected.\"\n}"
+        },
+        "judge_6": {
+          "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
+          "answer": true,
+          "reason": "This is a values conflict \u2014 parental autonomy and protecting your child from an abusive ex's influence (and refusing to reward manipulation) versus prioritizing Luna's inclusion and maintaining family harmony; it's more than just hurt feelings.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This is a values conflict \u2014 parental autonomy and protecting your child from an abusive ex's influence (and refusing to reward manipulation) versus prioritizing Luna's inclusion and maintaining family harmony; it's more than just hurt feelings.\"\n}"
+        }
+      },
+      "score": 1.0
+    },
+    "texts/good_samples/s5_7400.txt": {
+      "source": "texts/good_samples/s5_7400.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "Yes \u2014 the title and opening immediately deliver emotional intensity and clear conflict (marriage vs sex/intimacy), touch relatable themes (relationship, fidelity, divorce, kids), position the narrator as a conflicted/wronged partner, and create gossip-worthy suspense about whether he will leave and how it will affect the family.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Yes \u2014 the title and opening immediately deliver emotional intensity and clear conflict (marriage vs sex/intimacy), touch relatable themes (relationship, fidelity, divorce, kids), position the narrator as a conflicted/wronged partner, and create gossip-worthy suspense about whether he will leave and how it will affect the family.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The narrator is a 38-year-old man (wife 36); the story focuses on their marriage, children, and adult issues (prenup, separation), not a school/child setting.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator is a 38-year-old man (wife 36); the story focuses on their marriage, children, and adult issues (prenup, separation), not a school/child setting.\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The text is split into multiple short paragraphs that each cover a single idea or beat (background, realization, decision, consequences), making it readable and well-paced.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The text is split into multiple short paragraphs that each cover a single idea or beat (background, realization, decision, consequences), making it readable and well-paced.\"}"
+        },
+        "judge_3": {
+          "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
+          "answer": true,
+          "reason": "Both sides have defensible claims: he argues for personal needs, autonomy and honesty about compatibility; she argues consent, boundaries, and commitment to the marriage and children. Reasonable people could disagree about whether leaving is justified or whether staying and working on the marriage is the right moral choice.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Both sides have defensible claims: he argues for personal needs, autonomy and honesty about compatibility; she argues consent, boundaries, and commitment to the marriage and children. Reasonable people could disagree about whether leaving is justified or whether staying and working on the marriage is the right moral choice.\"}"
+        },
+        "judge_4": {
+          "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
+          "answer": true,
+          "reason": "The narrator demonstrates self-reflection and growth\u2014recognizing he\u2019d made his wife responsible for his needs, accepting the mismatch in desires, taking responsibility for his choices, and planning next steps\u2014rather than simply seeking validation.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator demonstrates self-reflection and growth\u2014recognizing he\u2019d made his wife responsible for his needs, accepting the mismatch in desires, taking responsibility for his choices, and planning next steps\u2014rather than simply seeking validation.\"\n}"
+        },
+        "judge_5": {
+          "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
+          "answer": true,
+          "reason": "This is a clear conflict between the husband and wife over sex and the future of their marriage that also affects their children (and involves their couples therapist), so it impacts at least three parties.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This is a clear conflict between the husband and wife over sex and the future of their marriage that also affects their children (and involves their couples therapist), so it impacts at least three parties.\"\n}"
+        },
+        "judge_6": {
+          "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
+          "answer": true,
+          "reason": "This is a values conflict about intimacy, responsibility, and obligations in marriage \u2014 duty/commitment and not making a partner responsible for your needs versus self\u2011care and seeking a relationship that fulfills your sexual/emotional needs.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This is a values conflict about intimacy, responsibility, and obligations in marriage \u2014 duty/commitment and not making a partner responsible for your needs versus self\u2011care and seeking a relationship that fulfills your sexual/emotional needs.\"\n}"
+        }
+      },
+      "score": 1.0
+    },
+    "texts/good_samples/s6_7000.txt": {
+      "source": "texts/good_samples/s6_7000.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "Strong immediate conflict and emotional stakes \u2014 parental favoritism, financial injustice, and sibling tension \u2014 make it gossip-worthy and relatable. The narrator is clearly positioned as wronged, which hooks readers quickly and invites continued reading.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Strong immediate conflict and emotional stakes \u2014 parental favoritism, financial injustice, and sibling tension \u2014 make it gossip-worthy and relatable. The narrator is clearly positioned as wronged, which hooks readers quickly and invites continued reading.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The narrator is 24 (sister 21) and the story concerns adult responsibilities (parents' finances), not a high-school/child setting.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The narrator is 24 (sister 21) and the story concerns adult responsibilities (parents' finances), not a high-school/child setting.\"}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The narrative is divided into several short paragraphs, each focusing on a specific point or time period; the breaks make the story easy to follow and aren't overly long.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The narrative is divided into several short paragraphs, each focusing on a specific point or time period; the breaks make the story easy to follow and aren't overly long.\"}"
+        },
+        "judge_3": {
+          "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
+          "answer": true,
+          "reason": "The situation pits filial duty against long\u2011running parental favoritism and unfairness. Some will say adult children should help parents in need regardless of past treatment; others will say the OP is justified in refusing to bail out parents who advantaged their sister and denied the OP support \u2014 a reasonable disagreement.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The situation pits filial duty against long\u2011running parental favoritism and unfairness. Some will say adult children should help parents in need regardless of past treatment; others will say the OP is justified in refusing to bail out parents who advantaged their sister and denied the OP support \u2014 a reasonable disagreement.\"\n}"
+        },
+        "judge_4": {
+          "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
+          "answer": true,
+          "reason": "The narrator recounts past experiences, choices and feelings (being treated unfairly, refusing college help, choosing a different path) that explain and justify their current boundary \u2014 showing personal history and growth rather than only fishing for validation.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The narrator recounts past experiences, choices and feelings (being treated unfairly, refusing college help, choosing a different path) that explain and justify their current boundary \u2014 showing personal history and growth rather than only fishing for validation.\"}"
+        },
+        "judge_5": {
+          "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
+          "answer": true,
+          "reason": "There's a clear conflict between the narrator and their parents over financial help/refusal, which directly involves the sister (who benefited previously and is being asked to help and is upset), so it affects at least three parties (narrator, parents, sister).",
+          "raw_response": "{\"answer\": true, \"reason\": \"There's a clear conflict between the narrator and their parents over financial help/refusal, which directly involves the sister (who benefited previously and is being asked to help and is upset), so it affects at least three parties (narrator, parents, sister).\"}"
+        },
+        "judge_6": {
+          "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
+          "answer": true,
+          "reason": "This is about competing values\u2014family duty/obligation to support parents versus fairness/reciprocity and resentment over unequal treatment of siblings\u2014rather than just simple hurt feelings.",
+          "raw_response": "{\"answer\": true, \"reason\": \"This is about competing values\u2014family duty/obligation to support parents versus fairness/reciprocity and resentment over unequal treatment of siblings\u2014rather than just simple hurt feelings.\"}"
+        }
+      },
+      "score": 1.0
+    },
+    "texts/good_samples/s7_2800.txt": {
+      "source": "texts/good_samples/s7_2800.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "Yes \u2014 it opens immediately with a high-stakes, emotionally charged situation (a 16\u2011year\u2011old pregnant and an absent 18\u2011year\u2011old father), shows clear family conflict and moral tension, and presents a relatable, gossip\u2011worthy dilemma that draws readers in and begs for judgment.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Yes \u2014 it opens immediately with a high-stakes, emotionally charged situation (a 16\u2011year\u2011old pregnant and an absent 18\u2011year\u2011old father), shows clear family conflict and moral tension, and presents a relatable, gossip\u2011worthy dilemma that draws readers in and begs for judgment.\"}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The narrator identifies as being in their late 30s/early 40s and the story is told from the adult stepmother's perspective dealing with a 16-year-old, so the main character is an adult.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator identifies as being in their late 30s/early 40s and the story is told from the adult stepmother's perspective dealing with a 16-year-old, so the main character is an adult.\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The post is split into several short-to-moderate paragraphs rather than one long wall of text, so the story is broken up into reasonably sized chunks (though some sentences are run-on).",
+          "raw_response": "{\"answer\": true, \"reason\": \"The post is split into several short-to-moderate paragraphs rather than one long wall of text, so the story is broken up into reasonably sized chunks (though some sentences are run-on).\"}"
+        },
+        "judge_3": {
+          "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
+          "answer": true,
+          "reason": "There are competing reasonable views: one can defend the stepmother's boundary-setting and insistence on personal responsibility, while others can reasonably condemn her tone and disclosure of hurtful private opinions toward a vulnerable pregnant teen. Reasonable people could disagree about which concerns should prevail.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"There are competing reasonable views: one can defend the stepmother's boundary-setting and insistence on personal responsibility, while others can reasonably condemn her tone and disclosure of hurtful private opinions toward a vulnerable pregnant teen. Reasonable people could disagree about which concerns should prevail.\"\n}"
+        },
+        "judge_4": {
+          "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
+          "answer": false,
+          "reason": "The narrator recounts events, defends their actions, and asks if they were wrong\u2014seeking judgment/validation\u2014rather than reflecting on personal emotional growth or a journey.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The narrator recounts events, defends their actions, and asks if they were wrong\u2014seeking judgment/validation\u2014rather than reflecting on personal emotional growth or a journey.\"\n}"
+        },
+        "judge_5": {
+          "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
+          "answer": true,
+          "reason": "There is a clear interpersonal conflict between the stepmother and the pregnant stepdaughter over childcare and accusations, and it directly involves/affects at least three parties (the stepdaughter, the stepmother, and the father who became upset \u2014 with other family members also implicated).",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"There is a clear interpersonal conflict between the stepmother and the pregnant stepdaughter over childcare and accusations, and it directly involves/affects at least three parties (the stepdaughter, the stepmother, and the father who became upset \u2014 with other family members also implicated).\"\n}"
+        },
+        "judge_6": {
+          "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
+          "answer": true,
+          "reason": "This is about competing values \u2014 personal responsibility/independence and fairness about who must bear the costs versus family obligation/compassion to support a pregnant teen \u2014 not merely hurt feelings.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This is about competing values \u2014 personal responsibility/independence and fairness about who must bear the costs versus family obligation/compassion to support a pregnant teen \u2014 not merely hurt feelings.\"\n}"
+        }
+      },
+      "score": 0.8571428571428571
+    },
+    "texts/good_samples/s8_2700.txt": {
+      "source": "texts/good_samples/s8_2700.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "Yes \u2014 the opening line ('Like... 8 months pregnant at this point') is an immediate shocker that creates curiosity and emotional intensity. The story sets up clear conflict (hiding a pregnancy/adoption from pushy, judgmental family), relatable themes (family dynamics, secrecy, autonomy), and positions the narrator as protecting their peace, making it gossip-worthy and compelling.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Yes \u2014 the opening line ('Like... 8 months pregnant at this point') is an immediate shocker that creates curiosity and emotional intensity. The story sets up clear conflict (hiding a pregnancy/adoption from pushy, judgmental family), relatable themes (family dynamics, secrecy, autonomy), and positions the narrator as protecting their peace, making it gossip-worthy and compelling.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": true,
+          "reason": "The narrator is 40 (and references a 40-year-old fianc\u00e9), i.e. adult protagonists \u2014 not a high-school/child setting.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The narrator is 40 (and references a 40-year-old fianc\u00e9), i.e. adult protagonists \u2014 not a high-school/child setting.\"}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The story is split into several short paragraphs that separate the discovery, medical context, decision about adoption, and family concerns \u2014 each focused and reasonably sized.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The story is split into several short paragraphs that separate the discovery, medical context, decision about adoption, and family concerns \u2014 each focused and reasonably sized.\"}"
+        },
+        "judge_3": {
+          "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
+          "answer": true,
+          "reason": "This situation has clear trade-offs: protecting mental health/privacy and avoiding pressure vs. duties of openness to family and potential hurt from exclusion. Reasonable people could disagree about whether withholding the news is justified.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This situation has clear trade-offs: protecting mental health/privacy and avoiding pressure vs. duties of openness to family and potential hurt from exclusion. Reasonable people could disagree about whether withholding the news is justified.\"\n}"
+        },
+        "judge_4": {
+          "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
+          "answer": true,
+          "reason": "The narrator recounts an emotional arc\u2014shock and hysteria on discovery, coming to terms a month later, and a deliberate decision to pursue adoption and protect their peace\u2014showing introspection and growth rather than merely seeking validation.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator recounts an emotional arc\u2014shock and hysteria on discovery, coming to terms a month later, and a deliberate decision to pursue adoption and protect their peace\u2014showing introspection and growth rather than merely seeking validation.\"\n}"
+        },
+        "judge_5": {
+          "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
+          "answer": true,
+          "reason": "There is an interpersonal conflict between the OP and her extended family (fear of judgment/pressure) that leads the OP and her fianc\u00e9 to exclude them. That dispute affects at least three parties: the OP/fianc\u00e9, the extended family members being shut out, and the unborn child/adoption process (and also the two family members who were told).",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"There is an interpersonal conflict between the OP and her extended family (fear of judgment/pressure) that leads the OP and her fianc\u00e9 to exclude them. That dispute affects at least three parties: the OP/fianc\u00e9, the extended family members being shut out, and the unborn child/adoption process (and also the two family members who were told).\"\n}"
+        },
+        "judge_6": {
+          "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
+          "answer": true,
+          "reason": "This is a values conflict: protecting your mental health, privacy and autonomy (self-care and control over the adoption process) versus family expectations/obligation for inclusion and transparency\u2014it's about competing principles, not just hurt feelings.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This is a values conflict: protecting your mental health, privacy and autonomy (self-care and control over the adoption process) versus family expectations/obligation for inclusion and transparency\u2014it's about competing principles, not just hurt feelings.\"\n}"
+        }
+      },
+      "score": 1.0
+    },
+    "texts/good_samples/s9_2100.txt": {
+      "source": "texts/good_samples/s9_2100.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
+          "answer": true,
+          "reason": "Yes \u2014 it sets up a clear, relatable conflict (exclusion/jealousy in a blended family), carries emotional stakes (hurt, anger, accusations of cruelty), positions the narrator as dismissive/righteous, is gossip-worthy, and leaves the confrontation unresolved, which draws you in.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Yes \u2014 it sets up a clear, relatable conflict (exclusion/jealousy in a blended family), carries emotional stakes (hurt, anger, accusations of cruelty), positions the narrator as dismissive/righteous, is gossip-worthy, and leaves the confrontation unresolved, which draws you in.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "answer": false,
+          "reason": "The narrator is a 16-year-old (16f) and the story focuses on teenage family dynamics, so the main character is a minor.",
+          "raw_response": "{\"answer\": false, \"reason\": \"The narrator is a 16-year-old (16f) and the story focuses on teenage family dynamics, so the main character is a minor.\"}"
+        },
+        "judge_2": {
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
+          "answer": true,
+          "reason": "The story is divided into several short paragraphs that each cover a distinct point or event, making it easy to read and follow.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The story is divided into several short paragraphs that each cover a distinct point or event, making it easy to read and follow.\"\n}"
+        },
+        "judge_3": {
+          "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
+          "answer": true,
+          "reason": "This presents a moral tradeoff: some will argue the OP has a right to set boundaries and spend time with relatives she\u2019s close to, while others will say deliberately excluding a stepsibling who wants inclusion is hurtful and unfair \u2014 reasonable people can disagree.",
+          "raw_response": "{\"answer\": true, \"reason\": \"This presents a moral tradeoff: some will argue the OP has a right to set boundaries and spend time with relatives she\u2019s close to, while others will say deliberately excluding a stepsibling who wants inclusion is hurtful and unfair \u2014 reasonable people can disagree.\"}"
+        },
+        "judge_4": {
+          "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
+          "answer": false,
+          "reason": "The narrator recounts background and justifies their actions but doesn't describe personal growth, reflection, or an emotional journey\u2014they're mainly defending their choices and seeking judgment.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The narrator recounts background and justifies their actions but doesn't describe personal growth, reflection, or an emotional journey\u2014they're mainly defending their choices and seeking judgment.\"\n}"
+        },
+        "judge_5": {
+          "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
+          "answer": true,
+          "reason": "There is a clear interpersonal conflict between the narrator and her stepsister over being excluded from grandparents' outings; it also directly involves the mother (who's furious) and impacts the grandparents/family dynamics, so at least three parties are affected.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"There is a clear interpersonal conflict between the narrator and her stepsister over being excluded from grandparents' outings; it also directly involves the mother (who's furious) and impacts the grandparents/family dynamics, so at least three parties are affected.\"\n}"
+        },
+        "judge_6": {
+          "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
+          "answer": true,
+          "reason": "This is about competing values\u2014her desire for personal boundaries/independence in how she spends time with grandparents versus obligations to be fair and include a stepsibling (family duty/compassion), not merely simple hurt feelings.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This is about competing values\u2014her desire for personal boundaries/independence in how she spends time with grandparents versus obligations to be fair and include a stepsibling (family duty/compassion), not merely simple hurt feelings.\"\n}"
+        }
+      },
+      "score": 0.7142857142857143
+    }
+  }
+}

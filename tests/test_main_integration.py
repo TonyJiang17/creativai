@@ -254,6 +254,8 @@ class TestRunAllJudges:
 
         assert "source" in result
         assert result["source"] == str(sample_text_file)
+        assert "score" in result
+        assert isinstance(result["score"], float)
         assert "judges" in result
         assert isinstance(result["judges"], dict)
         assert len(result["judges"]) == 2
@@ -270,7 +272,11 @@ class TestRunAllJudges:
         result = run_all_judges(sample_text_file, judges)
 
         # Check top-level structure
-        assert set(result.keys()) == {"source", "judges"}
+        assert set(result.keys()) == {"source", "score", "judges"}
+
+        # Check score field
+        assert isinstance(result["score"], float)
+        assert result["score"] == 1.0  # Mock returns True, so 1/1 = 1.0
 
         # Check judge result structure
         judge_result = result["judges"]["judge_0"]
@@ -303,6 +309,8 @@ class TestRunAllJudges:
         assert result["judges"]["judge_0"]["reason"] == "Reason for true"
         assert result["judges"]["judge_1"]["answer"] is False
         assert result["judges"]["judge_1"]["reason"] == "Reason for false"
+        # Score should be 1/2 = 0.5 (one true, one false)
+        assert result["score"] == 0.5
 
     def test_run_all_judges_no_judges(self, sample_text_file: Path) -> None:
         """Test running with empty judges list."""
@@ -310,6 +318,45 @@ class TestRunAllJudges:
 
         assert result["source"] == str(sample_text_file)
         assert result["judges"] == {}
+        # Score should be 0.0 when there are no judges
+        assert result["score"] == 0.0
+
+    def test_score_calculation(
+        self, sample_text_file: Path, mock_runner_with_response: Callable[[bool, str], Callable[..., str]]
+    ) -> None:
+        """Test that score is correctly calculated as (true answers) / (total judges)."""
+        # Test all true (score = 1.0)
+        judges_all_true = [
+            TextLLMJudge(
+                model_runner=mock_runner_with_response(True, f"Reason {i}"),
+                question=f"Question {i}?"
+            )
+            for i in range(3)
+        ]
+        result_all_true = run_all_judges(sample_text_file, judges_all_true)
+        assert result_all_true["score"] == 1.0
+
+        # Test all false (score = 0.0)
+        judges_all_false = [
+            TextLLMJudge(
+                model_runner=mock_runner_with_response(False, f"Reason {i}"),
+                question=f"Question {i}?"
+            )
+            for i in range(3)
+        ]
+        result_all_false = run_all_judges(sample_text_file, judges_all_false)
+        assert result_all_false["score"] == 0.0
+
+        # Test mixed: 3 true, 2 false (score = 0.6)
+        judges_mixed = [
+            TextLLMJudge(model_runner=mock_runner_with_response(True, "R1"), question="Q1?"),
+            TextLLMJudge(model_runner=mock_runner_with_response(False, "R2"), question="Q2?"),
+            TextLLMJudge(model_runner=mock_runner_with_response(True, "R3"), question="Q3?"),
+            TextLLMJudge(model_runner=mock_runner_with_response(True, "R4"), question="Q4?"),
+            TextLLMJudge(model_runner=mock_runner_with_response(False, "R5"), question="Q5?"),
+        ]
+        result_mixed = run_all_judges(sample_text_file, judges_mixed)
+        assert result_mixed["score"] == 0.6
 
 
 class TestBatchEvaluation:
@@ -344,6 +391,8 @@ class TestBatchEvaluation:
         # Verify each file entry has correct structure
         for file_path, file_result in aggregate_report["files"].items():
             assert "source" in file_result
+            assert "score" in file_result
+            assert isinstance(file_result["score"], float)
             assert "judges" in file_result
             assert "judge_0" in file_result["judges"]
 
@@ -491,6 +540,8 @@ class TestEndToEndIntegration:
 
         # Verify complete output structure
         assert result["source"] == str(sample_file)
+        assert "score" in result
+        assert isinstance(result["score"], float)
         assert "judges" in result
         assert len(result["judges"]) == 1
 
@@ -572,3 +623,5 @@ class TestEndToEndIntegration:
         assert result["judges"]["judge_1"]["reason"] == "Not compelling"
         assert result["judges"]["judge_2"]["answer"] is True
         assert result["judges"]["judge_2"]["reason"] == "Well formatted"
+        # Score should be 2/3 (two true, one false)
+        assert result["score"] == pytest.approx(2.0 / 3.0)

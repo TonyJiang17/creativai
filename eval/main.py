@@ -142,6 +142,7 @@ def run_all_judges(text_path: Path, judges: list[TextLLMJudge]) -> dict[str, Any
         Dict with structure:
             {
                 "source": str(text_path),
+                "score": float,
                 "judges": {
                     "judge_0": {
                         "question": str,
@@ -158,14 +159,22 @@ def run_all_judges(text_path: Path, judges: list[TextLLMJudge]) -> dict[str, Any
         "judges": {}
     }
 
+    true_count = 0
     for index, judge in enumerate(judges):
         evaluation = judge.evaluate(text_path)
+        answer = evaluation["result"]["answer"]
         result["judges"][f"judge_{index}"] = {
             "question": judge.question,
-            "answer": evaluation["result"]["answer"],
+            "answer": answer,
             "reason": evaluation["result"]["reason"],
             "raw_response": evaluation["raw_response"]
         }
+        if answer:
+            true_count += 1
+
+    # Calculate score as (number of true answers) / (total judges)
+    total_judges = len(judges)
+    result["score"] = true_count / total_judges if total_judges > 0 else 0.0
 
     return result
 
