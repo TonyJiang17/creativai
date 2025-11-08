@@ -1,0 +1,485 @@
+{
+  "source_directory": "texts/bad_samples",
+  "files": {
+    "texts/bad_samples/b1.txt": {
+      "source": "texts/bad_samples/b1.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text clearly and concisely define the main conflict or moral delimma of the story EARLY on in the story, within first few sentences or paragarph?",
+          "answer": true,
+          "reason": "Within the first paragraph the narrator states the cause (a former friend hooked up with their ex), the mother's pressure to make them socialize with that friend, and the narrator's refusal/response \u2014 clearly defining the central conflict early.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Within the first paragraph the narrator states the cause (a former friend hooked up with their ex), the mother's pressure to make them socialize with that friend, and the narrator's refusal/response \u2014 clearly defining the central conflict early.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text contain a main dispute that involves close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc?",
+          "answer": true,
+          "reason": "Yes \u2014 the conflict is between the poster and their mother (a close family member) over interacting with a woman who hooked up with the poster's then-boyfriend, involving a past romantic partner and a parent.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Yes \u2014 the conflict is between the poster and their mother (a close family member) over interacting with a woman who hooked up with the poster's then-boyfriend, involving a past romantic partner and a parent.\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the below text contain a main dispute that involves significant finances and money for the parties involves, such as relating to saving, debt, inheritance, salary, expenses or financial inequality? Signifanct means the money involved would have a major quality of life impact to the people involved.",
+          "answer": false,
+          "reason": "The conflict is interpersonal (awkwardness over a former friend and the mother\u2019s requests) and contains no discussion of savings, debt, inheritance, salary, expenses, or other significant financial matters.",
+          "raw_response": "{\"answer\": false, \"reason\": \"The conflict is interpersonal (awkwardness over a former friend and the mother\u2019s requests) and contains no discussion of savings, debt, inheritance, salary, expenses, or other significant financial matters.\"}"
+        },
+        "judge_3": {
+          "question": "Does the below text contain a main dispute or tension involving cheating or betrayal? In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics.",
+          "answer": true,
+          "reason": "The conflict stems from the friend hooking up with the narrator\u2019s boyfriend \u2014 a clear instance of personal betrayal/infidelity \u2014 and ongoing tension about whether to reconcile under the mother\u2019s pressure.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The conflict stems from the friend hooking up with the narrator\u2019s boyfriend \u2014 a clear instance of personal betrayal/infidelity \u2014 and ongoing tension about whether to reconcile under the mother\u2019s pressure.\"}"
+        },
+        "judge_4": {
+          "question": "Is the writing in the below text mostly grammatical fluent, easy to read, and the story is not confusing to understand even for a high schooler?",
+          "answer": false,
+          "reason": "The story is understandable but not mostly grammatical or fluent: it has awkward phrasing (e.g., 'brought a boyfriend at the time'), run\u2011on sentences, repetitions ('spoke'/'speaking', 'walking away or leaving'), and missing punctuation, which reduce clarity and polish.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The story is understandable but not mostly grammatical or fluent: it has awkward phrasing (e.g., 'brought a boyfriend at the time'), run\u2011on sentences, repetitions ('spoke'/'speaking', 'walking away or leaving'), and missing punctuation, which reduce clarity and polish.\"\n}"
+        },
+        "judge_5": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": false,
+          "reason": "The post describes setting a personal boundary about socializing with a specific person and a family disagreement\u2014an interpersonal boundary conflict, not a high\u2011consequence life decision (no marriage, children, major move, career change, etc.).",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The post describes setting a personal boundary about socializing with a specific person and a family disagreement\u2014an interpersonal boundary conflict, not a high\u2011consequence life decision (no marriage, children, major move, career change, etc.).\"\n}"
+        },
+        "judge_6": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "This is a boundary/social decision (refusing to greet a former friend and telling Mom to back off). It isn\u2019t irreversible or extremely hard to undo \u2014 relationships and words can be repaired or changed later, so it\u2019s not a one\u2011way decision.",
+          "raw_response": "{\"answer\": false, \"reason\": \"This is a boundary/social decision (refusing to greet a former friend and telling Mom to back off). It isn\u2019t irreversible or extremely hard to undo \u2014 relationships and words can be repaired or changed later, so it\u2019s not a one\u2011way decision.\"}"
+        }
+      },
+      "score": 0.42857142857142855
+    },
+    "texts/bad_samples/b10.txt": {
+      "source": "texts/bad_samples/b10.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text clearly and concisely define the main conflict or moral delimma of the story EARLY on in the story, within first few sentences or paragarph?",
+          "answer": true,
+          "reason": "The title and opening paragraph immediately state the central conflict: the boyfriend constantly talks about hunting and the narrator is annoyed and seeking advice on how to address it.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The title and opening paragraph immediately state the central conflict: the boyfriend constantly talks about hunting and the narrator is annoyed and seeking advice on how to address it.\"}"
+        },
+        "judge_1": {
+          "question": "Does the below text contain a main dispute that involves close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc?",
+          "answer": true,
+          "reason": "The conflict is between the narrator and her boyfriend\u2014a dispute between romantic partners about his constant hunting talk after they moved in together.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The conflict is between the narrator and her boyfriend\u2014a dispute between romantic partners about his constant hunting talk after they moved in together.\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the below text contain a main dispute that involves significant finances and money for the parties involves, such as relating to saving, debt, inheritance, salary, expenses or financial inequality? Signifanct means the money involved would have a major quality of life impact to the people involved.",
+          "answer": false,
+          "reason": "The dispute is about his constant hunting talk and annoyance in the relationship; there is no mention of money, savings, debts, inheritance, salary, expenses, or financial inequality.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The dispute is about his constant hunting talk and annoyance in the relationship; there is no mention of money, savings, debts, inheritance, salary, expenses, or financial inequality.\"\n}"
+        },
+        "judge_3": {
+          "question": "Does the below text contain a main dispute or tension involving cheating or betrayal? In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics.",
+          "answer": false,
+          "reason": "The conflict is about one partner's repetitive hobby talk and a communication/interest mismatch, not any cheating, affair, or betrayal.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The conflict is about one partner's repetitive hobby talk and a communication/interest mismatch, not any cheating, affair, or betrayal.\"\n}"
+        },
+        "judge_4": {
+          "question": "Is the writing in the below text mostly grammatical fluent, easy to read, and the story is not confusing to understand even for a high schooler?",
+          "answer": true,
+          "reason": "Overall clear, fluent, and easy to follow; the story is straightforward. Minor issues (lowercase \u201ci,\u201d a few punctuation choices, a comma splice, and \u201cwild life\u201d instead of \u201cwildlife\u201d) do not make it confusing.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Overall clear, fluent, and easy to follow; the story is straightforward. Minor issues (lowercase \u201ci,\u201d a few punctuation choices, a comma splice, and \u201cwild life\u201d instead of \u201cwildlife\u201d) do not make it confusing.\"}"
+        },
+        "judge_5": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": false,
+          "reason": "The post describes annoyance about a partner's hobby and communication habits\u2014not a high-consequence, life-altering decision (e.g., marriage, children, separation).",
+          "raw_response": "{\"answer\": false, \"reason\": \"The post describes annoyance about a partner's hobby and communication habits\u2014not a high-consequence, life-altering decision (e.g., marriage, children, separation).\"}"
+        },
+        "judge_6": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "The conflict is about communication habits (him talking about hunting too much) which can be changed or compromised through conversation \u2014 not an irreversible or extremely hard-to-reverse decision.",
+          "raw_response": "{\"answer\": false, \"reason\": \"The conflict is about communication habits (him talking about hunting too much) which can be changed or compromised through conversation \u2014 not an irreversible or extremely hard-to-reverse decision.\"}"
+        }
+      },
+      "score": 0.42857142857142855
+    },
+    "texts/bad_samples/b2.txt": {
+      "source": "texts/bad_samples/b2.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text clearly and concisely define the main conflict or moral delimma of the story EARLY on in the story, within first few sentences or paragarph?",
+          "answer": false,
+          "reason": "The opening paragraph only sets the scene (Discord call, everyone talking). The core conflict\u2014being told to 'shut up', the muting/admin drama, and the ensuing fallout\u2014isn't introduced until the next paragraph, so the main dilemma isn't clearly stated within the first few sentences.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The opening paragraph only sets the scene (Discord call, everyone talking). The core conflict\u2014being told to 'shut up', the muting/admin drama, and the ensuing fallout\u2014isn't introduced until the next paragraph, so the main dilemma isn't clearly stated within the first few sentences.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text contain a main dispute that involves close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc?",
+          "answer": false,
+          "reason": "The conflict is between friends on a Discord call (Jason, Rico, Evan); no close family members are mentioned or involved.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The conflict is between friends on a Discord call (Jason, Rico, Evan); no close family members are mentioned or involved.\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the below text contain a main dispute that involves significant finances and money for the parties involves, such as relating to saving, debt, inheritance, salary, expenses or financial inequality? Signifanct means the money involved would have a major quality of life impact to the people involved.",
+          "answer": false,
+          "reason": "The dispute is interpersonal (being told to be quiet, mutual muting, insults) and involves no mention of money, savings, debt, inheritance, salary, expenses, or financial inequality.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The dispute is interpersonal (being told to be quiet, mutual muting, insults) and involves no mention of money, savings, debt, inheritance, salary, expenses, or financial inequality.\"\n}"
+        },
+        "judge_3": {
+          "question": "Does the below text contain a main dispute or tension involving cheating or betrayal? In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics.",
+          "answer": false,
+          "reason": "The dispute is about being rude, server moderation and a power struggle in a Discord call\u2014not about cheating, an affair, or betrayal like backstabbing in a business/personal infidelity context.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The dispute is about being rude, server moderation and a power struggle in a Discord call\u2014not about cheating, an affair, or betrayal like backstabbing in a business/personal infidelity context.\"\n}"
+        },
+        "judge_4": {
+          "question": "Is the writing in the below text mostly grammatical fluent, easy to read, and the story is not confusing to understand even for a high schooler?",
+          "answer": true,
+          "reason": "The story is coherent and easy to follow\u2014chronological and clear about what happened. There are a few minor typos/missing words and a mismatched parenthesis (e.g., \"every no an then\", \"Rico another person in the call)\", \"were to each other\"), but these don\u2019t make the account confusing for a high-school reader.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The story is coherent and easy to follow\u2014chronological and clear about what happened. There are a few minor typos/missing words and a mismatched parenthesis (e.g., \\\"every no an then\\\", \\\"Rico another person in the call)\\\", \\\"were to each other\\\"), but these don\u2019t make the account confusing for a high-school reader.\"\n}"
+        },
+        "judge_5": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": false,
+          "reason": "This is a routine interpersonal conflict in a Discord call, not a major, high-consequence life decision (like marriage, divorce, or having children).",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is a routine interpersonal conflict in a Discord call, not a major, high-consequence life decision (like marriage, divorce, or having children).\"\n}"
+        },
+        "judge_6": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "This is an interpersonal conflict/reaction in a chat \u2014 not an irreversible decision. The situation (hurt feelings, muted/admin changes) can be repaired or reversed through apologies, discussion, or restored access, so it\u2019s not a one-way decision.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is an interpersonal conflict/reaction in a chat \u2014 not an irreversible decision. The situation (hurt feelings, muted/admin changes) can be repaired or reversed through apologies, discussion, or restored access, so it\u2019s not a one-way decision.\"\n}"
+        }
+      },
+      "score": 0.14285714285714285
+    },
+    "texts/bad_samples/b3.txt": {
+      "source": "texts/bad_samples/b3.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text clearly and concisely define the main conflict or moral delimma of the story EARLY on in the story, within first few sentences or paragarph?",
+          "answer": true,
+          "reason": "The title and opening paragraphs quickly state the dilemma: whether to take a minimum\u2011wage job that would leave her 9\u2011year\u2011old alone in a dangerous, unsecured neighborhood (and force her to stop side work), or refuse it to protect her daughter\u2019s safety.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The title and opening paragraphs quickly state the dilemma: whether to take a minimum\u2011wage job that would leave her 9\u2011year\u2011old alone in a dangerous, unsecured neighborhood (and force her to stop side work), or refuse it to protect her daughter\u2019s safety.\"}"
+        },
+        "judge_1": {
+          "question": "Does the below text contain a main dispute that involves close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc?",
+          "answer": true,
+          "reason": "The core conflict concerns a parent-child issue: the mother must decide whether to take a job that would leave her 9\u2011year\u2011old daughter alone in an unsafe environment.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The core conflict concerns a parent-child issue: the mother must decide whether to take a job that would leave her 9\u2011year\u2011old daughter alone in an unsafe environment.\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the below text contain a main dispute that involves significant finances and money for the parties involves, such as relating to saving, debt, inheritance, salary, expenses or financial inequality? Signifanct means the money involved would have a major quality of life impact to the people involved.",
+          "answer": true,
+          "reason": "The central conflict is financial\u2014deciding whether to take a low\u2011paying job versus affording childcare and basic needs (food, rent). Salary, childcare costs, and immediate shortages directly threaten their and the child's quality of life.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The central conflict is financial\u2014deciding whether to take a low\u2011paying job versus affording childcare and basic needs (food, rent). Salary, childcare costs, and immediate shortages directly threaten their and the child's quality of life.\"}"
+        },
+        "judge_3": {
+          "question": "Does the below text contain a main dispute or tension involving cheating or betrayal? In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics.",
+          "answer": false,
+          "reason": "The post centers on a safety/financial dilemma (childcare, leaving after domestic violence) rather than any cheating, affair, or betrayal.",
+          "raw_response": "{\"answer\": false, \"reason\": \"The post centers on a safety/financial dilemma (childcare, leaving after domestic violence) rather than any cheating, affair, or betrayal.\"}"
+        },
+        "judge_4": {
+          "question": "Is the writing in the below text mostly grammatical fluent, easy to read, and the story is not confusing to understand even for a high schooler?",
+          "answer": true,
+          "reason": "There are some minor grammar, spelling, and phrasing issues (e.g., 'enterily', 'safe net', awkward punctuation), but the narrative is coherent and easy to follow; a high-schooler would understand the situation.",
+          "raw_response": "{\"answer\": true, \"reason\": \"There are some minor grammar, spelling, and phrasing issues (e.g., 'enterily', 'safe net', awkward punctuation), but the narrative is coherent and easy to follow; a high-schooler would understand the situation.\"}"
+        },
+        "judge_5": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": true,
+          "reason": "A 33yo single mother must decide whether to take a minimum\u2011wage job that would leave her 9yo alone in an unsafe, illegal situation or forgo income\u2014a high\u2011stakes, conflicting life decision about her child's safety and the family\u2019s survival.",
+          "raw_response": "{\"answer\": true, \"reason\": \"A 33yo single mother must decide whether to take a minimum\u2011wage job that would leave her 9yo alone in an unsafe, illegal situation or forgo income\u2014a high\u2011stakes, conflicting life decision about her child's safety and the family\u2019s survival.\"}"
+        },
+        "judge_6": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "The choice to refuse (or later accept) the job is reversible and not intrinsically impossible or extremely painful to undo. While accepting and leaving her child alone could lead to irreversible harm, the decision itself (refusing the job to protect her daughter) is not a one\u2011way decision.",
+          "raw_response": "{\"answer\": false, \"reason\": \"The choice to refuse (or later accept) the job is reversible and not intrinsically impossible or extremely painful to undo. While accepting and leaving her child alone could lead to irreversible harm, the decision itself (refusing the job to protect her daughter) is not a one\u2011way decision.\"}"
+        }
+      },
+      "score": 0.7142857142857143
+    },
+    "texts/bad_samples/b4.txt": {
+      "source": "texts/bad_samples/b4.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text clearly and concisely define the main conflict or moral delimma of the story EARLY on in the story, within first few sentences or paragarph?",
+          "answer": true,
+          "reason": "The title and opening paragraph immediately state the central conflict: her husband\u2019s sudden loss of sexual interest after marriage, her feeling rejected, and her dilemma about stopping sexual intimacy/initiating.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The title and opening paragraph immediately state the central conflict: her husband\u2019s sudden loss of sexual interest after marriage, her feeling rejected, and her dilemma about stopping sexual intimacy/initiating.\"}"
+        },
+        "judge_1": {
+          "question": "Does the below text contain a main dispute that involves close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc?",
+          "answer": true,
+          "reason": "The post describes a dispute between spouses \u2014 the narrator and her husband \u2014 about intimacy/rejection in their marriage.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The post describes a dispute between spouses \u2014 the narrator and her husband \u2014 about intimacy/rejection in their marriage.\"}"
+        },
+        "judge_2": {
+          "question": "Does the below text contain a main dispute that involves significant finances and money for the parties involves, such as relating to saving, debt, inheritance, salary, expenses or financial inequality? Signifanct means the money involved would have a major quality of life impact to the people involved.",
+          "answer": false,
+          "reason": "The post focuses on marital sex/intimacy and emotional rejection \u2014 there is no dispute about money, savings, debt, inheritance, income, expenses, or financial inequality.",
+          "raw_response": "{\"answer\": false, \"reason\": \"The post focuses on marital sex/intimacy and emotional rejection \u2014 there is no dispute about money, savings, debt, inheritance, income, expenses, or financial inequality.\"}"
+        },
+        "judge_3": {
+          "question": "Does the below text contain a main dispute or tension involving cheating or betrayal? In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics.",
+          "answer": false,
+          "reason": "The conflict is about decreased sexual intimacy and feeling rejected in the marriage, not any cheating, affair, or betrayal.",
+          "raw_response": "{\"answer\": false, \"reason\": \"The conflict is about decreased sexual intimacy and feeling rejected in the marriage, not any cheating, affair, or betrayal.\"}"
+        },
+        "judge_4": {
+          "question": "Is the writing in the below text mostly grammatical fluent, easy to read, and the story is not confusing to understand even for a high schooler?",
+          "answer": true,
+          "reason": "The piece is informal and has punctuation/capitalization errors and some run\u2011on sentences, but the chronology and meaning are clear and easy for a high\u2011schooler to follow.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The piece is informal and has punctuation/capitalization errors and some run\u2011on sentences, but the chronology and meaning are clear and easy for a high\u2011schooler to follow.\"}"
+        },
+        "judge_5": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": false,
+          "reason": "This is an interpersonal/sexual boundary and short\u2011term response to rejection, not a critical, high\u2011consequence life decision like divorce, marriage, having children, or major career changes.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is an interpersonal/sexual boundary and short\u2011term response to rejection, not a critical, high\u2011consequence life decision like divorce, marriage, having children, or major career changes.\"\n}"
+        },
+        "judge_6": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "Stopping initiating sex is reversible and negotiable \u2014 a behavior/relationship choice that can be discussed, changed, or remedied (therapy/communication), not an irreversible one-way decision.",
+          "raw_response": "{\"answer\": false, \"reason\": \"Stopping initiating sex is reversible and negotiable \u2014 a behavior/relationship choice that can be discussed, changed, or remedied (therapy/communication), not an irreversible one-way decision.\"}"
+        }
+      },
+      "score": 0.42857142857142855
+    },
+    "texts/bad_samples/b5.txt": {
+      "source": "texts/bad_samples/b5.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text clearly and concisely define the main conflict or moral delimma of the story EARLY on in the story, within first few sentences or paragarph?",
+          "answer": true,
+          "reason": "The opening sentence immediately states the core conflict\u2014his girlfriend is stonewalling and emotionally distant\u2014and the next lines quickly explain the triggering incident and stakes (considering breakup), so the dilemma is clear early on.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The opening sentence immediately states the core conflict\u2014his girlfriend is stonewalling and emotionally distant\u2014and the next lines quickly explain the triggering incident and stakes (considering breakup), so the dilemma is clear early on.\"}"
+        },
+        "judge_1": {
+          "question": "Does the below text contain a main dispute that involves close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc?",
+          "answer": true,
+          "reason": "The primary dispute is between the narrator and his girlfriend (romantic partners) about communication and trust; it also references her ex as background.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The primary dispute is between the narrator and his girlfriend (romantic partners) about communication and trust; it also references her ex as background.\"}"
+        },
+        "judge_2": {
+          "question": "Does the below text contain a main dispute that involves significant finances and money for the parties involves, such as relating to saving, debt, inheritance, salary, expenses or financial inequality? Signifanct means the money involved would have a major quality of life impact to the people involved.",
+          "answer": false,
+          "reason": "The dispute centers on communication, trust, and emotional maturity in a short-term relationship\u2014no issues about savings, debt, inheritance, salary, expenses, or other significant financial matters are mentioned.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The dispute centers on communication, trust, and emotional maturity in a short-term relationship\u2014no issues about savings, debt, inheritance, salary, expenses, or other significant financial matters are mentioned.\"\n}"
+        },
+        "judge_3": {
+          "question": "Does the below text contain a main dispute or tension involving cheating or betrayal? In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics.",
+          "answer": true,
+          "reason": "The core conflict is about trust and fear of betrayal: the girlfriend is stonewalling and distant because his hours-long unresponsiveness echoes her ex disappearing while cheating, so the tension centers on perceived potential infidelity/betrayal.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The core conflict is about trust and fear of betrayal: the girlfriend is stonewalling and distant because his hours-long unresponsiveness echoes her ex disappearing while cheating, so the tension centers on perceived potential infidelity/betrayal.\"\n}"
+        },
+        "judge_4": {
+          "question": "Is the writing in the below text mostly grammatical fluent, easy to read, and the story is not confusing to understand even for a high schooler?",
+          "answer": false,
+          "reason": "The story is understandable, but the writing has numerous spelling, capitalization, punctuation, and grammar errors (typos like \"girlfriebd\", \"dissapear\", many uncapitalized \"i\"s, missing apostrophes/commas, awkward phrasing) that prevent it from being mostly grammatical and fluently easy to read.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The story is understandable, but the writing has numerous spelling, capitalization, punctuation, and grammar errors (typos like \\\"girlfriebd\\\", \\\"dissapear\\\", many uncapitalized \\\"i\\\"s, missing apostrophes/commas, awkward phrasing) that prevent it from being mostly grammatical and fluently easy to read.\"\n}"
+        },
+        "judge_5": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": true,
+          "reason": "The narrator (30M) is weighing whether to end the romantic relationship\u2014a significant decision about his partnership and future that has meaningful consequences.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The narrator (30M) is weighing whether to end the romantic relationship\u2014a significant decision about his partnership and future that has meaningful consequences.\"}"
+        },
+        "judge_6": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "The dispute is about whether to break up after a short (1\u2011month) relationship. Ending a relationship is generally reversible or at least not an irreversible, one\u2011way life decision \u2014 it can be revisited or repaired \u2014 so it doesn\u2019t meet the \u2018one way\u2019 threshold.",
+          "raw_response": "{\"answer\": false, \"reason\": \"The dispute is about whether to break up after a short (1\u2011month) relationship. Ending a relationship is generally reversible or at least not an irreversible, one\u2011way life decision \u2014 it can be revisited or repaired \u2014 so it doesn\u2019t meet the \u2018one way\u2019 threshold.\"}"
+        }
+      },
+      "score": 0.5714285714285714
+    },
+    "texts/bad_samples/b6.txt": {
+      "source": "texts/bad_samples/b6.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text clearly and concisely define the main conflict or moral delimma of the story EARLY on in the story, within first few sentences or paragarph?",
+          "answer": true,
+          "reason": "The first few sentences plainly set up the situation (casual hookup) and her core moral dilemma \u2014 she has a no-sex-outside-relationship boundary she didn\u2019t disclose and now worries she may have led him on.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The first few sentences plainly set up the situation (casual hookup) and her core moral dilemma \u2014 she has a no-sex-outside-relationship boundary she didn\u2019t disclose and now worries she may have led him on.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text contain a main dispute that involves close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc?",
+          "answer": false,
+          "reason": "The conflict is between two college acquaintances about boundaries in a casual sexual/romantic interaction, not about close family members or established partner/family relationships (spouse, ex, parent, child, etc.).",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The conflict is between two college acquaintances about boundaries in a casual sexual/romantic interaction, not about close family members or established partner/family relationships (spouse, ex, parent, child, etc.).\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the below text contain a main dispute that involves significant finances and money for the parties involves, such as relating to saving, debt, inheritance, salary, expenses or financial inequality? Signifanct means the money involved would have a major quality of life impact to the people involved.",
+          "answer": false,
+          "reason": "The dispute centers on dating and sexual boundaries between friends; there is no mention of money, savings, debt, inheritance, salary, expenses, or financial inequality.",
+          "raw_response": "{\"answer\": false, \"reason\": \"The dispute centers on dating and sexual boundaries between friends; there is no mention of money, savings, debt, inheritance, salary, expenses, or financial inequality.\"}"
+        },
+        "judge_3": {
+          "question": "Does the below text contain a main dispute or tension involving cheating or betrayal? In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics.",
+          "answer": true,
+          "reason": "The central tension is that the narrator may have misled a friend about sexual/romantic intentions\u2014effectively leading him on\u2014which the friend perceives as a form of betrayal or manipulation.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The central tension is that the narrator may have misled a friend about sexual/romantic intentions\u2014effectively leading him on\u2014which the friend perceives as a form of betrayal or manipulation.\"}"
+        },
+        "judge_4": {
+          "question": "Is the writing in the below text mostly grammatical fluent, easy to read, and the story is not confusing to understand even for a high schooler?",
+          "answer": true,
+          "reason": "The writing is clear, conversational, and easy to follow. It has minor informal word choices and small punctuation lapses (e.g., 's*x', 'etc etc', 'Cause'), but overall it's grammatically adequate and not confusing for a high\u2011schooler.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The writing is clear, conversational, and easy to follow. It has minor informal word choices and small punctuation lapses (e.g., 's*x', 'etc etc', 'Cause'), but overall it's grammatically adequate and not confusing for a high\u2011schooler.\"\n}"
+        },
+        "judge_5": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": false,
+          "reason": "This is an interpersonal/dating boundary issue (whether to have sex outside a relationship and whether she led him on), not a critical, high-consequence life decision like marriage, children, or major life changes.",
+          "raw_response": "{\"answer\": false, \"reason\": \"This is an interpersonal/dating boundary issue (whether to have sex outside a relationship and whether she led him on), not a critical, high-consequence life decision like marriage, children, or major life changes.\"}"
+        },
+        "judge_6": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "The dispute is about communication and consent around dating/sexual boundaries, which can be repaired or changed with conversation, apology, or different future choices \u2014 it\u2019s not an irreversible, one-way decision.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The dispute is about communication and consent around dating/sexual boundaries, which can be repaired or changed with conversation, apology, or different future choices \u2014 it\u2019s not an irreversible, one-way decision.\"\n}"
+        }
+      },
+      "score": 0.42857142857142855
+    },
+    "texts/bad_samples/b7.txt": {
+      "source": "texts/bad_samples/b7.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text clearly and concisely define the main conflict or moral delimma of the story EARLY on in the story, within first few sentences or paragarph?",
+          "answer": true,
+          "reason": "The title and opening paragraph immediately present the core dilemma\u2014tension with her parents (especially her father) over her seeing her husband and her feeling that he lacks sympathy\u2014so the main conflict is introduced clearly and early.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The title and opening paragraph immediately present the core dilemma\u2014tension with her parents (especially her father) over her seeing her husband and her feeling that he lacks sympathy\u2014so the main conflict is introduced clearly and early.\"}"
+        },
+        "judge_1": {
+          "question": "Does the below text contain a main dispute that involves close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc?",
+          "answer": true,
+          "reason": "Yes \u2014 the post describes a family conflict over the OP seeing her husband/co-parent, with disputes involving her parents (father and mother), husband, and daughter, so it centers on close family members.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Yes \u2014 the post describes a family conflict over the OP seeing her husband/co-parent, with disputes involving her parents (father and mother), husband, and daughter, so it centers on close family members.\"}"
+        },
+        "judge_2": {
+          "question": "Does the below text contain a main dispute that involves significant finances and money for the parties involves, such as relating to saving, debt, inheritance, salary, expenses or financial inequality? Signifanct means the money involved would have a major quality of life impact to the people involved.",
+          "answer": false,
+          "reason": "The conflict is about safety, relationship dynamics, and parental control/cheating \u2014 it does not involve significant financial matters like savings, debt, inheritance, salary, or major expenses.",
+          "raw_response": "{\"answer\": false, \"reason\": \"The conflict is about safety, relationship dynamics, and parental control/cheating \u2014 it does not involve significant financial matters like savings, debt, inheritance, salary, or major expenses.\"}"
+        },
+        "judge_3": {
+          "question": "Does the below text contain a main dispute or tension involving cheating or betrayal? In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics.",
+          "answer": true,
+          "reason": "The post explicitly references cheating and hidden relationships (the husband\u2019s affair/mistress and years of hiding things), and the central conflict revolves around betrayal affecting family trust and relationships.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The post explicitly references cheating and hidden relationships (the husband\u2019s affair/mistress and years of hiding things), and the central conflict revolves around betrayal affecting family trust and relationships.\"}"
+        },
+        "judge_4": {
+          "question": "Is the writing in the below text mostly grammatical fluent, easy to read, and the story is not confusing to understand even for a high schooler?",
+          "answer": true,
+          "reason": "The story is chronological and easy to follow with only minor grammar slips and a few awkward phrasings (e.g., \u201cI didn't actually asked\u201d should be \u201cI didn't actually ask\u201d). Overall it\u2019s fluent and not confusing for a high-school reader.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The story is chronological and easy to follow with only minor grammar slips and a few awkward phrasings (e.g., \u201cI didn't actually asked\u201d should be \u201cI didn't actually ask\u201d). Overall it\u2019s fluent and not confusing for a high-school reader.\"\n}"
+        },
+        "judge_5": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": true,
+          "reason": "The narrator (an adult) is making high\u2011consequence relationship and living\u2011arrangement decisions \u2014 leaving her husband after childbirth, deciding whether to move back in or reconcile, and how to arrange care for their child \u2014 which are major, conflicting life choices.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator (an adult) is making high\u2011consequence relationship and living\u2011arrangement decisions \u2014 leaving her husband after childbirth, deciding whether to move back in or reconcile, and how to arrange care for their child \u2014 which are major, conflicting life choices.\"\n}"
+        },
+        "judge_6": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "The core dispute is about cutting off contact with the dad/whether to keep seeing the husband \u2014 a relationship boundary that can be changed or repaired later. It\u2019s emotionally difficult but not an irreversible, one\u2011way decision.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The core dispute is about cutting off contact with the dad/whether to keep seeing the husband \u2014 a relationship boundary that can be changed or repaired later. It\u2019s emotionally difficult but not an irreversible, one\u2011way decision.\"\n}"
+        }
+      },
+      "score": 0.7142857142857143
+    },
+    "texts/bad_samples/b8.txt": {
+      "source": "texts/bad_samples/b8.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text clearly and concisely define the main conflict or moral delimma of the story EARLY on in the story, within first few sentences or paragarph?",
+          "answer": true,
+          "reason": "The title and opening sentence immediately present the dilemma \u2014 whether to cut a long-term friend out over his chronic boasting and validation-seeking \u2014 so the main conflict is clear early on.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The title and opening sentence immediately present the dilemma \u2014 whether to cut a long-term friend out over his chronic boasting and validation-seeking \u2014 so the main conflict is clear early on.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text contain a main dispute that involves close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc?",
+          "answer": false,
+          "reason": "The dispute is between friends over boasting and boundaries; no close family members (spouse, parent, child, partner, etc.) are central to the conflict\u2014mentions of ex-girlfriends are incidental.",
+          "raw_response": "{\"answer\": false, \"reason\": \"The dispute is between friends over boasting and boundaries; no close family members (spouse, parent, child, partner, etc.) are central to the conflict\u2014mentions of ex-girlfriends are incidental.\"}"
+        },
+        "judge_2": {
+          "question": "Does the below text contain a main dispute that involves significant finances and money for the parties involves, such as relating to saving, debt, inheritance, salary, expenses or financial inequality? Signifanct means the money involved would have a major quality of life impact to the people involved.",
+          "answer": false,
+          "reason": "The conflict is personal \u2014 about the friend's bragging, selfish behavior, and ended friendship. Money (salary, vacations, debt) is mentioned but is not the central dispute over significant financial stakes affecting the parties' livelihoods.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The conflict is personal \u2014 about the friend's bragging, selfish behavior, and ended friendship. Money (salary, vacations, debt) is mentioned but is not the central dispute over significant financial stakes affecting the parties' livelihoods.\"\n}"
+        },
+        "judge_3": {
+          "question": "Does the below text contain a main dispute or tension involving cheating or betrayal? In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics.",
+          "answer": false,
+          "reason": "The central conflict is the friend's constant boasting, one\u2011sidedness, and attention-seeking, not an act of cheating or betrayal between the parties (mentions of him cheating others are background, not the main dispute).",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The central conflict is the friend's constant boasting, one\u2011sidedness, and attention-seeking, not an act of cheating or betrayal between the parties (mentions of him cheating others are background, not the main dispute).\"\n}"
+        },
+        "judge_4": {
+          "question": "Is the writing in the below text mostly grammatical fluent, easy to read, and the story is not confusing to understand even for a high schooler?",
+          "answer": true,
+          "reason": "The story is clear and easy to follow; a high-schooler would understand it. There are several typos and awkward phrasings (missing apostrophes, a 'fo' typo, some tense/word-choice issues), but they don't make the narrative confusing.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The story is clear and easy to follow; a high-schooler would understand it. There are several typos and awkward phrasings (missing apostrophes, a 'fo' typo, some tense/word-choice issues), but they don't make the narrative confusing.\"\n}"
+        },
+        "judge_5": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": false,
+          "reason": "The post is about ending a long-term friendship over repeated disrespect/boasting. It's an interpersonal boundary decision and emotionally significant, but not a critical, high\u2011consequence life choice (e.g., marriage, divorce, having children, major legal/financial decisions).",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The post is about ending a long-term friendship over repeated disrespect/boasting. It's an interpersonal boundary decision and emotionally significant, but not a critical, high\u2011consequence life choice (e.g., marriage, divorce, having children, major legal/financial decisions).\"\n}"
+        },
+        "judge_6": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "The core decision is ending a friendship. While painful, cutting someone off is generally reversible or reparable and not an irreversible, one\u2011way life decision.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The core decision is ending a friendship. While painful, cutting someone off is generally reversible or reparable and not an irreversible, one\u2011way life decision.\"\n}"
+        }
+      },
+      "score": 0.2857142857142857
+    },
+    "texts/bad_samples/b9.txt": {
+      "source": "texts/bad_samples/b9.txt",
+      "judges": {
+        "judge_0": {
+          "question": "Does the below text clearly and concisely define the main conflict or moral delimma of the story EARLY on in the story, within first few sentences or paragarph?",
+          "answer": true,
+          "reason": "The title and opening sentences immediately state the dilemma\u2014whether to skip the Christmas party\u2014and give clear reasons (out-of-the-way location, winter driving, motion sickness preventing being a passenger, coworkers pressuring attendance), so the conflict is established early.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The title and opening sentences immediately state the dilemma\u2014whether to skip the Christmas party\u2014and give clear reasons (out-of-the-way location, winter driving, motion sickness preventing being a passenger, coworkers pressuring attendance), so the conflict is established early.\"\n}"
+        },
+        "judge_1": {
+          "question": "Does the below text contain a main dispute that involves close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc?",
+          "answer": false,
+          "reason": "The conflict is about attending a work Christmas party and personal travel/comfort concerns involving coworkers, not any close family members.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The conflict is about attending a work Christmas party and personal travel/comfort concerns involving coworkers, not any close family members.\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the below text contain a main dispute that involves significant finances and money for the parties involves, such as relating to saving, debt, inheritance, salary, expenses or financial inequality? Signifanct means the money involved would have a major quality of life impact to the people involved.",
+          "answer": false,
+          "reason": "The post is about whether to attend a work Christmas party and concerns about travel/comfort; it does not involve significant finances, savings, debt, inheritance, salary, or financial inequality.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The post is about whether to attend a work Christmas party and concerns about travel/comfort; it does not involve significant finances, savings, debt, inheritance, salary, or financial inequality.\"\n}"
+        },
+        "judge_3": {
+          "question": "Does the below text contain a main dispute or tension involving cheating or betrayal? In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics.",
+          "answer": false,
+          "reason": "The post describes logistics and social pressure about attending a work holiday party\u2014no cheating, affair, backstabbing, or betrayal is mentioned.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The post describes logistics and social pressure about attending a work holiday party\u2014no cheating, affair, backstabbing, or betrayal is mentioned.\"\n}"
+        },
+        "judge_4": {
+          "question": "Is the writing in the below text mostly grammatical fluent, easy to read, and the story is not confusing to understand even for a high schooler?",
+          "answer": true,
+          "reason": "Minor issues (missing apostrophes, informal contractions, a couple punctuation slips and casual tone like \u201clol\u201d), but overall the writing is clear, grammatical enough, and the situation is easy for a high\u2011schooler to understand.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Minor issues (missing apostrophes, informal contractions, a couple punctuation slips and casual tone like \u201clol\u201d), but overall the writing is clear, grammatical enough, and the situation is easy for a high\u2011schooler to understand.\"}"
+        },
+        "judge_5": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": false,
+          "reason": "This is a routine, low-stakes choice about attending a work social event (logistical inconvenience and discomfort), not a high-consequence life decision like marriage, children, or major relocation.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is a routine, low-stakes choice about attending a work social event (logistical inconvenience and discomfort), not a high-consequence life decision like marriage, children, or major relocation.\"\n}"
+        },
+        "judge_6": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "Skipping a single work Christmas party is low-stakes and easily reversible (you can attend future events or explain your reasons). It isn\u2019t an irreversible or extremely hard-to-reverse decision.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"Skipping a single work Christmas party is low-stakes and easily reversible (you can attend future events or explain your reasons). It isn\u2019t an irreversible or extremely hard-to-reverse decision.\"\n}"
+        }
+      },
+      "score": 0.2857142857142857
+    }
+  }
+}

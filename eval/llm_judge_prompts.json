@@ -28,5 +28,19 @@
         "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
         "true_example_file": "texts/good_samples/s2_16000.txt",
         "false_example_file": "texts/bad_samples/b5.txt"
+    },
+    {
+        "question": "Does the below text contain a main dispute that involves one of the following topics: \n\n 1.Close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc \n 2. Significant finances and money for the parties involved, such as saving, debt, inheritance, salary, expenses or financial inequality. Signifanct means the money involved would have a major quality of life impact to the people involved. \n 3. Cheating or betrayal. In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics. ",
+        "true_example_file": "texts/good_samples/s1_18000.txt"
+    },
+    {
+        "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+        "true_example_file": "texts/good_samples/s5_7400.txt",
+        "false_example_file": "texts/bad_samples/b2.txt" 
+    },
+    {
+        "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+        "true_example_file": "texts/good_samples/s1_18000.txt",
+        "false_example_file": "texts/bad_samples/b2.txt" 
     }
 ]

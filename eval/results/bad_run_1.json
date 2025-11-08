@@ -1,0 +1,725 @@
+{
+  "source_directory": "texts/bad_samples",
+  "files": {
+    "texts/bad_samples/b1.txt": {
+      "source": "texts/bad_samples/b1.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 72.38398113207548,
+          "total_sentences": 10,
+          "total_words": 212,
+          "total_syllables": 283
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\"consistent_motivation\": true, \"rationale\": \"The narrator's repeated polite-but- distant behavior, refusal to forgive or rekindle a relationship after a clear betrayal, and blunt pushback at their mother's pressure consistently reflect a boundary-driven motive that aligns with the scene's setup and responses.\"}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": false,
+          "raw_response": "{\n  \"conflict_and_stakes\": false,\n  \"rationale\": \"The passage presents a clear interpersonal conflict (the narrator\u2019s boundary versus the mother\u2019s desire for social harmony) but fails to meaningfully escalate or tighten the stakes\u2014consequences are vague and low-cost (mother being 'upset'), there\u2019s no palpable loss or narrowed options, and the tension never deepens or forces a costly, embodied choice.\"\n}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.020056260749697685
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\n  \"has_compelling_hook\": true,\n  \"rationale\": \"The opening immediately reveals a personal betrayal (the friend hooked up with the narrator's boyfriend) and an ensuing family conflict over loyalty, creating gossip-worthy tension and clear emotional stakes that hook the reader.\"\n}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "title: AITA for telling my mom to back off? A few years ago I was friends with this lady, our mothers then became best friends which is great. I stopped talking to her after I brought a boyfriend at the time to one of her parties and they ended up",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\ntitle: AITA for telling my mom to back off? A few years ago I was friends with this lady, our mothers then became best friends which is great. I stopped talking to her after I brought a boyfriend at the time to one of her parties and they ended up\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"A first-person narrator ('I'), their mother, a woman who was the narrator's friend, that friend's mother (who became close to the narrator's mother), and the narrator's then-boyfriend.\",\n  \"where\": \"A social/family setting\u2014specifically at one of the friend's parties (implying a home or social gathering).\",\n  \"when\": \"A few years ago (recent past).\"\n}",
+            "result": {
+              "who": "A first-person narrator ('I'), their mother, a woman who was the narrator's friend, that friend's mother (who became close to the narrator's mother), and the narrator's then-boyfriend.",
+              "where": "A social/family setting\u2014specifically at one of the friend's parties (implying a home or social gathering).",
+              "when": "A few years ago (recent past)."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: A first-person narrator ('I'), their mother, a woman who was the narrator's friend, that friend's mother (who became close to the narrator's mother), and the narrator's then-boyfriend.\n- Where: A social/family setting\u2014specifically at one of the friend's parties (implying a home or social gathering).\n- When: A few years ago (recent past).\n\nCOMPLETE STORY:\ntitle: AITA for telling my mom to back off?\n\nA few years ago I was friends with this lady, our mothers then became best friends which is great. I stopped talking to her after I brought a boyfriend at the time to one of her parties and they ended up hooking up. My mom and her mom stayed best friends and I never really spoke about why I stopped speaking to her so no one fully understands, which I feel is none of their business really. My mom keeps inviting this lady over whenever I'm visiting even if her mom isn't here and then tells me like a child to go greet her and keep her company. I have basic respect and will go greet her but then I end up either walking away or leaving. My mom said I was rude and need to get over whatever happened between us and I told her to back off. She is pretty upset at my response and said she just wants us all to be able to spend time together but I have absolutely no interest. I'm over the whole situation that happened back then but I just don't see myself being friends with someone who would do that. AITA or being immature?\n\n\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The full story includes the first-person narrator, their mother, the friend, the friend's mother, and the boyfriend; the conflict arises from an incident at the friend's party (a social/family setting); and it begins with 'A few years ago,' matching the initial impressions.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The full story includes the first-person narrator, their mother, the friend, the friend's mother, and the boyfriend; the conflict arises from an incident at the friend's party (a social/family setting); and it begins with 'A few years ago,' matching the initial impressions."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 72.38398113207548,
+        "motivation_consistency": true,
+        "conflict_and_stakes": false,
+        "surprise": 0.020056260749697685,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/bad_samples/b10.txt": {
+      "source": "texts/bad_samples/b10.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 67.77400000000003,
+          "total_sentences": 10,
+          "total_words": 224,
+          "total_syllables": 308
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\"consistent_motivation\": true, \"rationale\": \"The narrator\u2019s goal\u2014to be supportive\u2014versus their irritation is shown consistently through concrete actions (nodding, half-listening) and explicit internal conflict, with no abrupt, unearned changes in behavior or knowledge.\"}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": false,
+          "raw_response": "{\"conflict_and_stakes\": false, \"rationale\": \"The passage establishes a clear interpersonal irritation (the boyfriend's nonstop hunting stories) but lacks any tightening, reversal, on-page cost, or concrete escalation that narrows options or raises embodied stakes, so the conflict doesn't meaningfully deepen.\"}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.03368381783366203
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\n  \"has_compelling_hook\": true,\n  \"rationale\": \"The title and opening present an immediately relatable, gossip-worthy domestic conflict (a partner who monopolizes conversation with hunting stories), creating emotional tension and a clear moral dilemma that hooks readers within seconds.\"\n}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "Title: AITA for being annoyed with my boyfriend for only ever talking about hunting? I have been dating my boyfriend for three years and we moved in together recently. He got back into hunting (deer, elk, turkey) and I swear to god.. every conversation we have he relates it back",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nTitle: AITA for being annoyed with my boyfriend for only ever talking about hunting? I have been dating my boyfriend for three years and we moved in together recently. He got back into hunting (deer, elk, turkey) and I swear to god.. every conversation we have he relates it back\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"The narrator (a partner annoyed by her boyfriend) and her boyfriend, who has recently gotten back into hunting (deer, elk, turkey).\",\n  \"where\": \"Their shared home \u2014 they recently moved in together (domestic setting).\",\n  \"when\": \"Present/recent \u2014 the situation is happening now (they've been dating three years and moved in together recently).\"\n}",
+            "result": {
+              "who": "The narrator (a partner annoyed by her boyfriend) and her boyfriend, who has recently gotten back into hunting (deer, elk, turkey).",
+              "where": "Their shared home \u2014 they recently moved in together (domestic setting).",
+              "when": "Present/recent \u2014 the situation is happening now (they've been dating three years and moved in together recently)."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: The narrator (a partner annoyed by her boyfriend) and her boyfriend, who has recently gotten back into hunting (deer, elk, turkey).\n- Where: Their shared home \u2014 they recently moved in together (domestic setting).\n- When: Present/recent \u2014 the situation is happening now (they've been dating three years and moved in together recently).\n\nCOMPLETE STORY:\nTitle: AITA for being annoyed with my boyfriend for only ever talking about hunting?\n\nI have been dating my boyfriend for three years and we moved in together recently. He got back into hunting (deer, elk, turkey) and I swear to god.. every conversation we have he relates it back to wild life or a hunting story. He goes into lengthy detail about where he went, what he saw, how many scrapes there were, how many prongs on each antler of every buck, what kind of calls he used, the weight of his arrows, he will go on for what seems like hours without any input from me. I usually just nod and mm and wow while doing other stuff around the house, half listening.\n\nHe is passionate about it, and I want to be supportive, it just doesn\u2019t interest me other than the fact that he likes it and i want him to do what he enjoys just as i want to pursue my passions.\n\nSo, does it make me an asshole to be annoyed by his passion? Is there a way to gently tell him that I don\u2019t need to know every single detail of every single outing he goes on without being condescending? Or is this just part of my relationship and I need to stop being self centered?\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The opening correctly identifies the narrator and boyfriend and his hunting hobby, states they recently moved in together, and describes the current/ongoing nature of the annoyance; all three elements match the full story.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The opening correctly identifies the narrator and boyfriend and his hunting hobby, states they recently moved in together, and describes the current/ongoing nature of the annoyance; all three elements match the full story."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 67.77400000000003,
+        "motivation_consistency": true,
+        "conflict_and_stakes": false,
+        "surprise": 0.03368381783366203,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/bad_samples/b2.txt": {
+      "source": "texts/bad_samples/b2.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 72.36582406471184,
+          "total_sentences": 23,
+          "total_words": 387,
+          "total_syllables": 537
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\n  \"consistent_motivation\": true,\n  \"rationale\": \"The narrator's refusal to be silenced, retaliatory muting, and eventual insult all flow from being singled out and spoken to aggressively, so their defensive anger and choices remain logical and consistent with the on-page setup.\"\n}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": true,
+          "raw_response": "{\"conflict_and_stakes\": true, \"rationale\": \"The scene sets a clear, dominant stake\u2014the narrator's respect and authority in a Discord group\u2014early on and then meaningfully escalates through aggressive commands, mutual server-muting and removal of admin rights, culminating in social exile, so the options narrow and the cost (lost privileges and friendships) feels concrete.\"}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.011130054481327534
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\n  \"has_compelling_hook\": true,\n  \"rationale\": \"Yes\u2014the title plus the opening lines immediately present a relatable, gossip-worthy conflict (an aggressive friend, a power-play server mute, and a shouted insult) that positions the narrator as wronged and prompts curiosity about the fallout.\"\n}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "title: AITAH for standing my ground against one of my friends for telling me to be quiet? Last week I was in a Discord call with a few friends of mine. We were just chilling and also doing a bit of schoolwork. Everyone was talking over each other, and I",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\ntitle: AITAH for standing my ground against one of my friends for telling me to be quiet? Last week I was in a Discord call with a few friends of mine. We were just chilling and also doing a bit of schoolwork. Everyone was talking over each other, and I\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"The first-person narrator (\\\"I\\\") and a few friends\u2014schoolmates, including one friend who told the narrator to be quiet.\",\n  \"where\": \"On a Discord call (an online group call, while they were doing schoolwork together).\",\n  \"when\": \"Recent past \u2014 it happened \\\"last week.\\\"\"\n}",
+            "result": {
+              "who": "The first-person narrator (\"I\") and a few friends\u2014schoolmates, including one friend who told the narrator to be quiet.",
+              "where": "On a Discord call (an online group call, while they were doing schoolwork together).",
+              "when": "Recent past \u2014 it happened \"last week.\""
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: The first-person narrator (\"I\") and a few friends\u2014schoolmates, including one friend who told the narrator to be quiet.\n- Where: On a Discord call (an online group call, while they were doing schoolwork together).\n- When: Recent past \u2014 it happened \"last week.\"\n\nCOMPLETE STORY:\ntitle: AITAH for standing my ground against one of my friends for telling me to be quiet?\n\nLast week I was in a Discord call with a few friends of mine. We were just chilling and also doing a bit of schoolwork. Everyone was talking over each other, and I was working on a project with one person in the call while the other two were gaming. So basically, everyone was just talking and cracking jokes every no an then.\n\nAt one point, one of them (I\u2019ll call this person Jason) wanted to ask a question to Rico another person in the call). I didn\u2019t know that because everyone was talking, and I was in a conversation with Evan. Suddenly, Jason said to me in an aggressive tone, \u201cCan you stop talking?\u201d because he wanted to ask Rico a question. I was surprised, because literally everyone was talking, but he only told me to stop talking so he could ask his question. Of course I didn\u2019t stop talking and told Jason that he was being really aggressive toward me.\n\nThen Jason said \u201cshut your mouth\u201d and \u201cstfu.\u201d That made me even less willing to stop talking, because now he was being openly disrespectful towards me. Then he server-muted me because he\u2019s the server owner. In response, I server-muted him back because I\u2019m an admin. After that, he removed my admin role, unmuted himself, and about 10 minutes later, he unmuted me and gave me my admin rights back.\n\nAt that point, I wasn\u2019t talking anymore, but Jason and Rico were to each other (and at this point Evan was no longer present but was still in the call muted.) Later, Jason asked me something, and I said that I didn\u2019t want to talk to him. Jason and Rico made me feel like I was overreacting. I asked Rico if he wouldn\u2019t react the same way, and he said that he doesn\u2019t think it\u2019s \u201cthat deep.\u201d I replied, \u201cYeah, because you\u2019re a p*ssy,\u201d because I honestly can\u2019t imagine letting someone treat you like that without standing up for yourself.\n\nAfter that, they both stopped talking to me, and I haven\u2019t spoken to them since.\n\nAm I wrong for acting the way I did?\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The full story confirms a first-person narrator with several friends (including Jason who told them to be quiet), the setting is a Discord call, and it occurred 'last week,' matching all three initial impressions.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The full story confirms a first-person narrator with several friends (including Jason who told them to be quiet), the setting is a Discord call, and it occurred 'last week,' matching all three initial impressions."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 72.36582406471184,
+        "motivation_consistency": true,
+        "conflict_and_stakes": true,
+        "surprise": 0.011130054481327534,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/bad_samples/b3.txt": {
+      "source": "texts/bad_samples/b3.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 70.1908505564388,
+          "total_sentences": 17,
+          "total_words": 370,
+          "total_syllables": 501
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\n  \"consistent_motivation\": true,\n  \"rationale\": \"The narrator's choice to refuse the job is logically consistent: she repeatedly prioritizes her child's safety over income, explains concrete constraints (no locks, illegal to leave a nine-year-old, unaffordable childcare, loss of side jobs) and her fear and actions follow directly from those stated pressures and past experience.\"\n}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": true,
+          "raw_response": "{\n  \"conflict_and_stakes\": true,\n  \"rationale\": \"Yes\u2014the passage presents a clear, concrete dominant stake (the daughter\u2019s immediate safety and survival), forces a stark, embodied trade-off (leave her alone in a dangerous, unlocked home or pay unaffordable childcare and still possibly go hungry), and tightens the pressure with the looming Monday start that would end side work and deepen food insecurity, so the costs and narrowing options feel real and urgent.\"\n}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.017286837100982666
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\n  \"has_compelling_hook\": true,\n  \"rationale\": \"Yes \u2014 the opening quickly establishes urgent stakes (food insecurity, past domestic violence) and a clear moral conflict (take a job that would leave a 9\u2011year\u2011old alone in a dangerous, lockless home), creating strong sympathy, suspense, and a naturally discussable dilemma.\"\n}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "Title: AITA for refusing a job due to my daughter's security? This account is new because my main was banned wrongfully and I'm appealing. I am a 33yo single mother and I live with my daughter and our seven cats. We left another city in February due to DV, and",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nTitle: AITA for refusing a job due to my daughter's security? This account is new because my main was banned wrongfully and I'm appealing. I am a 33yo single mother and I live with my daughter and our seven cats. We left another city in February due to DV, and\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"A 33-year-old single mother and her daughter (they also have seven cats).\",\n  \"where\": \"Unspecified current residence after relocating \u2014 they left another city in February due to domestic violence.\",\n  \"when\": \"Present timeline with a recent past event (they moved in February).\"\n}",
+            "result": {
+              "who": "A 33-year-old single mother and her daughter (they also have seven cats).",
+              "where": "Unspecified current residence after relocating \u2014 they left another city in February due to domestic violence.",
+              "when": "Present timeline with a recent past event (they moved in February)."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: A 33-year-old single mother and her daughter (they also have seven cats).\n- Where: Unspecified current residence after relocating \u2014 they left another city in February due to domestic violence.\n- When: Present timeline with a recent past event (they moved in February).\n\nCOMPLETE STORY:\nTitle: AITA for refusing a job due to my daughter's security?\n\nThis account is new because my main was banned wrongfully and I'm appealing.\n\nI am a 33yo single mother and I live with my daughter and our seven cats. We left another city in February due to DV, and restarting hasn't been easy.\n\nI work with digital illustrations - and I also work as a translator and ghostwriter -, and sometimes we go through really hard times because my earnings are not constant. Right now, we have food only for today, and I have nothing to feed my cats besides a last can of sardines.\n\nI've come to Reddit before for help, but most of the responses I got told me to get a job. Even when I tried to explain that this was one of the worst options, I searched for any job I could find, and I did. It's a minimum wage job.\n\nThen all the problems with it that I've foreseen all along came. I don't have a safe net that I can count on to look after my daughter, and I have two options:\n\nPaying someone to look after her, and then making enough money just to cover rent;\n\nLeaving my 9yo daughter at home by herself.\n\nI live in a dangerous part of my city, and in the house we live in right now the door and gate have no locks, so there's a huge risk leaving a child home alone (and also illegal in my country until 14yo). Here we have a lot of users, and almost daily we hear about people breaking in to steal and things worse.\n\nI'm supposed to start on Monday, but it would mean not only leaving my daughter alone from 7h30 until 20h, but it also would mean stop enterily with my side jobs, and food would be scarce until I get paid.\n\nI honestly don't think this would be the best option, and I'm afraid something happens to my daughter. I've been posting about my work anywhere I can, and I'm trying to stay by my baby's side, but I'm afraid I'm not making the right choice. I'm already waiting on government assistance, but it can take months.\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The full story confirms the narrator is a 33-year-old single mother with a daughter and seven cats, that they left another city in February due to domestic violence and now live in an unspecified (dangerous) area, and the timeline is present with the recent February move.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The full story confirms the narrator is a 33-year-old single mother with a daughter and seven cats, that they left another city in February due to domestic violence and now live in an unspecified (dangerous) area, and the timeline is present with the recent February move."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 70.1908505564388,
+        "motivation_consistency": true,
+        "conflict_and_stakes": true,
+        "surprise": 0.017286837100982666,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/bad_samples/b4.txt": {
+      "source": "texts/bad_samples/b4.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 72.74320220841962,
+          "total_sentences": 23,
+          "total_words": 567,
+          "total_syllables": 731
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\"consistent_motivation\": true, \"rationale\": \"The narrator's goal (seeking intimacy) and pressure-response (hurt by silent rejection, repeated attempts to communicate, then withdrawing initiation and sending a blunt message to protect her self-esteem) are consistently developed with specific emotional beats and on-page causality.\"}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": true,
+          "raw_response": "{\"conflict_and_stakes\": true, \"rationale\": \"The passage establishes a clear, dominant stake\u2014her sexual intimacy and self\u2011esteem threatened by her husband\u2019s withdrawal\u2014and shows tightening and escalation through repeated rejections, visible emotional cost (tears, withdrawal), and a consequential decision to stop initiating and send a blunt ultimatum that narrows their options.\"}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.013179258443415165
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\"has_compelling_hook\": true, \"rationale\": \"The opening question 'AITA if I stop sleeping with my husband?' immediately presents a provocative, gossip-worthy, emotionally charged conflict about intimacy and rejection that hooks the reader and signals clear stakes and universal relational themes.\"}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "AITA if I stop sleeping with my husband? Hi all, I know the title sounds bad but please hear me out. I recently got married in June, yay, however it's not like I expected, I know that should be obvious. But the issue is our bedroom life. Before we got",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nAITA if I stop sleeping with my husband? Hi all, I know the title sounds bad but please hear me out. I recently got married in June, yay, however it's not like I expected, I know that should be obvious. But the issue is our bedroom life. Before we got\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"A first-person narrator \u2014 a recently married spouse who is worried about their relationship/sex life with their husband (the husband is the other main person mentioned).\",\n  \"where\": \"An online forum (an AITA post) discussing problems in their marital home/bedroom.\",\n  \"when\": \"Present \u2014 shortly after getting married in June (recent past/ongoing).\"\n}",
+            "result": {
+              "who": "A first-person narrator \u2014 a recently married spouse who is worried about their relationship/sex life with their husband (the husband is the other main person mentioned).",
+              "where": "An online forum (an AITA post) discussing problems in their marital home/bedroom.",
+              "when": "Present \u2014 shortly after getting married in June (recent past/ongoing)."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: A first-person narrator \u2014 a recently married spouse who is worried about their relationship/sex life with their husband (the husband is the other main person mentioned).\n- Where: An online forum (an AITA post) discussing problems in their marital home/bedroom.\n- When: Present \u2014 shortly after getting married in June (recent past/ongoing).\n\nCOMPLETE STORY:\nAITA if I stop sleeping with my husband?\n\nHi all, I know the title sounds bad but please hear me out. I recently got married in June, yay, however it's not like I expected, I know that should be obvious. But the issue is our bedroom life. Before we got married, we were active every week for two years, a little tmi but thats when he took my virginity. Since we've been married since June, the first week we were doing it every day, and then all of a sudden he didnt want to anymore, no problem we can lessen it. However, every time I try to make an advancement with him, he casually flips on or rolls onto his stomach. I've brought this up to him cause it lowkey kind of hurt being rejected, especially when he doesnt even say anything. He said he'll get better, but it's always the same, I try one day and he rolls over. I don't even know what happened, we were so active when dating, I dont know why it just vanished literally all of a sudden. I've talked to him many times and he just says he wasnt in the mood, but then I ask him why he doesnt just tell me cause its more insulting and hurtful when he literally rolls over in bed away from me. Well for a few weeks now, I've gotten use to not initiating until he does the one random weekend day, however it never feels sexy or fun. It just feels bland and plain cause he starts just touching and then we do it and then its over, and sometimes he won't finish me off, most of the time he does though. Well this morning, I felt a little extra so despite what I know, I decided to try initiate, and then after a few minutes of me kissing his forehead and warming him up, he rolls over onto his stomach. At this point I got tears in my eyes, so I roll over too cause I don't even know what to say. He rolls over and starts hugging me a few minutes later until he gets up to make breakfast. This time I didn't join him, I spent the hour in our room crying to myself and watching TikTok. He comes back into the room to get his clothes for work and asks if I'm ok and I told him how I felt, and he just says yea its cause of my knee (he had surgery on his acl several years ago but that ligament never healed right so it pops out often and causes him mild pain). And then he was being more rushed and saying he's late for work, he wasn't cause I know what time he leaves, and is out the door. I cried again and then I sent him a message saying I'm done initiating with him and that in the future if he has that rare urge that he can go back to porn and his hand cause my self esteem cant take any more rejections. Since June when we got married, I want to say we've only done it around 15-20 times as its not often he initiates either. I just dont know why his drive was so high before marriage and now its rare after marriage. But am I the asshole for what I said?\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The full story is a first-person account from a recently married spouse about sexual/relationship issues with her husband, posted as an AITA-style complaint and occurring shortly after their June wedding\u2014matching all three impressions.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The full story is a first-person account from a recently married spouse about sexual/relationship issues with her husband, posted as an AITA-style complaint and occurring shortly after their June wedding\u2014matching all three impressions."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 72.74320220841962,
+        "motivation_consistency": true,
+        "conflict_and_stakes": true,
+        "surprise": 0.013179258443415165,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/bad_samples/b5.txt": {
+      "source": "texts/bad_samples/b5.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 83.95683333333336,
+          "total_sentences": 24,
+          "total_words": 400,
+          "total_syllables": 501
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\n  \"consistent_motivation\": true,\n  \"rationale\": \"True because the narrator consistently values reliable communication and mutual emotional availability: he apologizes, promises to change, and\u2014faced with continued stonewalling over several days\u2014reasonably shifts to ending the relationship, which fits the setup and the girlfriend's defensiveness rather than contradicting it.\"\n}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": false,
+          "raw_response": "{\"conflict_and_stakes\": false, \"rationale\": \"While the post presents a clear interpersonal conflict (his apology versus her stonewalling) and a tightening (three days of distance), the central stake \u2014 the worth and loss of the relationship \u2014 remains vague and abstract with minimal embodied cost or concrete consequences, so escalation and earned stakes are not convincingly delivered.\"}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.014639751054346561
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\n  \"has_compelling_hook\": true,\n  \"rationale\": \"Yes \u2014 the opening immediately presents a hot-button relationship conflict (stonewalling, trust issues, a 9-year age gap) and ends with a provocative 'Am I the asshole?' framing that creates instant emotional stakes and gossip-worthiness.\"\n}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "Title: Am i the Asshole for wanting my girlfriebd to me mature emotionally Okay, so my (30m) girlfriend (21f) has decided its okay to stonewall me and be distant to me in our relationship. The other day i was hanging out with my friend Turner. I told her i was",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nTitle: Am i the Asshole for wanting my girlfriebd to me mature emotionally Okay, so my (30m) girlfriend (21f) has decided its okay to stonewall me and be distant to me in our relationship. The other day i was hanging out with my friend Turner. I told her i was\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"A 30-year-old male narrator and his 21-year-old girlfriend; the narrator's friend Turner is also mentioned.\",\n  \"where\": \"Not specified \u2014 an informal, personal/social setting (the narrator is 'hanging out' with a friend).\",\n  \"when\": \"Contemporary/near-present \u2014 an ongoing/recent situation (present-tense narration).\"\n}",
+            "result": {
+              "who": "A 30-year-old male narrator and his 21-year-old girlfriend; the narrator's friend Turner is also mentioned.",
+              "where": "Not specified \u2014 an informal, personal/social setting (the narrator is 'hanging out' with a friend).",
+              "when": "Contemporary/near-present \u2014 an ongoing/recent situation (present-tense narration)."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: A 30-year-old male narrator and his 21-year-old girlfriend; the narrator's friend Turner is also mentioned.\n- Where: Not specified \u2014 an informal, personal/social setting (the narrator is 'hanging out' with a friend).\n- When: Contemporary/near-present \u2014 an ongoing/recent situation (present-tense narration).\n\nCOMPLETE STORY:\nTitle: Am i the Asshole for wanting my girlfriebd to me mature emotionally\n\nOkay, so my (30m) girlfriend (21f) has decided its okay to stonewall me and be distant to me in our relationship. The other day i was hanging out with my friend Turner.\n\nI told her i was going to his house. I was there for 5 hours and for three of those hours i lost track of what was happening on my phone and accidentally ignored her for 3 hours. It was not my intention. My friend Turner has severe ADHD and can talk for like 40 minutes straight. A lot of people find this annoying but i love the guy as a brother and i know he cant help it even if he tried. So to show him i care, and that im paying attention i try to not look at or be on my phone when he talks.\n\nShe came at me upset because her ex would dissapear for hours while cheating on her. I told her that i was sorry. Her feelings are valid and i know where she is coming from. I told her id put more of an effort in making sure i reply to her instead of leaving her on read like how i did. However since then she has been distant and cold. I tried to bring it up with her but she just keeps saying \"I lowered my defenses and now i have to put them back up. Ive told you why im being distant.\" But i keep telling her its not healthy, its not appropriate, and its doing nothing but pushing us away from each other. At this point its been 3 days and she wont budge.\n\nIm thinking i should just break up with her and just enjoy being single again for a bit. We have only been together for a month and i just feel if this is how she is going to be now, its only going to get worse. Id rather just end it now than keep trying and being hurt, for it to just fall apart again in a few months or years.\n\nAm i the ass hole? And for context im aware the 9 year age gap seems weird. I wasnt into her because of her age, i acctually thought she was 24 or 25 when we first started talking and dating. I typically wont date anyone younger than 25.\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The full story confirms the narrator (30M), his 21F girlfriend and friend Turner; the setting is informal/hanging out (at Turner's house); the timeframe is contemporary/recent. All three initial impressions align with the complete story.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The full story confirms the narrator (30M), his 21F girlfriend and friend Turner; the setting is informal/hanging out (at Turner's house); the timeframe is contemporary/recent. All three initial impressions align with the complete story."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 83.95683333333336,
+        "motivation_consistency": true,
+        "conflict_and_stakes": false,
+        "surprise": 0.014639751054346561,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/bad_samples/b6.txt": {
+      "source": "texts/bad_samples/b6.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 73.84718867924529,
+          "total_sentences": 15,
+          "total_words": 318,
+          "total_syllables": 419
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\n  \"consistent_motivation\": true,\n  \"rationale\": \"The narrator consistently wants closeness without sex and fears losing his interest, which explains inviting and consenting to make out but stopping at her stated boundary and feeling guilty afterward, so her behavior and emotions track coherently.\"\n}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": false,
+          "raw_response": "{\"conflict_and_stakes\": false, \"rationale\": \"The passage presents a clear interpersonal problem (she stopped before sex and now he\u2019s distant) but fails to establish a dominant, concretely embodied stake or any tightening/escalation\u2014it's mainly internal guilt and a vague risk of losing his interest without an on-page cost, reversal, or narrowed options that would make the conflict feel urgent and earned.\"}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.017914721742272377
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\"has_compelling_hook\": true, \"rationale\": \"The opening swiftly presents a relatable, gossip-worthy conflict\u2014a college fling complicated by an unspoken sexual boundary and the narrator's guilt about possibly leading him on\u2014creating immediate emotional stakes and moral ambiguity that invite readers to keep reading.\"}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "Title: AITAH for leading my friend on I'm keeping this vague because the guy who this post is about uses Reddit. But basically I (college-age F) and a guy I'm sorta friends with (college-age M) have had a little something going on basically since we met last month. We're not",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nTitle: AITAH for leading my friend on I'm keeping this vague because the guy who this post is about uses Reddit. But basically I (college-age F) and a guy I'm sorta friends with (college-age M) have had a little something going on basically since we met last month. We're not\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"The narrator (a college\u2011age female) and a college\u2011age male friend/acquaintance they\u2019ve been casually involved with.\",\n  \"where\": \"A college setting (and the situation is being discussed on Reddit/online).\",\n  \"when\": \"Very recent/present \u2014 the interaction began last month and is ongoing now.\"\n}",
+            "result": {
+              "who": "The narrator (a college\u2011age female) and a college\u2011age male friend/acquaintance they\u2019ve been casually involved with.",
+              "where": "A college setting (and the situation is being discussed on Reddit/online).",
+              "when": "Very recent/present \u2014 the interaction began last month and is ongoing now."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: The narrator (a college\u2011age female) and a college\u2011age male friend/acquaintance they\u2019ve been casually involved with.\n- Where: A college setting (and the situation is being discussed on Reddit/online).\n- When: Very recent/present \u2014 the interaction began last month and is ongoing now.\n\nCOMPLETE STORY:\nTitle: AITAH for leading my friend on\n\nI'm keeping this vague because the guy who this post is about uses Reddit. But basically I (college-age F) and a guy I'm sorta friends with (college-age M) have had a little something going on basically since we met last month. We're not dating and I don't predict this will turn into a relationship but we're both attracted to each other and the other day some stuff happened. By that I mean we made out, took clothes off, etc etc but we didn't go all the way. I have a personal boundary that I won't have s*x outside of a relationship. I haven't explicitly told him this because I didn't think it was necessary to share. I didn't think things were actually going to go that far that quick. But it's a boundary I have that I'm not going to change.\n\nSo when we were making out I stopped it before it turned into s*x. I could tell that made him upset and he hasn't really been talking to me since then. I don't think me having a boundary is wrong but I do wonder if I accidentally led him on and that's what he's upset about. Because to be fair I was the one that suggested we hang out in his room, when he said that he wanted to hook up I agreed and started to go along with it, and I didn't tell him that I was never going to have sex with him. To be completely honest I was worried he was going to lose interest in me if I told him that. Cause I do like him and I don't mind fooling around a little bit, I just have specific boundaries about how far I'll go. But I feel like I might have been a little manipulative and I feel bad about that.\n\n\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The full story confirms a college\u2011age female narrator and a college\u2011age male friend/acquaintance; it references a college context and posting on Reddit; and the interaction began last month and is current, matching the initial impressions.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The full story confirms a college\u2011age female narrator and a college\u2011age male friend/acquaintance; it references a college context and posting on Reddit; and the interaction began last month and is current, matching the initial impressions."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 73.84718867924529,
+        "motivation_consistency": true,
+        "conflict_and_stakes": false,
+        "surprise": 0.017914721742272377,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/bad_samples/b7.txt": {
+      "source": "texts/bad_samples/b7.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 78.81000000000003,
+          "total_sentences": 43,
+          "total_words": 645,
+          "total_syllables": 860
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\n  \"consistent_motivation\": true,\n  \"rationale\": \"The narrator\u2019s choices\u2014to avoid returning to her husband while still seeing him as co-parent, to resist parental control, and ultimately to cut off her father\u2014are repeatedly grounded in on-page facts (husband\u2019s neglect and mental-health incidents, cultural stigma about police involvement, the father\u2019s infidelity and hypocrisy), so her emotional responses and actions remain coherent and earned.\"\n}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": true,
+          "raw_response": "{\n  \"conflict_and_stakes\": true,\n  \"rationale\": \"The passage establishes a clear dominant stake early\u2014the child\u2019s safety and the narrator\u2019s access to family support\u2014and then tightens that pressure through concrete incidents (husband\u2019s crisis, police involvement, criticism of the baby), a parental ultimatum and public confrontation that narrow her options and exact on-page costs (estrangement, being blocked, loss of sympathy).\"\n}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.004267281387001276
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\n  \"has_compelling_hook\": true,\n  \"rationale\": \"The opening immediately drops a volatile, gossip-worthy situation\u2014a secret marriage to a problematic husband with mental-health and cheating implications while the narrator's parents are visiting and policing her choices\u2014creating clear conflict, emotional stakes, and immediate curiosity.\"\n}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "Title: AITAH for not wanting to see my dad anymore because I don\u2019t feel his sympathy for me? I (Asian) am married to my daughter\u2019s dad (he\u2019s white and honestly, an AH with mental health issues), but my family doesn\u2019t know about it. My parents are currently visiting me here",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nTitle: AITAH for not wanting to see my dad anymore because I don\u2019t feel his sympathy for me? I (Asian) am married to my daughter\u2019s dad (he\u2019s white and honestly, an AH with mental health issues), but my family doesn\u2019t know about it. My parents are currently visiting me here\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"The narrator \u2014 an Asian person who is married to their daughter\u2019s father (a white man described as an AH with mental health issues); the narrator\u2019s father and parents (who are visiting) are also central to the situation.\",\n  \"where\": \"At the narrator\u2019s home (unspecified location), where their parents are currently visiting.\",\n  \"when\": \"Present (events are happening now).\"\n}",
+            "result": {
+              "who": "The narrator \u2014 an Asian person who is married to their daughter\u2019s father (a white man described as an AH with mental health issues); the narrator\u2019s father and parents (who are visiting) are also central to the situation.",
+              "where": "At the narrator\u2019s home (unspecified location), where their parents are currently visiting.",
+              "when": "Present (events are happening now)."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: The narrator \u2014 an Asian person who is married to their daughter\u2019s father (a white man described as an AH with mental health issues); the narrator\u2019s father and parents (who are visiting) are also central to the situation.\n- Where: At the narrator\u2019s home (unspecified location), where their parents are currently visiting.\n- When: Present (events are happening now).\n\nCOMPLETE STORY:\nTitle: AITAH for not wanting to see my dad anymore because I don\u2019t feel his sympathy for me?\n\nI (Asian) am married to my daughter\u2019s dad (he\u2019s white and honestly, an AH with mental health issues), but my family doesn\u2019t know about it. My parents are currently visiting me here in the US.\n\nLately, I\u2019ve been seeing my husband 2\u20133 times a week these past few weeks, and my parents aren\u2019t happy about it. They think I\u2019m putting our lives at risk every time we see him.\n\nHere\u2019s what\u2019s been happening:\n\nI left him 10 days after giving birth because he wasn\u2019t helping me with anything. I\u2019ve been living with my family since then.\n\nMy daughter and I met with him outside our place. He wasn\u2019t happy about how our daughter looked and started talking to me like he was scolding me. I didn\u2019t know my dad had come outside too. My husband didn\u2019t even greet him, just went straight to his car and drove off.\n\nAnother time, my daughter and I went with him to visit his sick grandma (she hadn\u2019t met our daughter yet). We stayed overnight at a hotel. Around 3 AM, he suddenly wanted me to call the police because he said he didn\u2019t feel safe. He ended up checking himself into the hospital for a mental health crisis, leaving me and our baby at the hotel. My dad freaked out when he found out because the police got involved. Back home, anything involving the police is seen as a huge deal. I explained what really happened, but they didn\u2019t believe me.\n\nAfter that third incident, my parents sat me down to ask what my plans were. I told them how I felt and said I wasn\u2019t going back to live with my husband. I even said I\u2019d move in with my sister until I found out she\u2019s pregnant with her third child, so I changed my mind.\n\nA month later, I started seeing my husband more often, and my parents weren\u2019t happy about it. My mom asked again what my plans were with my daughter, saying if I keep seeing my daughter\u2019s dad, there must still be \u201cfeelings involved.\u201d (Like, wtf? Why do they even care if there are feelings involved? AITAH for that?!) I told her clearly we\u2019re not getting back together.\n\nThen one day, I told my dad I was meeting my husband again, with our daughter. He immediately got mad. Maybe because I\u2019m being \u201cstubborn\u201d? He yelled at me, saying I\u2019d be asking for rescue again, that they\u2019ve \u201crescued us twice already,\u201d and that I\u2019m putting my daughter\u2019s life in danger. He started pointing his finger at me and shouting that he wouldn\u2019t allow it. I snapped and told him he has no right to control my life especially when he\u2019s the one going back to our home country for his mistress. My mom got upset over what I said, and my dad called me disrespectful. Still, I left with my daughter.\n\nHe said he just feels sorry for me because of what I\u2019ve gone through with my daughter\u2019s dad. But honestly? I don\u2019t feel any sympathy from him because he\u2019s been cheating and hiding things from our family for years. Because of that, I don\u2019t even want to see him anymore. He even blocked me on social media and IDGAF about it.\n\nEdit: I didn\u2019t actually asked for a rescue. He calls it rescue for volunteering to pick us up even if I insisted that we can take an uber. My dad didn\u2019t tell me that he\u2019s sorry for my situation, it\u2019s just a conversation of him and my mom.\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The opening correctly identifies the narrator (Asian), their husband (white, problematic), and visiting parents. The setting (parents visiting at the narrator's place/in the US) and timing (current/present events) are consistent with the full story.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The opening correctly identifies the narrator (Asian), their husband (white, problematic), and visiting parents. The setting (parents visiting at the narrator's place/in the US) and timing (current/present events) are consistent with the full story."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 78.81000000000003,
+        "motivation_consistency": true,
+        "conflict_and_stakes": true,
+        "surprise": 0.004267281387001276,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/bad_samples/b8.txt": {
+      "source": "texts/bad_samples/b8.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 72.59511299734751,
+          "total_sentences": 50,
+          "total_words": 754,
+          "total_syllables": 1060
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\n  \"consistent_motivation\": true,\n  \"rationale\": \"true because the narrator details escalating grievances, repeated boundary-setting, and mounting frustration over one-sided boasting and ethical issues, so cutting the friend off (and feeling some ambivalence given their long history) follows logically and consistently from the setup.\"\n}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": true,
+          "raw_response": "{\n  \"conflict_and_stakes\": true,\n  \"rationale\": \"The passage sets up a clear interpersonal conflict\u2014being used and gossiped to by a lifelong friend\u2014and shows escalation from tolerated annoyance to a decisive confrontation and being blocked, producing concrete stakes (the loss of a decades-long relationship and the emotional cost of enforcing boundaries).\"\n}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.004514556843787432
+        },
+        "five_second": {
+          "result": true,
+          "raw_response": "{\n  \"has_compelling_hook\": true,\n  \"rationale\": \"The opening title and first lines immediately present a relatable, gossip-worthy conflict\u2014cutting off a longtime friend for chronic boasting and selfishness\u2014creating clear emotional stakes and curiosity about whether the narrator was justified.\"\n}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "Title: AITA for cutting a friend out of my life for their constant boasting? Hi there, M 40s. I recently had to bring up a lot of concerns with a (probably now) ex friend of mine. Here are the details. I've known this individual for several years, since we were",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nTitle: AITA for cutting a friend out of my life for their constant boasting? Hi there, M 40s. I recently had to bring up a lot of concerns with a (probably now) ex friend of mine. Here are the details. I've known this individual for several years, since we were\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"A male narrator in his 40s and a (probably now) ex-friend who constantly boasts.\",\n  \"where\": \"Not specified (personal/social context; no location given).\",\n  \"when\": \"Recent past / present (the narrator says this happened 'recently').\"\n}",
+            "result": {
+              "who": "A male narrator in his 40s and a (probably now) ex-friend who constantly boasts.",
+              "where": "Not specified (personal/social context; no location given).",
+              "when": "Recent past / present (the narrator says this happened 'recently')."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: A male narrator in his 40s and a (probably now) ex-friend who constantly boasts.\n- Where: Not specified (personal/social context; no location given).\n- When: Recent past / present (the narrator says this happened 'recently').\n\nCOMPLETE STORY:\nTitle: AITA for cutting a friend out of my life for their constant boasting?\n\nHi there, M 40s. I recently had to bring up a lot of concerns with a (probably now) ex friend of mine. Here are the details.\n\nI've known this individual for several years, since we were literally four. I always got some kind of vibe from him that wasn't right, but we became good friends throughout several years. We'd drink together, stay up playing video games, and call each other once in awhile.\n\nSome time in college years I started to recognize that his personality towards me started to change. He seemed to call me when he would drive home from work, solely to talk about all of his ideas and projects he's working on. I wasn't much of a phone person so it seemed a bit frustrating but he was a friend so I was fine with it.\n\nAs an aside, he always commented about finding women to \"get laid\" and while I was about it too, it wasn't something I'd always discuss with him. After awhile it got old. Additionally he cheated some of his ex girlfriends, did a lot of unethical computer stuff, and plagiarized a lot fo his way through high school and college.\n\nOver the years I started to recognize that our relationship primarily turned into him calling me up to inform me about a new job he started and it's salary. I wasn't the most interested in that but I'd congratulate him for it.\n\nThen I started to recognize a lot of weird things he'd do. He would lose his job and immediately go to Vegas and boast about his vacation on Facebook. I commented on his page about him losing his job and he deleted it, saying he didn't want others to know. Hed constantly post about \"going on vacation\" even while he was in the middle of law school, a university that he attended that was so new it wasn't even accredited. He racked up hundreds of thousands of dollars in debt yet would still boast about money, constantly show off his vacations, and hopped from job to job. He never kept a position for more than two years.\n\nWe'd often times meet up, but I noticed he would get sloppy drunk and constantly talk, make unfunny jokes, and try to be the center of attention. It was wearing on me, but I just had to write it off as that's what his personality was. Every time I'd see him he'd have something to brag about and I let it go.\n\nMore \"one sided\" conversations would happen and I started to recognize comments that he would laugh about that I felt were more insulting than anything else. One day I asked him what one of them meant (because it sounded insulting to me) and his response was \"just a joke!\" My patience was wearing thin. I told him to stop doing that.\n\nRecently I went to an event and I hadn't heard from him in probably six months. I was in a crowd of people and he called. I texted back that I couldn't talk. He called again and I reiterated I couldn't chat that I was busy. I told him to text back.\n\n\"Big news! I'm making XXX money!\"\n\nI lost it with him. Not even a \"how are you\" or \"what have you been doing lately?\" An immediate launch into him and his money. I told him I wasn't interested in being someone to just gloat at and that I've said it multiple times. Additionally I reminded him that all of his previous positions he either quit because it wasn't enough money or he was fired from because he couldn't do the job, and his XXX job he probably wasn't likely to keep anyhow.\n\nHe apologized and I wished him a good night.\n\nA few days later I recognized he blocked me on Facebook and LinkedIn. I texted him why and I never got a response. I guess that's it.\n\nThis guy just seemed to gradually transition into a used car salesman friend, show off the shiny things and hide the negative. Others that know him share the same kind of sentiments about him. I'm not interested in being used for someone seeking validation, so I'm done trying to accept him.\n\nBut part of me feels I was too harsh. We do have a long history together, but most of it is mired in his \"me first\" attitude.\n\nAITA here?\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The full story confirms a male narrator in his 40s and a boastful (now estranged) friend, provides no specific location, and frames the events as recent/present developments\u2014so all three initial impressions align.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The full story confirms a male narrator in his 40s and a boastful (now estranged) friend, provides no specific location, and frames the events as recent/present developments\u2014so all three initial impressions align."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 72.59511299734751,
+        "motivation_consistency": true,
+        "conflict_and_stakes": true,
+        "surprise": 0.004514556843787432,
+        "five_second": true,
+        "setting": "complete"
+      }
+    },
+    "texts/bad_samples/b9.txt": {
+      "source": "texts/bad_samples/b9.txt",
+      "metrics": {
+        "flesch_reading_ease": {
+          "score": 74.10038461538463,
+          "total_sentences": 7,
+          "total_words": 130,
+          "total_syllables": 175
+        },
+        "motivation_consistency": {
+          "result": true,
+          "raw_response": "{\"consistent_motivation\": true, \"rationale\": \"The narrator consistently prioritizes safety and personal comfort\u2014driving in the dark to an unfamiliar town, winter conditions, and inability to be a passenger due to motion sickness\u2014so their reluctance to attend aligns with the traits and pressures presented and contains no on-page contradictions.\"}",
+          "metadata": {
+            "metric": "motivation_consistency",
+            "output": "boolean"
+          }
+        },
+        "conflict_and_stakes": {
+          "result": false,
+          "raw_response": "{\n  \"conflict_and_stakes\": false,\n  \"rationale\": \"The post establishes a clear interpersonal dilemma and concrete costs (night driving, motion sickness, social pressure) but fails to escalate or deepen the stakes\u2014there's no tightening, reversal, or narrowing of options that raises the pressure or makes the consequences feel newly urgent.\"\n}",
+          "metadata": {
+            "metric": "conflict_and_stakes",
+            "output": "boolean"
+          }
+        },
+        "surprise": {
+          "surprise": 0.03717482089996338
+        },
+        "five_second": {
+          "result": false,
+          "raw_response": "{\n  \"has_compelling_hook\": false,\n  \"rationale\": \"It sets up a relatable annoyance \u2014 workplace social pressure and safety concerns \u2014 but lacks the emotional intensity, high-stakes conflict, or provocative twist in the opening lines to grab readers within five seconds.\"\n}",
+          "metadata": {
+            "metric": "five_second_hook",
+            "output": "boolean"
+          }
+        },
+        "setting": {
+          "source": "<string>",
+          "first_50_words": "Title: WIBTAH if I dont go to the Christmas party Our franchise owner has five stores, so all five stores meet at a mid point location for the yearly Christmas party. I didnt attend last year and I wasnt planning on it this year either, but my coworkers are insisting.",
+          "initial_impression": {
+            "prompt": "You are evaluating the opening of a creative text. Read ONLY the first 50 words below and answer three questions based on what these opening words suggest.\n\nFIRST 50 WORDS:\nTitle: WIBTAH if I dont go to the Christmas party Our franchise owner has five stores, so all five stores meet at a mid point location for the yearly Christmas party. I didnt attend last year and I wasnt planning on it this year either, but my coworkers are insisting.\n\nAnswer these questions based ONLY on what you just read:\n1. Who is this story about? (Describe the main character(s) or subject)\n2. Where is this story set? (Describe the location)\n3. When did this story happen relative to now? (e.g., \"past\", \"present\", \"future\", \"historical period\", etc.)\n\nRespond in JSON format:\n{\n  \"who\": \"your answer\",\n  \"where\": \"your answer\",\n  \"when\": \"your answer\"\n}\n",
+            "raw_response": "{\n  \"who\": \"The narrator \u2014 an employee who works at one of a franchise owner's five stores (with coworkers and the franchise owner as secondary figures).\",\n  \"where\": \"At a mid-point location where all five stores meet for the yearly Christmas party (an off-site gathering).\",\n  \"when\": \"Present \u2014 discussing this year's upcoming Christmas party, with reference to not attending last year.\"\n}",
+            "result": {
+              "who": "The narrator \u2014 an employee who works at one of a franchise owner's five stores (with coworkers and the franchise owner as secondary figures).",
+              "where": "At a mid-point location where all five stores meet for the yearly Christmas party (an off-site gathering).",
+              "when": "Present \u2014 discussing this year's upcoming Christmas party, with reference to not attending last year."
+            }
+          },
+          "consistency_verification": {
+            "prompt": "You are evaluating whether the opening of a story accurately represents the complete story.\n\nINITIAL IMPRESSIONS FROM FIRST 50 WORDS:\n- Who: The narrator \u2014 an employee who works at one of a franchise owner's five stores (with coworkers and the franchise owner as secondary figures).\n- Where: At a mid-point location where all five stores meet for the yearly Christmas party (an off-site gathering).\n- When: Present \u2014 discussing this year's upcoming Christmas party, with reference to not attending last year.\n\nCOMPLETE STORY:\nTitle: WIBTAH if I dont go to the Christmas party\n\nOur franchise owner has five stores, so all five stores meet at a mid point location for the yearly Christmas party. I didnt attend last year and I wasnt planning on it this year either, but my coworkers are insisting. It's gonna be the same as last year, free dinner and drinks and carnival style games with prizes. The idea of it doesnt sound bad but the location is somewhat out of my way. It would mean driving in the dark, in winter, to an unfamiliar town. I get motion sickness as a passenger so getting a ride is off the table, which also means I can't drink to get through it lol.. so yeah, wibtah if I don't go?\n\nTask: Determine if the initial impressions match the complete story.\n\nFor each element (who, where, when), assess:\n- \"yes\" if the initial impression matches the full story\n- \"no\" if contradicted or misaligned\n- \"unclear\" if the opening didn't establish it clearly\n\nThen provide an overall rating:\n- \"complete\": All three elements match\n- \"partial\": Mixed results (some match, some don't)\n- \"none\": Initial impressions are largely contradicted\n\nRespond in strict JSON format:\n{\n  \"who_match\": \"yes/no/unclear\",\n  \"where_match\": \"yes/no/unclear\",\n  \"when_match\": \"yes/no/unclear\",\n  \"overall_rating\": \"complete/partial/none\",\n  \"explanation\": \"Brief explanation of your reasoning\"\n}\nYour reply must be only that JSON object. Do not include markdown, code fences, backticks, or any surrounding text.\n",
+            "raw_response": "{\n  \"who_match\": \"yes\",\n  \"where_match\": \"yes\",\n  \"when_match\": \"yes\",\n  \"overall_rating\": \"complete\",\n  \"explanation\": \"The full story confirms the narrator is an employee at one of the franchise owner's five stores with coworkers mentioned, that the party is at a mid-point off-site location for all five stores, and that they're discussing this year's party with reference to not attending last year.\"\n}",
+            "result": {
+              "who_match": "yes",
+              "where_match": "yes",
+              "when_match": "yes",
+              "overall_rating": "complete",
+              "explanation": "The full story confirms the narrator is an employee at one of the franchise owner's five stores with coworkers mentioned, that the party is at a mid-point off-site location for all five stores, and that they're discussing this year's party with reference to not attending last year."
+            }
+          },
+          "result": "complete"
+        }
+      },
+      "aggregate": null,
+      "cleaned_metrics": {
+        "flesch_reading_ease": 74.10038461538463,
+        "motivation_consistency": true,
+        "conflict_and_stakes": false,
+        "surprise": 0.03717482089996338,
+        "five_second": false,
+        "setting": "complete"
+      }
+    }
+  }
+}
