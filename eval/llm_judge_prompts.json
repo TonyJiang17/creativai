@@ -5,11 +5,6 @@
         "false_example_file": "texts/weak_hook.txt" 
     },
     {
-        "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
-        "true_example_file": "texts/good_samples/s1_18000.txt",
-        "false_example_file": "texts/bad_samples/b2.txt"
-    },
-    {
         "question": "Does the below text break up the story into reasonably sized paragraphs?",
         "true_example_file": "texts/good_samples/s1_18000.txt",
         "false_example_file": "texts/bad_samples/b4.txt"
