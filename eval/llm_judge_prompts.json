@@ -13,5 +13,25 @@
         "question": "Does the below text break up the story into reasonably sized paragraphs?",
         "true_example_file": "texts/good_samples/s1_18000.txt",
         "false_example_file": "texts/bad_samples/b4.txt"
+    },
+    {
+        "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
+        "true_example_file": "texts/good_samples/s1_18000.txt",
+        "false_example_file": "texts/bad_samples/b6.txt"
+    },
+    {
+        "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
+        "true_example_file": "texts/good_samples/s1_18000.txt",
+        "false_example_file": "texts/bad_samples/b10.txt"
+    },
+    {
+        "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
+        "true_example_file": "texts/good_samples/s4_3000.txt",
+        "false_example_file": "texts/bad_samples/b10.txt"
+    },
+    {
+        "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
+        "true_example_file": "texts/good_samples/s2_16000.txt",
+        "false_example_file": "texts/bad_samples/b5.txt"
     }
 ]
