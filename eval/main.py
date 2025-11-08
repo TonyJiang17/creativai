@@ -19,12 +19,14 @@ from typing import Any, Iterable
 
 try:  # support running as a module or script
     from .text_llm_judge import ModelRunner, TextLLMJudge
+    from .length_judge import LengthJudge
 except ImportError:  # pragma: no cover
     import sys
     from pathlib import Path as _Path
 
     sys.path.append(str(_Path(__file__).resolve().parent.parent))
     from eval.text_llm_judge import ModelRunner, TextLLMJudge  # type: ignore
+    from eval.length_judge import LengthJudge
 
 import os
 from dotenv import load_dotenv
@@ -172,8 +174,19 @@ def run_all_judges(text_path: Path, judges: list[TextLLMJudge]) -> dict[str, Any
         if answer:
             true_count += 1
 
+    evaluation = LengthJudge().evaluate(text_path)
+    answer = evaluation["result"]
+    result["judges"][f"length_judge"] = {
+        "question": evaluation['prompt'],
+        "answer": answer,
+        "reason": "",
+        "raw_response": evaluation["raw_response"]
+    }
+    if answer:
+        true_count += 1
+
     # Calculate score as (number of true answers) / (total judges)
-    total_judges = len(judges)
+    total_judges = len(judges) + 1
     result["score"] = true_count / total_judges if total_judges > 0 else 0.0
 
     return result

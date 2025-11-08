@@ -6,48 +6,66 @@
       "judges": {
         "judge_0": {
           "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
-          "answer": false,
-          "reason": "The piece contains relatable conflict (betrayal, family tension) and gossip potential, but the opening is flat and lacks immediate emotional intensity or a strong cliffhanger\u2014it doesn\u2019t hook the reader within the first sentences.",
-          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The piece contains relatable conflict (betrayal, family tension) and gossip potential, but the opening is flat and lacks immediate emotional intensity or a strong cliffhanger\u2014it doesn\u2019t hook the reader within the first sentences.\"\n}"
+          "answer": true,
+          "reason": "The story contains clear conflict (a friend hooked up with the OP's boyfriend, ongoing family tension), emotional stakes (betrayal, anger, embarrassment), gossip-worthiness, relatable family-boundary themes, and positions the narrator as justified against a pushy parent. The opening reveals the inciting incident quickly and invites curiosity/judgment, so it functions as a compelling hook.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The story contains clear conflict (a friend hooked up with the OP's boyfriend, ongoing family tension), emotional stakes (betrayal, anger, embarrassment), gossip-worthiness, relatable family-boundary themes, and positions the narrator as justified against a pushy parent. The opening reveals the inciting incident quickly and invites curiosity/judgment, so it functions as a compelling hook.\"\n}"
         },
         "judge_1": {
-          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
-          "answer": true,
-          "reason": "The narrator describes adult relationships and social situations (bringing a boyfriend to a party, mothers as peers) with no indication of a high-school or child setting.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator describes adult relationships and social situations (bringing a boyfriend to a party, mothers as peers) with no indication of a high-school or child setting.\"\n}"
-        },
-        "judge_2": {
           "question": "Does the below text break up the story into reasonably sized paragraphs?",
           "answer": false,
-          "reason": "The story is presented as one long paragraph (after the title). It should be split into shorter paragraphs (background, mom\u2019s behavior/invitations, the confrontation/response) for better readability.",
-          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The story is presented as one long paragraph (after the title). It should be split into shorter paragraphs (background, mom\u2019s behavior/invitations, the confrontation/response) for better readability.\"\n}"
+          "reason": "The post is one long paragraph. It should be split into 2\u20134 paragraphs (background, what happened, ongoing conflict, question) for easier reading.",
+          "raw_response": "{\"answer\": false, \"reason\": \"The post is one long paragraph. It should be split into 2\u20134 paragraphs (background, what happened, ongoing conflict, question) for easier reading.\"}"
         },
-        "judge_3": {
+        "judge_2": {
           "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
           "answer": true,
-          "reason": "The situation invites reasonable disagreement: some will say OP is justified in setting boundaries and refusing friendship after a betrayal, while others will argue she should be civil or let go for the sake of her mother's relationship and social harmony.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The situation invites reasonable disagreement: some will say OP is justified in setting boundaries and refusing friendship after a betrayal, while others will argue she should be civil or let go for the sake of her mother's relationship and social harmony.\"\n}"
+          "reason": "The situation is morally ambiguous: some will see the OP\u2019s refusal to socialize as a legitimate boundary after a betrayal and respect for their feelings, while others will view it as immature or disrespectful to the mother trying to maintain friendships \u2014 reasonable people could disagree.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The situation is morally ambiguous: some will see the OP\u2019s refusal to socialize as a legitimate boundary after a betrayal and respect for their feelings, while others will view it as immature or disrespectful to the mother trying to maintain friendships \u2014 reasonable people could disagree.\"}"
         },
-        "judge_4": {
+        "judge_3": {
           "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
           "answer": false,
-          "reason": "The narrator states their current feelings and enforces a boundary but doesn't describe an emotional journey or personal growth \u2014 they're primarily asking whether they were wrong (seeking judgment/validation).",
-          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The narrator states their current feelings and enforces a boundary but doesn't describe an emotional journey or personal growth \u2014 they're primarily asking whether they were wrong (seeking judgment/validation).\"\n}"
+          "reason": "The narrator is asking for judgment about their decision and states their current boundary, but does not describe an emotional journey or growth\u2014it's seeking validation that their reaction/boundary is acceptable.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The narrator is asking for judgment about their decision and states their current boundary, but does not describe an emotional journey or growth\u2014it's seeking validation that their reaction/boundary is acceptable.\"\n}"
         },
-        "judge_5": {
+        "judge_4": {
           "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
           "answer": true,
-          "reason": "There's an interpersonal dispute between the OP and their mother over the mother's friend; the friend (and broader family dynamics) are directly affected, so it involves at least three parties.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"There's an interpersonal dispute between the OP and their mother over the mother's friend; the friend (and broader family dynamics) are directly affected, so it involves at least three parties.\"\n}"
+          "reason": "Your conflict with the former friend is being pulled into your mother\u2019s social circle \u2014 your mother\u2019s involvement (and the other mother\u2019s friendship) affects you, the ex-friend, and your mom (and indirectly the other mom), so three or more parties are impacted.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Your conflict with the former friend is being pulled into your mother\u2019s social circle \u2014 your mother\u2019s involvement (and the other mother\u2019s friendship) affects you, the ex-friend, and your mom (and indirectly the other mom), so three or more parties are impacted.\"\n}"
         },
-        "judge_6": {
+        "judge_5": {
           "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
           "answer": true,
-          "reason": "This is a values clash \u2014 the OP is asserting personal boundaries/privacy and refusal to be around someone who betrayed them, versus the mother's expectation of family harmony/polite socializing and obligation to host guests.",
-          "raw_response": "{\"answer\": true, \"reason\": \"This is a values clash \u2014 the OP is asserting personal boundaries/privacy and refusal to be around someone who betrayed them, versus the mother's expectation of family harmony/polite socializing and obligation to host guests.\"}"
+          "reason": "This is about competing principles: the OP\u2019s boundary/personal integrity and refusal to socialize with someone who betrayed them vs the mom\u2019s value of family harmony/forgiveness and social obligation \u2014 not just simple hurt feelings.",
+          "raw_response": "{\"answer\": true, \"reason\": \"This is about competing principles: the OP\u2019s boundary/personal integrity and refusal to socialize with someone who betrayed them vs the mom\u2019s value of family harmony/forgiveness and social obligation \u2014 not just simple hurt feelings.\"}"
+        },
+        "judge_6": {
+          "question": "Does the below text contain a main dispute that involves one of the following topics: \n\n 1.Close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc \n 2. Significant finances and money for the parties involved, such as saving, debt, inheritance, salary, expenses or financial inequality. Signifanct means the money involved would have a major quality of life impact to the people involved. \n 3. Cheating or betrayal. In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics. ",
+          "answer": true,
+          "reason": "The core conflict stems from betrayal \u2014 the friend hooked up with the poster's boyfriend, and the ongoing fallout (including the poster's mother pressuring them to socialize) centers on that cheating/betrayal.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The core conflict stems from betrayal \u2014 the friend hooked up with the poster's boyfriend, and the ongoing fallout (including the poster's mother pressuring them to socialize) centers on that cheating/betrayal.\"}"
+        },
+        "judge_7": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": false,
+          "reason": "This is a personal boundary/disagreement about social interactions with a specific person, not a high-consequence, long-term life choice (e.g., marriage, children, relocation, divorce).",
+          "raw_response": "{\"answer\": false, \"reason\": \"This is a personal boundary/disagreement about social interactions with a specific person, not a high-consequence, long-term life choice (e.g., marriage, children, relocation, divorce).\"}"
+        },
+        "judge_8": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "Refusing to engage with the friend / telling your mom to back off is a social boundary that can be changed or reconciled later \u2014 not an irreversible or extremely hard-to-reverse decision.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"Refusing to engage with the friend / telling your mom to back off is a social boundary that can be changed or reconciled later \u2014 not an irreversible or extremely hard-to-reverse decision.\"\n}"
+        },
+        "length_judge": {
+          "question": "Is length of text greater than 200 words?",
+          "answer": true,
+          "reason": "",
+          "raw_response": true
         }
       },
-      "score": 0.5714285714285714
+      "score": 0.6
     },
     "texts/bad_samples/b10.txt": {
       "source": "texts/bad_samples/b10.txt",
@@ -55,95 +73,131 @@
         "judge_0": {
           "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
           "answer": true,
-          "reason": "Yes \u2014 the title and opening quickly present a relatable domestic conflict (partner monopolizing conversations with hunting stories), creates emotional friction (annoyance), is gossip-worthy and positions the narrator as reasonably wronged, so it hooks readers immediately.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Yes \u2014 the title and opening quickly present a relatable domestic conflict (partner monopolizing conversations with hunting stories), creates emotional friction (annoyance), is gossip-worthy and positions the narrator as reasonably wronged, so it hooks readers immediately.\"\n}"
+          "reason": "Yes \u2014 the opener establishes an immediate, relatable relationship conflict (constant hunting talk) that creates curiosity and mild emotional tension. It\u2019s gossip-worthy and positions the narrator as frustrated/righteous, hooking the reader in the first sentences (even if it lacks a dramatic cliffhanger).",
+          "raw_response": "{\"answer\": true, \"reason\": \"Yes \u2014 the opener establishes an immediate, relatable relationship conflict (constant hunting talk) that creates curiosity and mild emotional tension. It\u2019s gossip-worthy and positions the narrator as frustrated/righteous, hooking the reader in the first sentences (even if it lacks a dramatic cliffhanger).\" }"
         },
         "judge_1": {
-          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
-          "answer": true,
-          "reason": "The narrator is in a long-term adult relationship (dating three years, moved in together) and describes adult activities (cohabitation, hunting), with no indication of a high-school or child setting.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator is in a long-term adult relationship (dating three years, moved in together) and describes adult activities (cohabitation, hunting), with no indication of a high-school or child setting.\"\n}"
-        },
-        "judge_2": {
           "question": "Does the below text break up the story into reasonably sized paragraphs?",
           "answer": true,
-          "reason": "The post is split into several short paragraphs (plus the title), each focused on a single idea, so the story is broken into reasonably sized paragraphs.",
-          "raw_response": "{\"answer\": true, \"reason\": \"The post is split into several short paragraphs (plus the title), each focused on a single idea, so the story is broken into reasonably sized paragraphs.\"}"
+          "reason": "Yes \u2014 the text is split into three short, focused paragraphs (context, feelings, and questions), making it readable and reasonably sized.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Yes \u2014 the text is split into three short, focused paragraphs (context, feelings, and questions), making it readable and reasonably sized.\"}"
         },
-        "judge_3": {
+        "judge_2": {
           "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
           "answer": true,
-          "reason": "Both sides have reasonable claims: he\u2019s excited and wants to share a passion, while she\u2019s entitled to conversational balance and boundaries. People could reasonably disagree about whether she\u2019s being unsupportive or he\u2019s being inconsiderate.",
-          "raw_response": "{\"answer\": true, \"reason\": \"Both sides have reasonable claims: he\u2019s excited and wants to share a passion, while she\u2019s entitled to conversational balance and boundaries. People could reasonably disagree about whether she\u2019s being unsupportive or he\u2019s being inconsiderate.\"}"
+          "reason": "Both sides have reasonable moral claims: he\u2019s excited and wants to share his passion, while she reasonably wants conversational reciprocity and not to be overwhelmed. Reasonable people could disagree which expectation should prevail.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Both sides have reasonable moral claims: he\u2019s excited and wants to share his passion, while she reasonably wants conversational reciprocity and not to be overwhelmed. Reasonable people could disagree which expectation should prevail.\"}"
         },
-        "judge_4": {
+        "judge_3": {
           "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
           "answer": false,
-          "reason": "The post is asking for advice/validation about being annoyed and how to address it, not reflecting on the narrator\u2019s emotional journey or growth.",
-          "raw_response": "{\"answer\": false, \"reason\": \"The post is asking for advice/validation about being annoyed and how to address it, not reflecting on the narrator\u2019s emotional journey or growth.\"}"
+          "reason": "The narrator is asking for advice/validation about being annoyed and how to communicate, with only brief self-questioning \u2014 there\u2019s no described emotional journey or growth.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The narrator is asking for advice/validation about being annoyed and how to communicate, with only brief self-questioning \u2014 there\u2019s no described emotional journey or growth.\"\n}"
         },
-        "judge_5": {
+        "judge_4": {
           "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
           "answer": false,
-          "reason": "This is an interpersonal annoyance between the narrator and her boyfriend only \u2014 no clear third party is affected.",
-          "raw_response": "{\"answer\": false, \"reason\": \"This is an interpersonal annoyance between the narrator and her boyfriend only \u2014 no clear third party is affected.\"}"
+          "reason": "The issue is a disagreement between the narrator and her boyfriend only \u2014 no third party is involved or affected.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The issue is a disagreement between the narrator and her boyfriend only \u2014 no third party is involved or affected.\"\n}"
         },
-        "judge_6": {
+        "judge_5": {
           "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
           "answer": false,
-          "reason": "This is a dispute about communication style and annoyance/boundaries (him oversharing a hobby), not a clash between competing values or principles.",
-          "raw_response": "{\"answer\": false, \"reason\": \"This is a dispute about communication style and annoyance/boundaries (him oversharing a hobby), not a clash between competing values or principles.\"}"
+          "reason": "This is a communication/compatibility issue \u2014 annoyance at one partner dominating conversations and not reciprocating interest \u2014 not a clash between competing moral values or principles.",
+          "raw_response": "{\"answer\": false, \"reason\": \"This is a communication/compatibility issue \u2014 annoyance at one partner dominating conversations and not reciprocating interest \u2014 not a clash between competing moral values or principles.\"}"
+        },
+        "judge_6": {
+          "question": "Does the below text contain a main dispute that involves one of the following topics: \n\n 1.Close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc \n 2. Significant finances and money for the parties involved, such as saving, debt, inheritance, salary, expenses or financial inequality. Signifanct means the money involved would have a major quality of life impact to the people involved. \n 3. Cheating or betrayal. In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics. ",
+          "answer": true,
+          "reason": "The main dispute is between romantic partners (boyfriend/girlfriend) about his behavior\u2014i.e., a close family/partner relationship disagreement over his constant hunting talk.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The main dispute is between romantic partners (boyfriend/girlfriend) about his behavior\u2014i.e., a close family/partner relationship disagreement over his constant hunting talk.\"}"
+        },
+        "judge_7": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": false,
+          "reason": "This is a day-to-day relationship annoyance about communication and interests, not a critical, high-consequence life decision or major conflicting choice.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is a day-to-day relationship annoyance about communication and interests, not a critical, high-consequence life decision or major conflicting choice.\"\n}"
+        },
+        "judge_8": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "This is a communication/relationship issue about how often he talks about hunting \u2014 it can be discussed, adjusted, and reversed; it's not an irreversible or extremely hard-to-reverse decision.",
+          "raw_response": "{\"answer\": false, \"reason\": \"This is a communication/relationship issue about how often he talks about hunting \u2014 it can be discussed, adjusted, and reversed; it's not an irreversible or extremely hard-to-reverse decision.\"}"
+        },
+        "length_judge": {
+          "question": "Is length of text greater than 200 words?",
+          "answer": true,
+          "reason": "",
+          "raw_response": true
         }
       },
-      "score": 0.5714285714285714
+      "score": 0.5
     },
     "texts/bad_samples/b2.txt": {
       "source": "texts/bad_samples/b2.txt",
       "judges": {
         "judge_0": {
           "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
-          "answer": true,
-          "reason": "Yes \u2014 it opens with a relatable online-friends scene and quickly establishes clear conflict (being aggressively told to shut up, insults, power-play with admin/mute), emotional intensity and gossip-worthiness, positions the narrator as standing up for themselves, and ends with an unresolved \u201cAm I wrong?\u201d cliffhanger that invites readers to continue.",
-          "raw_response": "{\"answer\": true, \"reason\": \"Yes \u2014 it opens with a relatable online-friends scene and quickly establishes clear conflict (being aggressively told to shut up, insults, power-play with admin/mute), emotional intensity and gossip-worthiness, positions the narrator as standing up for themselves, and ends with an unresolved \u201cAm I wrong?\u201d cliffhanger that invites readers to continue.\"}"
+          "answer": false,
+          "reason": "The story has a clear interpersonal conflict and is relatable, but the opening is mundane and slow to escalate\u2014there\u2019s no immediate, emotionally intense hook within the first lines. It becomes engaging only after a paragraph, so it doesn't grab the reader quickly or feel especially gossip-worthy or high-stakes.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The story has a clear interpersonal conflict and is relatable, but the opening is mundane and slow to escalate\u2014there\u2019s no immediate, emotionally intense hook within the first lines. It becomes engaging only after a paragraph, so it doesn't grab the reader quickly or feel especially gossip-worthy or high-stakes.\"\n}"
         },
         "judge_1": {
-          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
-          "answer": false,
-          "reason": "No clear adult indicators\u2014the narrator mentions doing schoolwork and the Discord/gaming context and behavior feel like a high\u2011school/teen environment, so the main character is likely not an adult.",
-          "raw_response": "{\"answer\": false, \"reason\": \"No clear adult indicators\u2014the narrator mentions doing schoolwork and the Discord/gaming context and behavior feel like a high\u2011school/teen environment, so the main character is likely not an adult.\"}"
-        },
-        "judge_2": {
           "question": "Does the below text break up the story into reasonably sized paragraphs?",
           "answer": true,
-          "reason": "The story is divided into several short paragraphs that each cover a distinct part of the sequence (setup, conflict, escalation, aftermath), making it readable and reasonably sized.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The story is divided into several short paragraphs that each cover a distinct part of the sequence (setup, conflict, escalation, aftermath), making it readable and reasonably sized.\"\n}"
+          "reason": "The story is divided into several short paragraphs, each covering a single event or point \u2014 they\u2019re concise and not overly long, so the text is broken into reasonably sized paragraphs.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The story is divided into several short paragraphs, each covering a single event or point \u2014 they\u2019re concise and not overly long, so the text is broken into reasonably sized paragraphs.\"}"
         },
-        "judge_3": {
+        "judge_2": {
           "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
           "answer": true,
-          "reason": "The situation is morally ambiguous: some will say OP was justified for standing up to rude, demeaning treatment and defending themselves, while others will say muting the owner back and insulting others was escalation and immature. Reasonable people could disagree about who handled it appropriately.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The situation is morally ambiguous: some will say OP was justified for standing up to rude, demeaning treatment and defending themselves, while others will say muting the owner back and insulting others was escalation and immature. Reasonable people could disagree about who handled it appropriately.\"\n}"
+          "reason": "The situation invites reasonable disagreement: some will say you were justified defending yourself against rude, aggressive behavior and misuse of server power; others will say you escalated things (muting back, name\u2011calling) and should have de\u2011escalated. Both positions are defensible.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The situation invites reasonable disagreement: some will say you were justified defending yourself against rude, aggressive behavior and misuse of server power; others will say you escalated things (muting back, name\u2011calling) and should have de\u2011escalated. Both positions are defensible.\"\n}"
         },
-        "judge_4": {
+        "judge_3": {
           "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
           "answer": false,
-          "reason": "The narrator is asking if they were wrong and seeking judgment; they describe immediate reactions and conflict but do not reflect on personal growth or an emotional journey.",
-          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The narrator is asking if they were wrong and seeking judgment; they describe immediate reactions and conflict but do not reflect on personal growth or an emotional journey.\"\n}"
+          "reason": "The post recounts events and defends the narrator's actions, asking if they were wrong \u2014 it expresses immediate feelings but lacks reflection on personal growth or an emotional journey.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The post recounts events and defends the narrator's actions, asking if they were wrong \u2014 it expresses immediate feelings but lacks reflection on personal growth or an emotional journey.\"\n}"
         },
-        "judge_5": {
+        "judge_4": {
           "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
           "answer": true,
-          "reason": "There is a clear conflict between the narrator and Jason (aggressive commands, muting, role removal, insults) that also involves Rico and Evan and leads to group fallout, so it affects at least three parties.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"There is a clear conflict between the narrator and Jason (aggressive commands, muting, role removal, insults) that also involves Rico and Evan and leads to group fallout, so it affects at least three parties.\"\n}"
+          "reason": "A dispute between the OP and Jason in a group Discord call escalated (aggressive language, server-muting, admin removal) and involved Rico and others, causing multiple people to stop talking to the OP.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"A dispute between the OP and Jason in a group Discord call escalated (aggressive language, server-muting, admin removal) and involved Rico and others, causing multiple people to stop talking to the OP.\"\n}"
         },
-        "judge_6": {
+        "judge_5": {
           "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
           "answer": true,
-          "reason": "This isn\u2019t just hurt feelings \u2014 it\u2019s about competing principles: fairness and respect/autonomy (not being singled out or disrespected) versus order/hierarchy and deference to the server owner. The clash is over boundaries and authority, not only emotions.",
-          "raw_response": "{\"answer\": true, \"reason\": \"This isn\u2019t just hurt feelings \u2014 it\u2019s about competing principles: fairness and respect/autonomy (not being singled out or disrespected) versus order/hierarchy and deference to the server owner. The clash is over boundaries and authority, not only emotions.\"}"
+          "reason": "This is about competing principles \u2014 standing up for self\u2011respect/fair treatment and asserting boundaries versus deference to the server owner and keeping group harmony \u2014 not just simple hurt feelings.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This is about competing principles \u2014 standing up for self\u2011respect/fair treatment and asserting boundaries versus deference to the server owner and keeping group harmony \u2014 not just simple hurt feelings.\"\n}"
+        },
+        "judge_6": {
+          "question": "Does the below text contain a main dispute that involves one of the following topics: \n\n 1.Close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc \n 2. Significant finances and money for the parties involved, such as saving, debt, inheritance, salary, expenses or financial inequality. Signifanct means the money involved would have a major quality of life impact to the people involved. \n 3. Cheating or betrayal. In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics. ",
+          "answer": false,
+          "reason": "The dispute is between friends over being disrespected and muted in a Discord call \u2014 it does not involve close family, significant finances, or cheating/betrayal as defined.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The dispute is between friends over being disrespected and muted in a Discord call \u2014 it does not involve close family, significant finances, or cheating/betrayal as defined.\"\n}"
+        },
+        "judge_7": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": false,
+          "reason": "This is a minor interpersonal conflict in a Discord call, not a high-consequence life decision (e.g., marriage, having children, leaving a long-term relationship).",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is a minor interpersonal conflict in a Discord call, not a high-consequence life decision (e.g., marriage, having children, leaving a long-term relationship).\"\n}"
+        },
+        "judge_8": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "This is a reversible interpersonal conflict (muting, insults, and shutting people out) \u2014 nothing irreversible was decided and the situation can be repaired or changed later.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is a reversible interpersonal conflict (muting, insults, and shutting people out) \u2014 nothing irreversible was decided and the situation can be repaired or changed later.\"\n}"
+        },
+        "length_judge": {
+          "question": "Is length of text greater than 200 words?",
+          "answer": true,
+          "reason": "",
+          "raw_response": true
         }
       },
-      "score": 0.7142857142857143
+      "score": 0.5
     },
     "texts/bad_samples/b3.txt": {
       "source": "texts/bad_samples/b3.txt",
@@ -151,47 +205,65 @@
         "judge_0": {
           "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
           "answer": true,
-          "reason": "Yes \u2014 it opens with high emotional stakes (DV, a single mother with a young child and seven cats in dire poverty), presents a clear conflict (take a job that leaves her 9yo alone in an unsafe area vs inability to afford childcare/food), is highly relatable/gossip-worthy, and engages the reader immediately while prompting continued discussion.",
-          "raw_response": "{\"answer\": true, \"reason\": \"Yes \u2014 it opens with high emotional stakes (DV, a single mother with a young child and seven cats in dire poverty), presents a clear conflict (take a job that leaves her 9yo alone in an unsafe area vs inability to afford childcare/food), is highly relatable/gossip-worthy, and engages the reader immediately while prompting continued discussion.\"}"
+          "reason": "The opening immediately presents a high-stakes, emotionally charged dilemma \u2014 a single mother choosing between income and her 9\u2011year\u2011old\u2019s safety \u2014 which evokes sympathy, clear conflict, relatable themes (parenting, poverty, DV), and invites discussion. It hooks quickly, though it leans more on urgency than a formal cliffhanger.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The opening immediately presents a high-stakes, emotionally charged dilemma \u2014 a single mother choosing between income and her 9\u2011year\u2011old\u2019s safety \u2014 which evokes sympathy, clear conflict, relatable themes (parenting, poverty, DV), and invites discussion. It hooks quickly, though it leans more on urgency than a formal cliffhanger.\"\n}"
         },
         "judge_1": {
-          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
-          "answer": true,
-          "reason": "The narrator states they are a 33\u2011year\u2011old single mother (adult) with a 9\u2011year\u2011old daughter, so the main character is an adult.",
-          "raw_response": "{\"answer\": true, \"reason\": \"The narrator states they are a 33\u2011year\u2011old single mother (adult) with a 9\u2011year\u2011old daughter, so the main character is an adult.\"}"
-        },
-        "judge_2": {
           "question": "Does the below text break up the story into reasonably sized paragraphs?",
           "answer": true,
-          "reason": "The post is divided into short, focused paragraphs (background, finances, job details, childcare options, risks, and conclusion), making it easy to read.",
-          "raw_response": "{\"answer\": true, \"reason\": \"The post is divided into short, focused paragraphs (background, finances, job details, childcare options, risks, and conclusion), making it easy to read.\"}"
+          "reason": "The post is split into multiple short paragraphs, each covering a single point or detail, making the story readable and reasonably sized.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The post is split into multiple short paragraphs, each covering a single point or detail, making the story readable and reasonably sized.\"\n}"
         },
-        "judge_3": {
+        "judge_2": {
           "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
           "answer": true,
-          "reason": "The post pits protecting a 9\u2011year\u2011old\u2019s safety and obeying the law (not leaving her alone in a dangerous, lockless home) against the urgent need for income and food; reasonable people could disagree about whether to take the risky job, seek alternatives, or refuse it.",
-          "raw_response": "{\"answer\": true, \"reason\": \"The post pits protecting a 9\u2011year\u2011old\u2019s safety and obeying the law (not leaving her alone in a dangerous, lockless home) against the urgent need for income and food; reasonable people could disagree about whether to take the risky job, seek alternatives, or refuse it.\"}"
+          "reason": "This is morally complex: some will argue she should take the job to provide food and stability, while others will argue protecting her 9\u2011year\u2011old from being left alone in an unsafe, illegal situation is the right priority. Reasonable people could disagree about which risk to accept.",
+          "raw_response": "{\"answer\": true, \"reason\": \"This is morally complex: some will argue she should take the job to provide food and stability, while others will argue protecting her 9\u2011year\u2011old from being left alone in an unsafe, illegal situation is the right priority. Reasonable people could disagree about which risk to accept.\"}"
         },
-        "judge_4": {
+        "judge_3": {
           "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
           "answer": false,
-          "reason": "The narrator describes practical circumstances, fears, and seeks advice about a safety-based decision rather than reflecting on personal emotional growth or a developmental journey.",
-          "raw_response": "{\"answer\": false, \"reason\": \"The narrator describes practical circumstances, fears, and seeks advice about a safety-based decision rather than reflecting on personal emotional growth or a developmental journey.\"}"
+          "reason": "The poster is asking for advice/validation about refusing the job to protect her daughter, focusing on immediate practical fears and constraints rather than recounting a personal emotional journey or growth.",
+          "raw_response": "{\"answer\": false, \"reason\": \"The poster is asking for advice/validation about refusing the job to protect her daughter, focusing on immediate practical fears and constraints rather than recounting a personal emotional journey or growth.\"}"
         },
-        "judge_5": {
+        "judge_4": {
           "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
           "answer": false,
-          "reason": "This is a personal dilemma (parent vs. circumstances) about working vs. child safety, not a clear conflict between two parties that impacts at least three people.",
-          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is a personal dilemma (parent vs. circumstances) about working vs. child safety, not a clear conflict between two parties that impacts at least three people.\"\n}"
+          "reason": "This is a personal dilemma about whether the mother can take a job without endangering her daughter, not a clear interpersonal conflict between two parties that impacts at least three people. It primarily affects the mother and her child (two parties).",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is a personal dilemma about whether the mother can take a job without endangering her daughter, not a clear interpersonal conflict between two parties that impacts at least three people. It primarily affects the mother and her child (two parties).\"\n}"
         },
-        "judge_6": {
+        "judge_5": {
           "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
           "answer": true,
-          "reason": "The dilemma pits duty to provide income (take the job) against duty to protect your daughter\u2019s safety and follow the law (not leaving a 9yo home alone) \u2014 competing values, not just hurt feelings.",
-          "raw_response": "{\"answer\": true, \"reason\": \"The dilemma pits duty to provide income (take the job) against duty to protect your daughter\u2019s safety and follow the law (not leaving a 9yo home alone) \u2014 competing values, not just hurt feelings.\"}"
+          "reason": "This is a clash between obligations \u2014 the need to earn income (provide for the family) versus keeping her 9\u2011year\u2011old safe and legally cared for. It's a principled trade\u2011off, not just hurt feelings.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This is a clash between obligations \u2014 the need to earn income (provide for the family) versus keeping her 9\u2011year\u2011old safe and legally cared for. It's a principled trade\u2011off, not just hurt feelings.\"\n}"
+        },
+        "judge_6": {
+          "question": "Does the below text contain a main dispute that involves one of the following topics: \n\n 1.Close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc \n 2. Significant finances and money for the parties involved, such as saving, debt, inheritance, salary, expenses or financial inequality. Signifanct means the money involved would have a major quality of life impact to the people involved. \n 3. Cheating or betrayal. In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics. ",
+          "answer": true,
+          "reason": "The main dispute is about whether to take a minimum\u2011wage job that would leave her 9yo daughter home alone \u2014 which directly involves a close family member (her child) and significant financial issues (pay, childcare costs, survival/expenses).",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The main dispute is about whether to take a minimum\u2011wage job that would leave her 9yo daughter home alone \u2014 which directly involves a close family member (her child) and significant financial issues (pay, childcare costs, survival/expenses).\"\n}"
+        },
+        "judge_7": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": true,
+          "reason": "A 33-year-old single mother must decide whether to take a minimum-wage job that would leave her 9-year-old home alone in a dangerous, lockless area (and stop her side income), posing legal and safety risks versus forgoing steady pay\u2014a high-consequence, conflicting life decision.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"A 33-year-old single mother must decide whether to take a minimum-wage job that would leave her 9-year-old home alone in a dangerous, lockless area (and stop her side income), posing legal and safety risks versus forgoing steady pay\u2014a high-consequence, conflicting life decision.\"\n}"
+        },
+        "judge_8": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": true,
+          "reason": "Taking the job would force leaving a 9yo alone for long hours in an unsafe, unlocked home (and is illegal) \u2014 that could lead to irreversible harm or trauma, so the stakes make the decision effectively one\u2011way.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Taking the job would force leaving a 9yo alone for long hours in an unsafe, unlocked home (and is illegal) \u2014 that could lead to irreversible harm or trauma, so the stakes make the decision effectively one\u2011way.\"}"
+        },
+        "length_judge": {
+          "question": "Is length of text greater than 200 words?",
+          "answer": true,
+          "reason": "",
+          "raw_response": true
         }
       },
-      "score": 0.7142857142857143
+      "score": 0.8
     },
     "texts/bad_samples/b4.txt": {
       "source": "texts/bad_samples/b4.txt",
@@ -199,95 +271,131 @@
         "judge_0": {
           "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
           "answer": true,
-          "reason": "The provocative title plus immediate opening about withheld sex creates instant emotional intensity and gossip-worthiness. It establishes a clear conflict (rejection/imbalance in intimacy), positions the narrator as wronged, touches on relatable marriage/sex themes, and hooks the reader within the first sentence.",
-          "raw_response": "{\"answer\": true, \"reason\": \"The provocative title plus immediate opening about withheld sex creates instant emotional intensity and gossip-worthiness. It establishes a clear conflict (rejection/imbalance in intimacy), positions the narrator as wronged, touches on relatable marriage/sex themes, and hooks the reader within the first sentence.\"}"
+          "reason": "The provocative title plus the immediate, relatable account of sexual rejection creates emotional intensity and clear conflict (hurt, embarrassment, betrayal). It positions the narrator as wronged, is naturally gossip-worthy, and hooks quickly by inviting judgment\u2014so readers will want to keep reading.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The provocative title plus the immediate, relatable account of sexual rejection creates emotional intensity and clear conflict (hurt, embarrassment, betrayal). It positions the narrator as wronged, is naturally gossip-worthy, and hooks quickly by inviting judgment\u2014so readers will want to keep reading.\"\n}"
         },
         "judge_1": {
-          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
-          "answer": true,
-          "reason": "The narrator is married and describes adult situations (husband, marriage, past ACL surgery, work), so the main character is an adult.",
-          "raw_response": "{\"answer\": true, \"reason\": \"The narrator is married and describes adult situations (husband, marriage, past ACL surgery, work), so the main character is an adult.\"}"
-        },
-        "judge_2": {
           "question": "Does the below text break up the story into reasonably sized paragraphs?",
           "answer": false,
-          "reason": "Aside from the title, the story is one long paragraph. It should be split into shorter paragraphs at natural breaks (background, ongoing pattern, the recent incident, and the reaction) for readability.",
-          "raw_response": "{\"answer\": false, \"reason\": \"Aside from the title, the story is one long paragraph. It should be split into shorter paragraphs at natural breaks (background, ongoing pattern, the recent incident, and the reaction) for readability.\"}"
+          "reason": "The story is presented as one long block of text with no paragraph breaks; it should be split into shorter paragraphs (intro, background, key incidents, and conclusion) for better readability.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The story is presented as one long block of text with no paragraph breaks; it should be split into shorter paragraphs (intro, background, key incidents, and conclusion) for better readability.\"\n}"
         },
-        "judge_3": {
+        "judge_2": {
           "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
           "answer": true,
-          "reason": "This raises defensible but opposing views: some will sympathize with protecting self\u2011esteem and setting a boundary after repeated silent rejection, while others will see withholding intimacy as punitive or argue the husband\u2019s possible pain/communication issues mitigate his behavior\u2014reasonable people could disagree.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This raises defensible but opposing views: some will sympathize with protecting self\u2011esteem and setting a boundary after repeated silent rejection, while others will see withholding intimacy as punitive or argue the husband\u2019s possible pain/communication issues mitigate his behavior\u2014reasonable people could disagree.\"\n}"
+          "reason": "The post presents competing reasonable viewpoints: she feels emotionally hurt and may see stopping initiation as self\u2011protection, while others could view withholding sex as punitive or argue his low drive may stem from pain, stress, or other issues\u2014reasonable people could disagree on who is right.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The post presents competing reasonable viewpoints: she feels emotionally hurt and may see stopping initiation as self\u2011protection, while others could view withholding sex as punitive or argue his low drive may stem from pain, stress, or other issues\u2014reasonable people could disagree on who is right.\"}"
+        },
+        "judge_3": {
+          "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
+          "answer": false,
+          "reason": "While the narrator describes hurt and actions taken, the post is primarily asking for judgment/validation (\"Am I the asshole?\") rather than reflecting on personal growth or an emotional journey.",
+          "raw_response": "{\"answer\": false, \"reason\": \"While the narrator describes hurt and actions taken, the post is primarily asking for judgment/validation (\\\"Am I the asshole?\\\") rather than reflecting on personal growth or an emotional journey.\"}"
         },
         "judge_4": {
-          "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
-          "answer": true,
-          "reason": "The narrator recounts their emotional experience (hurt, crying, lowered self\u2011esteem), attempts to communicate, and then sets a boundary (stopping initiation) \u2014 showing emotional processing/response rather than only asking for validation.",
-          "raw_response": "{\"answer\": true, \"reason\": \"The narrator recounts their emotional experience (hurt, crying, lowered self\u2011esteem), attempts to communicate, and then sets a boundary (stopping initiation) \u2014 showing emotional processing/response rather than only asking for validation.\"}"
-        },
-        "judge_5": {
           "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
           "answer": false,
-          "reason": "This is a marital conflict between the narrator and her husband over intimacy; no clear third party is implicated or affected.",
-          "raw_response": "{\"answer\": false, \"reason\": \"This is a marital conflict between the narrator and her husband over intimacy; no clear third party is implicated or affected.\"}"
+          "reason": "This is an intimate/relationship dispute between the poster and her husband only \u2014 no clear third party is involved or affected, so it doesn't meet the 'at least three parties' criterion.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is an intimate/relationship dispute between the poster and her husband only \u2014 no clear third party is involved or affected, so it doesn't meet the 'at least three parties' criterion.\"\n}"
         },
-        "judge_6": {
+        "judge_5": {
           "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
           "answer": true,
-          "reason": "This centers on competing priorities \u2014 the wife's need for sexual intimacy, affirmation, and clear communication versus the husband's physical limits, autonomy/comfort and reluctance to engage \u2014 so it's more than simple hurt feelings.",
-          "raw_response": "{\"answer\": true, \"reason\": \"This centers on competing priorities \u2014 the wife's need for sexual intimacy, affirmation, and clear communication versus the husband's physical limits, autonomy/comfort and reluctance to engage \u2014 so it's more than simple hurt feelings.\"}"
+          "reason": "This is about competing needs/principles \u2014 her need for sexual intimacy, validation, and reciprocity versus his physical comfort, autonomy, and avoidance of pressure \u2014 not just one-off hurt feelings.",
+          "raw_response": "{\"answer\": true, \"reason\": \"This is about competing needs/principles \u2014 her need for sexual intimacy, validation, and reciprocity versus his physical comfort, autonomy, and avoidance of pressure \u2014 not just one-off hurt feelings.\"}"
+        },
+        "judge_6": {
+          "question": "Does the below text contain a main dispute that involves one of the following topics: \n\n 1.Close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc \n 2. Significant finances and money for the parties involved, such as saving, debt, inheritance, salary, expenses or financial inequality. Signifanct means the money involved would have a major quality of life impact to the people involved. \n 3. Cheating or betrayal. In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics. ",
+          "answer": true,
+          "reason": "Yes \u2014 the conflict is between spouses (newly married wife and husband) about sexual intimacy and rejection, involving a close family relationship.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Yes \u2014 the conflict is between spouses (newly married wife and husband) about sexual intimacy and rejection, involving a close family relationship.\"}"
+        },
+        "judge_7": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": false,
+          "reason": "This is about sexual intimacy and setting a boundary (stopping initiation) within an existing marriage, not a critical, high-consequence life decision like divorce, having children, or permanently changing life circumstances.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is about sexual intimacy and setting a boundary (stopping initiation) within an existing marriage, not a critical, high-consequence life decision like divorce, having children, or permanently changing life circumstances.\"\n}"
+        },
+        "judge_8": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "Refusing to initiate sex is a reversible behavior change and can be addressed through communication, compromise, or therapy; it isn\u2019t an irreversible or impossibly difficult-to-reverse decision.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"Refusing to initiate sex is a reversible behavior change and can be addressed through communication, compromise, or therapy; it isn\u2019t an irreversible or impossibly difficult-to-reverse decision.\"\n}"
+        },
+        "length_judge": {
+          "question": "Is length of text greater than 200 words?",
+          "answer": true,
+          "reason": "",
+          "raw_response": true
         }
       },
-      "score": 0.7142857142857143
+      "score": 0.5
     },
     "texts/bad_samples/b5.txt": {
       "source": "texts/bad_samples/b5.txt",
       "judges": {
         "judge_0": {
           "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
-          "answer": true,
-          "reason": "The opening establishes immediate conflict (stonewalling after being ignored), taps relatable themes (trust, communication, past cheating), and includes a gossip-worthy detail (9-year age gap). It positions the narrator as wronged and ends with a clear cliffhanger question, so it hooks readers despite some typos.",
-          "raw_response": "{\"answer\": true, \"reason\": \"The opening establishes immediate conflict (stonewalling after being ignored), taps relatable themes (trust, communication, past cheating), and includes a gossip-worthy detail (9-year age gap). It positions the narrator as wronged and ends with a clear cliffhanger question, so it hooks readers despite some typos.\"}"
+          "answer": false,
+          "reason": "It has relatable conflict (stonewalling, cheating trauma, a noticeable age gap) and positions the narrator as wronged, but the opening is flat and unpolished with low emotional intensity and no real cliffhanger \u2014 it doesn\u2019t grab the reader instantly.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"It has relatable conflict (stonewalling, cheating trauma, a noticeable age gap) and positions the narrator as wronged, but the opening is flat and unpolished with low emotional intensity and no real cliffhanger \u2014 it doesn\u2019t grab the reader instantly.\"\n}"
         },
         "judge_1": {
-          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
-          "answer": true,
-          "reason": "The narrator is 30 (girlfriend 21), so the main characters are adults and the story involves adult dating rather than a high-school/child setting.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator is 30 (girlfriend 21), so the main characters are adults and the story involves adult dating rather than a high-school/child setting.\"\n}"
-        },
-        "judge_2": {
           "question": "Does the below text break up the story into reasonably sized paragraphs?",
           "answer": true,
-          "reason": "The text is split into several short paragraphs, each covering a distinct part of the story (incident, explanation, reaction, decision, context), so it isn't one long block.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The text is split into several short paragraphs, each covering a distinct part of the story (incident, explanation, reaction, decision, context), so it isn't one long block.\"\n}"
+          "reason": "The post is split into several short paragraphs, each covering a distinct beat (setup, what happened, her reaction, his response/decision, and context), making it easy to read.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The post is split into several short paragraphs, each covering a distinct beat (setup, what happened, her reaction, his response/decision, and context), making it easy to read.\"}"
         },
-        "judge_3": {
+        "judge_2": {
           "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
           "answer": true,
-          "reason": "Both sides have defensible positions: he unintentionally ignored her and apologized and expects forgiveness/consistent communication, while she has past trauma from an ex cheating and is protecting herself by withdrawing. Reasonable people could disagree about who is right.",
-          "raw_response": "{\"answer\": true, \"reason\": \"Both sides have defensible positions: he unintentionally ignored her and apologized and expects forgiveness/consistent communication, while she has past trauma from an ex cheating and is protecting herself by withdrawing. Reasonable people could disagree about who is right.\"}"
+          "reason": "Both parties have plausible, conflicting claims: he unintentionally ignored her while trying to be attentive to a friend and apologized, while she has past trauma (an ex who disappeared/cheated) and is protecting herself by stonewalling. Reasonable people could disagree whether her reaction is proportionate or whether he should expect forgiveness given the relationship length and age gap.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Both parties have plausible, conflicting claims: he unintentionally ignored her while trying to be attentive to a friend and apologized, while she has past trauma (an ex who disappeared/cheated) and is protecting herself by stonewalling. Reasonable people could disagree whether her reaction is proportionate or whether he should expect forgiveness given the relationship length and age gap.\"}"
         },
-        "judge_4": {
+        "judge_3": {
           "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
           "answer": false,
-          "reason": "The post is primarily asking for judgment/validation about whether he should break up; while he acknowledges the girlfriend's feelings and promises to try, it lacks a clear narrative of his own emotional growth or sustained self-reflection.",
-          "raw_response": "{\"answer\": false, \"reason\": \"The post is primarily asking for judgment/validation about whether he should break up; while he acknowledges the girlfriend's feelings and promises to try, it lacks a clear narrative of his own emotional growth or sustained self-reflection.\"}"
+          "reason": "The post is framed as an AITA request seeking judgment and validation. While the narrator admits fault and promises to try harder, there\u2019s little sustained self-reflection or described emotional growth\u2014the focus is on whether the girlfriend\u2019s reaction is justified and whether to break up.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The post is framed as an AITA request seeking judgment and validation. While the narrator admits fault and promises to try harder, there\u2019s little sustained self-reflection or described emotional growth\u2014the focus is on whether the girlfriend\u2019s reaction is justified and whether to break up.\"\n}"
         },
-        "judge_5": {
+        "judge_4": {
           "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
           "answer": true,
-          "reason": "There is a clear conflict between the OP and his girlfriend about him ignoring her, and a third party (his friend Turner, whose conversation caused the lapse) is directly involved/implicated, so it affects at least three people.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"There is a clear conflict between the OP and his girlfriend about him ignoring her, and a third party (his friend Turner, whose conversation caused the lapse) is directly involved/implicated, so it affects at least three people.\"\n}"
+          "reason": "There is a direct conflict between the OP and his girlfriend over her stonewalling after he ignored her, and it also involves/affects a third party (his friend Turner, whose conversation led to the issue) \u2014 more than two people are impacted.",
+          "raw_response": "{\"answer\": true, \"reason\": \"There is a direct conflict between the OP and his girlfriend over her stonewalling after he ignored her, and it also involves/affects a third party (his friend Turner, whose conversation led to the issue) \u2014 more than two people are impacted.\"}"
         },
-        "judge_6": {
+        "judge_5": {
           "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
           "answer": true,
-          "reason": "This is about conflicting principles \u2014 his expectation of emotional maturity, openness, and reliable communication versus her boundary-setting and self\u2011protection (due to past trauma). It\u2019s more than simple hurt feelings.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This is about conflicting principles \u2014 his expectation of emotional maturity, openness, and reliable communication versus her boundary-setting and self\u2011protection (due to past trauma). It\u2019s more than simple hurt feelings.\"\n}"
+          "reason": "This reflects a clash of principles\u2014his expectation of emotional maturity/openness and communication versus her prioritizing self-protection/boundaries and caution after past betrayal\u2014so it\u2019s about trust vs safety, not just simple hurt feelings.",
+          "raw_response": "{\"answer\": true, \"reason\": \"This reflects a clash of principles\u2014his expectation of emotional maturity/openness and communication versus her prioritizing self-protection/boundaries and caution after past betrayal\u2014so it\u2019s about trust vs safety, not just simple hurt feelings.\"}"
+        },
+        "judge_6": {
+          "question": "Does the below text contain a main dispute that involves one of the following topics: \n\n 1.Close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc \n 2. Significant finances and money for the parties involved, such as saving, debt, inheritance, salary, expenses or financial inequality. Signifanct means the money involved would have a major quality of life impact to the people involved. \n 3. Cheating or betrayal. In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics. ",
+          "answer": true,
+          "reason": "The core dispute is about trust and perceived betrayal in the romantic relationship\u2014the girlfriend\u2019s stonewalling stems from past cheating by her ex and feeling hurt when her current partner ignored her.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The core dispute is about trust and perceived betrayal in the romantic relationship\u2014the girlfriend\u2019s stonewalling stems from past cheating by her ex and feeling hurt when her current partner ignored her.\"}"
+        },
+        "judge_7": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": false,
+          "reason": "The narrator is considering ending a short-term relationship\u2014while personal and important, it's not a high-consequence, long-term life decision (e.g., marriage, children, major career/financial/legal choice).",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The narrator is considering ending a short-term relationship\u2014while personal and important, it's not a high-consequence, long-term life decision (e.g., marriage, children, major career/financial/legal choice).\"\n}"
+        },
+        "judge_8": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "The main decision is whether to break up \u2014 that is not irreversible. While painful, a breakup can be reversed or lead to reconciliation, so it isn\u2019t a one\u2011way, permanently unfixable decision.",
+          "raw_response": "{\"answer\": false, \"reason\": \"The main decision is whether to break up \u2014 that is not irreversible. While painful, a breakup can be reversed or lead to reconciliation, so it isn\u2019t a one\u2011way, permanently unfixable decision.\"}"
+        },
+        "length_judge": {
+          "question": "Is length of text greater than 200 words?",
+          "answer": true,
+          "reason": "",
+          "raw_response": true
         }
       },
-      "score": 0.8571428571428571
+      "score": 0.6
     },
     "texts/bad_samples/b6.txt": {
       "source": "texts/bad_samples/b6.txt",
@@ -295,47 +403,65 @@
         "judge_0": {
           "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
           "answer": true,
-          "reason": "Yes \u2014 it opens with a sexually charged, relatable dating scenario that immediately sets up clear conflict (her boundary vs. his expectations), emotional tension/guilt, and a gossip-worthy dilemma about whether she led him on, which hooks readers to want to know what happens next.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Yes \u2014 it opens with a sexually charged, relatable dating scenario that immediately sets up clear conflict (her boundary vs. his expectations), emotional tension/guilt, and a gossip-worthy dilemma about whether she led him on, which hooks readers to want to know what happens next.\"\n}"
+          "reason": "Yes \u2014 the post immediately presents a morally and emotionally charged dating/sex boundary conflict that's relatable and gossip-worthy (he's upset and not talking), establishes clear tension and potential wrongdoing, and hooks the reader with curiosity about consequences and who is at fault.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Yes \u2014 the post immediately presents a morally and emotionally charged dating/sex boundary conflict that's relatable and gossip-worthy (he's upset and not talking), establishes clear tension and potential wrongdoing, and hooks the reader with curiosity about consequences and who is at fault.\"\n}"
         },
         "judge_1": {
-          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
+          "question": "Does the below text break up the story into reasonably sized paragraphs?",
           "answer": true,
-          "reason": "The narrator and the other person are described as college-age, indicating adult/main characters rather than high-school-aged or children.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator and the other person are described as college-age, indicating adult/main characters rather than high-school-aged or children.\"\n}"
+          "reason": "The post is split into two short paragraphs, each covering a distinct aspect (background/boundary and the incident/reflection), so the paragraphs are a reasonable size.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The post is split into two short paragraphs, each covering a distinct aspect (background/boundary and the incident/reflection), so the paragraphs are a reasonable size.\"\n}"
         },
         "judge_2": {
-          "question": "Does the below text break up the story into reasonably sized paragraphs?",
-          "answer": false,
-          "reason": "Paragraphs are uneven and the final block is long and dense \u2014 it should be split into smaller paragraphs for better readability.",
-          "raw_response": "{\"answer\": false, \"reason\": \"Paragraphs are uneven and the final block is long and dense \u2014 it should be split into smaller paragraphs for better readability.\"}"
-        },
-        "judge_3": {
           "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
           "answer": false,
-          "reason": "This is a relatively straightforward boundary/honesty dispute: the poster set a personal rule and failed to disclose it, so opinions will be predictable (some blame her for misleading, others defend her right to change her mind). It lacks the deeper, multi-sided moral complexity where reasonable people would strongly disagree about who is right.",
-          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is a relatively straightforward boundary/honesty dispute: the poster set a personal rule and failed to disclose it, so opinions will be predictable (some blame her for misleading, others defend her right to change her mind). It lacks the deeper, multi-sided moral complexity where reasonable people would strongly disagree about who is right.\"\n}"
+          "reason": "This is a fairly straightforward conflict about communication and consent: while her boundary is valid, most people will agree she should have disclosed it rather than implicitly leading him on, so it doesn\u2019t present the kind of genuine moral ambiguity where reasonable people would strongly disagree.",
+          "raw_response": "{\"answer\": false, \"reason\": \"This is a fairly straightforward conflict about communication and consent: while her boundary is valid, most people will agree she should have disclosed it rather than implicitly leading him on, so it doesn\u2019t present the kind of genuine moral ambiguity where reasonable people would strongly disagree.\"}"
         },
-        "judge_4": {
+        "judge_3": {
           "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
           "answer": true,
-          "reason": "The narrator reflects on their boundary, motives (fear of losing interest), and feelings of guilt/possible manipulation\u2014showing introspection and personal accountability rather than just asking for validation.",
-          "raw_response": "{\"answer\": true, \"reason\": \"The narrator reflects on their boundary, motives (fear of losing interest), and feelings of guilt/possible manipulation\u2014showing introspection and personal accountability rather than just asking for validation.\"}"
+          "reason": "The narrator reflects on their boundary, motivations (fear of losing interest), and feelings of guilt, showing introspection and personal accountability rather than only asking for validation.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The narrator reflects on their boundary, motivations (fear of losing interest), and feelings of guilt, showing introspection and personal accountability rather than only asking for validation.\"}"
         },
-        "judge_5": {
+        "judge_4": {
           "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
           "answer": false,
-          "reason": "This is a personal conflict between the narrator and the guy (two parties). No third party is involved or affected in the description.",
-          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is a personal conflict between the narrator and the guy (two parties). No third party is involved or affected in the description.\"\n}"
+          "reason": "The issue is a personal interpersonal conflict between the poster and the guy she was seeing; no third party is affected or involved in the dispute according to the text.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The issue is a personal interpersonal conflict between the poster and the guy she was seeing; no third party is affected or involved in the dispute according to the text.\"\n}"
         },
-        "judge_6": {
+        "judge_5": {
           "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
           "answer": true,
-          "reason": "The situation pits honesty/transparent communication and respect for boundaries (and informed consent) against the poster's desire to keep the guy interested and avoid rejection \u2014 a clash of values/principles rather than just simple hurt feelings.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The situation pits honesty/transparent communication and respect for boundaries (and informed consent) against the poster's desire to keep the guy interested and avoid rejection \u2014 a clash of values/principles rather than just simple hurt feelings.\"\n}"
+          "reason": "This centers on conflicting principles\u2014honesty/transparent communication vs wanting to preserve attraction/avoid rejection and enforce personal sexual boundaries\u2014rather than just simple hurt feelings.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This centers on conflicting principles\u2014honesty/transparent communication vs wanting to preserve attraction/avoid rejection and enforce personal sexual boundaries\u2014rather than just simple hurt feelings.\"\n}"
+        },
+        "judge_6": {
+          "question": "Does the below text contain a main dispute that involves one of the following topics: \n\n 1.Close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc \n 2. Significant finances and money for the parties involved, such as saving, debt, inheritance, salary, expenses or financial inequality. Signifanct means the money involved would have a major quality of life impact to the people involved. \n 3. Cheating or betrayal. In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics. ",
+          "answer": false,
+          "reason": "The dispute is about romantic/sexual boundaries and whether she led him on \u2014 not about family members, significant finances, or cheating/infidelity/betrayal as defined in the prompt.",
+          "raw_response": "{\"answer\": false, \"reason\": \"The dispute is about romantic/sexual boundaries and whether she led him on \u2014 not about family members, significant finances, or cheating/infidelity/betrayal as defined in the prompt.\"}"
+        },
+        "judge_7": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": false,
+          "reason": "This is about a short-term romantic/sexual boundary and whether she led him on\u2014not a major, high-consequence life decision (e.g., marriage, having children, career-defining choice).",
+          "raw_response": "{\"answer\": false, \"reason\": \"This is about a short-term romantic/sexual boundary and whether she led him on\u2014not a major, high-consequence life decision (e.g., marriage, having children, career-defining choice).\"}"
+        },
+        "judge_8": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "This is a dispute about communication and boundaries, not an irreversible decision. Nothing permanently changed (they stopped before sex) and the situation can be repaired or clarified through conversation, apology, and future behavior.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is a dispute about communication and boundaries, not an irreversible decision. Nothing permanently changed (they stopped before sex) and the situation can be repaired or clarified through conversation, apology, and future behavior.\"\n}"
+        },
+        "length_judge": {
+          "question": "Is length of text greater than 200 words?",
+          "answer": true,
+          "reason": "",
+          "raw_response": true
         }
       },
-      "score": 0.5714285714285714
+      "score": 0.5
     },
     "texts/bad_samples/b7.txt": {
       "source": "texts/bad_samples/b7.txt",
@@ -343,143 +469,197 @@
         "judge_0": {
           "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
           "answer": true,
-          "reason": "Yes \u2014 it opens with a secret marriage and a husband with mental\u2011health issues while parents are visiting, creating immediate emotional intensity, clear family conflict, gossip\u2011worthy details (police, cheating, a mistress), relatable themes (safety, control, betrayal), and positions the narrator as wronged, so readers are hooked to see what happens next.",
-          "raw_response": "{\"answer\": true, \"reason\": \"Yes \u2014 it opens with a secret marriage and a husband with mental\u2011health issues while parents are visiting, creating immediate emotional intensity, clear family conflict, gossip\u2011worthy details (police, cheating, a mistress), relatable themes (safety, control, betrayal), and positions the narrator as wronged, so readers are hooked to see what happens next.\"}"
+          "reason": "The opening immediately presents high emotional stakes (mental-health crisis, police involvement, cheating), clear family conflict and secrecy, and gossip-worthy tension between the narrator, her parents, and her husband\u2014making it engaging and relatable from the first sentences.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The opening immediately presents high emotional stakes (mental-health crisis, police involvement, cheating), clear family conflict and secrecy, and gossip-worthy tension between the narrator, her parents, and her husband\u2014making it engaging and relatable from the first sentences.\"\n}"
         },
         "judge_1": {
-          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
-          "answer": true,
-          "reason": "The narrator is married and a parent (mentions leaving husband 10 days after giving birth and caring for a daughter), so the main character is an adult.",
-          "raw_response": "{\"answer\": true, \"reason\": \"The narrator is married and a parent (mentions leaving husband 10 days after giving birth and caring for a daughter), so the main character is an adult.\"}"
-        },
-        "judge_2": {
           "question": "Does the below text break up the story into reasonably sized paragraphs?",
           "answer": true,
-          "reason": "The story is split into multiple short paragraphs, each covering a distinct event or point, making it easy to read and follow.",
-          "raw_response": "{\"answer\": true, \"reason\": \"The story is split into multiple short paragraphs, each covering a distinct event or point, making it easy to read and follow.\"}"
+          "reason": "The story is divided into multiple short paragraphs, each covering a distinct event or point, making it readable and reasonably paced.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The story is divided into multiple short paragraphs, each covering a distinct event or point, making it readable and reasonably paced.\"\n}"
         },
-        "judge_3": {
+        "judge_2": {
           "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
           "answer": true,
-          "reason": "The situation pits competing reasonable values: the parents\u2019 concern for the child\u2019s safety and cultural stigma around police involvement versus the OP\u2019s autonomy, history of being mistreated by her husband, and distrust of her parents\u2019 sympathy due to their hypocrisy. Reasonable people could disagree about whether the parents\u2019 warnings and interventions are justified or whether the OP is right to reject her father\u2019s sympathy and continue limited contact with the husband.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The situation pits competing reasonable values: the parents\u2019 concern for the child\u2019s safety and cultural stigma around police involvement versus the OP\u2019s autonomy, history of being mistreated by her husband, and distrust of her parents\u2019 sympathy due to their hypocrisy. Reasonable people could disagree about whether the parents\u2019 warnings and interventions are justified or whether the OP is right to reject her father\u2019s sympathy and continue limited contact with the husband.\"\n}"
+          "reason": "The post presents competing reasonable perspectives \u2014 the parents prioritizing safety and intervention vs. the mother asserting autonomy, complex family/mental\u2011health dynamics, and cultural context \u2014 so people could reasonably disagree about who is right.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The post presents competing reasonable perspectives \u2014 the parents prioritizing safety and intervention vs. the mother asserting autonomy, complex family/mental\u2011health dynamics, and cultural context \u2014 so people could reasonably disagree about who is right.\"}"
         },
-        "judge_4": {
+        "judge_3": {
           "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
           "answer": false,
-          "reason": "The post mainly recounts events and seeks judgment about the situation \u2014 it expresses anger and reasons for cutting off the dad but doesn\u2019t show a clear emotional growth arc or reflective journey.",
-          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The post mainly recounts events and seeks judgment about the situation \u2014 it expresses anger and reasons for cutting off the dad but doesn\u2019t show a clear emotional growth arc or reflective journey.\"\n}"
+          "reason": "The narrator mainly recounts events and seeks judgment (AITAH) and justification for their choices; there's little sustained self-reflection or portrayed emotional growth beyond explaining why they feel hurt.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The narrator mainly recounts events and seeks judgment (AITAH) and justification for their choices; there's little sustained self-reflection or portrayed emotional growth beyond explaining why they feel hurt.\"\n}"
         },
-        "judge_5": {
+        "judge_4": {
           "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
           "answer": true,
-          "reason": "There is a dispute between the OP and her parents over her continuing contact with her husband; this conflict impacts at least three parties (OP, her daughter, and the husband, plus the parents themselves).",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"There is a dispute between the OP and her parents over her continuing contact with her husband; this conflict impacts at least three parties (OP, her daughter, and the husband, plus the parents themselves).\"\n}"
+          "reason": "Yes \u2014 there is a clear conflict between the OP and her parents (especially her dad) over her seeing her husband; that dispute also directly involves/affects the husband and their child, so more than two parties are impacted.",
+          "raw_response": "{\"answer\": true, \"reason\": \"Yes \u2014 there is a clear conflict between the OP and her parents (especially her dad) over her seeing her husband; that dispute also directly involves/affects the husband and their child, so more than two parties are impacted.\"}"
         },
-        "judge_6": {
+        "judge_5": {
           "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
           "answer": true,
-          "reason": "This is a values clash: parents prioritizing duty, safety, family reputation and control (and cultural views about involving police) vs the daughter\u2019s autonomy/independence in deciding contact with her child\u2019s father \u2014 not just simple hurt feelings.",
-          "raw_response": "{\"answer\": true, \"reason\": \"This is a values clash: parents prioritizing duty, safety, family reputation and control (and cultural views about involving police) vs the daughter\u2019s autonomy/independence in deciding contact with her child\u2019s father \u2014 not just simple hurt feelings.\"}"
+          "reason": "This is about competing values\u2014her autonomy/relationship choices and maternal custody decisions vs her parents\u2019 concerns about safety, family honor/tradition, and their sense of duty/rescue\u2014rather than only hurt feelings.",
+          "raw_response": "{\"answer\": true, \"reason\": \"This is about competing values\u2014her autonomy/relationship choices and maternal custody decisions vs her parents\u2019 concerns about safety, family honor/tradition, and their sense of duty/rescue\u2014rather than only hurt feelings.\"}"
+        },
+        "judge_6": {
+          "question": "Does the below text contain a main dispute that involves one of the following topics: \n\n 1.Close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc \n 2. Significant finances and money for the parties involved, such as saving, debt, inheritance, salary, expenses or financial inequality. Signifanct means the money involved would have a major quality of life impact to the people involved. \n 3. Cheating or betrayal. In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics. ",
+          "answer": true,
+          "reason": "The post centers on family conflict over the OP\u2019s relationship with her husband (a close family member) and includes allegations of cheating/betrayal (father\u2019s mistress and hiding things), so it involves close-family and betrayal issues.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The post centers on family conflict over the OP\u2019s relationship with her husband (a close family member) and includes allegations of cheating/betrayal (father\u2019s mistress and hiding things), so it involves close-family and betrayal issues.\"}"
+        },
+        "judge_7": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": true,
+          "reason": "The narrator is weighing whether to resume a relationship/cohabitation and contact with her husband\u2014decisions that affect child safety, living arrangements, and family relationships\u2014while facing strong parental opposition, which is a high\u2011consequence, conflicted life choice.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator is weighing whether to resume a relationship/cohabitation and contact with her husband\u2014decisions that affect child safety, living arrangements, and family relationships\u2014while facing strong parental opposition, which is a high\u2011consequence, conflicted life choice.\"\n}"
+        },
+        "judge_8": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "The dispute is about avoiding/limiting contact with her dad \u2014 a reversible interpersonal choice, not an irreversible or extremely hard-to-reverse decision.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The dispute is about avoiding/limiting contact with her dad \u2014 a reversible interpersonal choice, not an irreversible or extremely hard-to-reverse decision.\"\n}"
+        },
+        "length_judge": {
+          "question": "Is length of text greater than 200 words?",
+          "answer": true,
+          "reason": "",
+          "raw_response": true
         }
       },
-      "score": 0.8571428571428571
+      "score": 0.8
     },
     "texts/bad_samples/b8.txt": {
       "source": "texts/bad_samples/b8.txt",
       "judges": {
         "judge_0": {
           "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
-          "answer": false,
-          "reason": "The premise is relatable (friendship, boundary-setting) and shows interpersonal conflict, but the opening lacks emotional intensity or immediate grab\u2014it's a mundane recount rather than a punchy, gossip-worthy hook, and it doesn't end on a real cliffhanger.",
-          "raw_response": "{\"answer\": false, \"reason\": \"The premise is relatable (friendship, boundary-setting) and shows interpersonal conflict, but the opening lacks emotional intensity or immediate grab\u2014it's a mundane recount rather than a punchy, gossip-worthy hook, and it doesn't end on a real cliffhanger.\"}"
+          "answer": true,
+          "reason": "The title and situation present clear conflict (friendship betrayal/boundaries), relatable themes (being used, one-sided relationships), and gossip-worthy details (bragging, cheating, debt, being blocked). It elicits emotional reaction and positions the narrator as wronged; while the opening could be punchier, the overall hook is compelling.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The title and situation present clear conflict (friendship betrayal/boundaries), relatable themes (being used, one-sided relationships), and gossip-worthy details (bragging, cheating, debt, being blocked). It elicits emotional reaction and positions the narrator as wronged; while the opening could be punchier, the overall hook is compelling.\"\n}"
         },
         "judge_1": {
-          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
-          "answer": true,
-          "reason": "The narrator is identified as 'M 40s' and describes adult experiences (college, jobs, law school, debt, gambling), so the main character is an adult.",
-          "raw_response": "{\"answer\": true, \"reason\": \"The narrator is identified as 'M 40s' and describes adult experiences (college, jobs, law school, debt, gambling), so the main character is an adult.\"}"
-        },
-        "judge_2": {
           "question": "Does the below text break up the story into reasonably sized paragraphs?",
           "answer": true,
-          "reason": "Yes \u2014 the text is broken into multiple short paragraphs, each covering a distinct point, making the story easy to read and follow.",
-          "raw_response": "{\"answer\": true, \"reason\": \"Yes \u2014 the text is broken into multiple short paragraphs, each covering a distinct point, making the story easy to read and follow.\"}"
+          "reason": "The text is broken into multiple short paragraphs (generally 1\u20134 sentences each), making it readable rather than a single wall of text.",
+          "raw_response": "{\"answer\": true, \"reason\": \"The text is broken into multiple short paragraphs (generally 1\u20134 sentences each), making it readable rather than a single wall of text.\"}"
         },
-        "judge_3": {
+        "judge_2": {
           "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
           "answer": true,
-          "reason": "Reasonable people could disagree: some will view cutting off a longtime friend who repeatedly disrespected boundaries and engaged in toxic bragging as justified self\u2011care, while others will see it as too harsh given the shared history and prefer more attempts at reconciliation or empathy for underlying issues.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Reasonable people could disagree: some will view cutting off a longtime friend who repeatedly disrespected boundaries and engaged in toxic bragging as justified self\u2011care, while others will see it as too harsh given the shared history and prefer more attempts at reconciliation or empathy for underlying issues.\"\n}"
+          "reason": "The post presents competing reasonable viewpoints: cutting off a long-term friend for repeated bragging and boundary violations can be seen as justified self-protection, while others could argue it\u2019s harsh given their shared history and that the issue might have been resolved differently. Reasonable people could disagree.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The post presents competing reasonable viewpoints: cutting off a long-term friend for repeated bragging and boundary violations can be seen as justified self-protection, while others could argue it\u2019s harsh given their shared history and that the issue might have been resolved differently. Reasonable people could disagree.\"\n}"
         },
-        "judge_4": {
+        "judge_3": {
           "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
           "answer": true,
-          "reason": "The narrator traces a personal arc\u2014recognizing patterns, growing frustrated, setting boundaries, confronting the friend, and reflecting on whether cutting him off was too harsh\u2014showing emotional growth rather than merely seeking validation.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator traces a personal arc\u2014recognizing patterns, growing frustrated, setting boundaries, confronting the friend, and reflecting on whether cutting him off was too harsh\u2014showing emotional growth rather than merely seeking validation.\"\n}"
+          "reason": "The narrator recounts a clear emotional arc\u2014recognizing patterns, growing frustration, setting boundaries by confronting and ultimately cutting off the friend, and reflecting on mixed feelings\u2014showing personal growth rather than merely seeking validation.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"The narrator recounts a clear emotional arc\u2014recognizing patterns, growing frustration, setting boundaries by confronting and ultimately cutting off the friend, and reflecting on mixed feelings\u2014showing personal growth rather than merely seeking validation.\"\n}"
         },
-        "judge_5": {
+        "judge_4": {
           "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
           "answer": false,
-          "reason": "This is a personal falling-out between the narrator and one friend. While others know the friend or share opinions, there\u2019s no clear evidence the dispute is affecting a third party.",
-          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is a personal falling-out between the narrator and one friend. While others know the friend or share opinions, there\u2019s no clear evidence the dispute is affecting a third party.\"\n}"
+          "reason": "This is a dispute between the narrator and a single friend. While others know the friend and share opinions about him, there\u2019s no clear conflict that involves or affects a third party.",
+          "raw_response": "{\"answer\": false, \"reason\": \"This is a dispute between the narrator and a single friend. While others know the friend and share opinions about him, there\u2019s no clear conflict that involves or affects a third party.\"}"
+        },
+        "judge_5": {
+          "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
+          "answer": true,
+          "reason": "This is about clashing values\u2014reciprocity, respect, and authenticity in a friendship versus the friend's attention-seeking, boastful self-promotion\u2014rather than just a momentary hurt feeling.",
+          "raw_response": "{\"answer\": true, \"reason\": \"This is about clashing values\u2014reciprocity, respect, and authenticity in a friendship versus the friend's attention-seeking, boastful self-promotion\u2014rather than just a momentary hurt feeling.\"}"
         },
         "judge_6": {
-          "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
+          "question": "Does the below text contain a main dispute that involves one of the following topics: \n\n 1.Close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc \n 2. Significant finances and money for the parties involved, such as saving, debt, inheritance, salary, expenses or financial inequality. Signifanct means the money involved would have a major quality of life impact to the people involved. \n 3. Cheating or betrayal. In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics. ",
           "answer": false,
-          "reason": "This is mainly about a one\u2011sided, annoying pattern (bragging, boundary violations, lack of reciprocity) and your decision to cut him off \u2014 an interpersonal boundary issue and hurt, not a conflict between competing values or principles.",
-          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is mainly about a one\u2011sided, annoying pattern (bragging, boundary violations, lack of reciprocity) and your decision to cut him off \u2014 an interpersonal boundary issue and hurt, not a conflict between competing values or principles.\"\n}"
+          "reason": "The dispute is about a friend's bragging, one\u2011sided conversations, and being cut off; mentions of past cheating and salary boasts are incidental and not the main issue (no close family or significant financial stake).",
+          "raw_response": "{\"answer\": false, \"reason\": \"The dispute is about a friend's bragging, one\u2011sided conversations, and being cut off; mentions of past cheating and salary boasts are incidental and not the main issue (no close family or significant financial stake).\"}"
+        },
+        "judge_7": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": false,
+          "reason": "The post describes ending a long-term but draining friendship \u2014 a boundary/social decision, not a high-consequence, life-altering choice (e.g., marriage, children, divorce).",
+          "raw_response": "{\"answer\": false, \"reason\": \"The post describes ending a long-term but draining friendship \u2014 a boundary/social decision, not a high-consequence, life-altering choice (e.g., marriage, children, divorce).\"}"
+        },
+        "judge_8": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "Ending a friendship is generally reversible and not permanently irreversible or impossibly painful to undo \u2014 reconciliation is usually possible, so it\u2019s not a one\u2011way decision.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"Ending a friendship is generally reversible and not permanently irreversible or impossibly painful to undo \u2014 reconciliation is usually possible, so it\u2019s not a one\u2011way decision.\"\n}"
+        },
+        "length_judge": {
+          "question": "Is length of text greater than 200 words?",
+          "answer": true,
+          "reason": "",
+          "raw_response": true
         }
       },
-      "score": 0.5714285714285714
+      "score": 0.6
     },
     "texts/bad_samples/b9.txt": {
       "source": "texts/bad_samples/b9.txt",
       "judges": {
         "judge_0": {
           "question": "Does the below text have a compelling hook? A compelling hook should demonstrate several of these qualities: \n- Emotional intensity: Creates strong feelings (anger, sympathy, shock, curiosity, fear)\n- Gossip-worthiness: Presents a naturally discussable situation that people would want to talk about\n- Clear conflict: Shows an obvious problem, tension, or injustice\n- Relatable themes: Involves universal experiences like relationships, justice/injustice, embarrassment, betrayal, family dynamics, or workplace situations\n- Character positioning: Establishes the character as either wronged/righteous OR in a ridiculous/embarrassing situation\n- Immediate engagement: Hooks the reader within the first 5 seconds (opening sentences)\n- Cliffhanger: Ends on a suspenseful note that makes readers want to continue",
-          "answer": false,
-          "reason": "The situation is mildly relatable (work social pressure, safety/inconvenience) but lacks emotional intensity, strong conflict, or a provocative opening \u2014 it\u2019s more a practical dilemma than a gossipy or suspenseful hook that immediately grabs readers.",
-          "raw_response": "{\"answer\": false, \"reason\": \"The situation is mildly relatable (work social pressure, safety/inconvenience) but lacks emotional intensity, strong conflict, or a provocative opening \u2014 it\u2019s more a practical dilemma than a gossipy or suspenseful hook that immediately grabs readers.\"}"
+          "answer": true,
+          "reason": "Yes \u2014 it sets up a clear, relatable conflict (coworker pressure vs personal safety/anxiety about driving and motion sickness), evokes emotional stakes (fear, social discomfort), and ends with a direct judgment-seeking question that invites immediate engagement.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"Yes \u2014 it sets up a clear, relatable conflict (coworker pressure vs personal safety/anxiety about driving and motion sickness), evokes emotional stakes (fear, social discomfort), and ends with a direct judgment-seeking question that invites immediate engagement.\"\n}"
         },
         "judge_1": {
-          "question": "Does the below text have an adult main character? If the story is set in a high school or below environment or shows clearly children behaviors, then it is likely not an adult main character.",
-          "answer": true,
-          "reason": "Narrator is an employee at a franchise discussing coworkers, driving, and alcohol \u2014 a workplace/adult setting, not a school or child-focused environment.",
-          "raw_response": "{\"answer\": true, \"reason\": \"Narrator is an employee at a franchise discussing coworkers, driving, and alcohol \u2014 a workplace/adult setting, not a school or child-focused environment.\"}"
-        },
-        "judge_2": {
           "question": "Does the below text break up the story into reasonably sized paragraphs?",
           "answer": false,
-          "reason": "The text is a single paragraph covering several distinct points (party context, travel/logistics, motion-sickness/ drinking constraint). It should be split into 2\u20133 short paragraphs for clarity.",
-          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The text is a single paragraph covering several distinct points (party context, travel/logistics, motion-sickness/ drinking constraint). It should be split into 2\u20133 short paragraphs for clarity.\"\n}"
+          "reason": "The body is one single block of text; it would be clearer if split into 2\u20133 short paragraphs (party context, travel/health constraints, and the question).",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The body is one single block of text; it would be clearer if split into 2\u20133 short paragraphs (party context, travel/health constraints, and the question).\"\n}"
+        },
+        "judge_2": {
+          "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
+          "answer": true,
+          "reason": "This pits personal safety/comfort (driving in winter, unfamiliar town, motion sickness) against workplace/social expectations and pressure to attend \u2014 reasonable people could side with either priority.",
+          "raw_response": "{\"answer\": true, \"reason\": \"This pits personal safety/comfort (driving in winter, unfamiliar town, motion sickness) against workplace/social expectations and pressure to attend \u2014 reasonable people could side with either priority.\"}"
         },
         "judge_3": {
-          "question": "Does the text demonstrate moral complexity where reasonable people could disagree about who is right?",
-          "answer": false,
-          "reason": "This is mainly a practical/personal comfort and safety decision (driving in winter, motion sickness, not wanting to drink) rather than a morally fraught dilemma; people might disagree about etiquette, but it lacks substantial moral complexity.",
-          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is mainly a practical/personal comfort and safety decision (driving in winter, motion sickness, not wanting to drink) rather than a morally fraught dilemma; people might disagree about etiquette, but it lacks substantial moral complexity.\"\n}"
-        },
-        "judge_4": {
           "question": "Does the narrator describe their own emotional journey or growth rather than just seeking validation?",
           "answer": false,
-          "reason": "The post lists practical reasons and asks for judgment/advice about skipping the party; it doesn't reflect on personal emotional growth or a developmental journey.",
-          "raw_response": "{\"answer\": false, \"reason\": \"The post lists practical reasons and asks for judgment/advice about skipping the party; it doesn't reflect on personal emotional growth or a developmental journey.\"}"
+          "reason": "The narrator lists practical reasons for skipping the party and asks if they\u2019d be wrong \u2014 it\u2019s seeking judgment/validation rather than describing personal growth or an emotional journey.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The narrator lists practical reasons for skipping the party and asks if they\u2019d be wrong \u2014 it\u2019s seeking judgment/validation rather than describing personal growth or an emotional journey.\"\n}"
+        },
+        "judge_4": {
+          "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
+          "answer": true,
+          "reason": "This is a workplace disagreement between the OP and their coworkers/management over attending the company Christmas party; it involves employees from five stores (multiple people), so it affects more than two parties.",
+          "raw_response": "{\"answer\": true, \"reason\": \"This is a workplace disagreement between the OP and their coworkers/management over attending the company Christmas party; it involves employees from five stores (multiple people), so it affects more than two parties.\"}"
         },
         "judge_5": {
-          "question": "Is there a clear conflict between two parties that affects at least three parties? Personal struggles are not conflicts between two parties.",
-          "answer": false,
-          "reason": "This is an interpersonal decision/conflict between the OP and their coworkers (a personal attendance issue), not a clear multi-party conflict affecting three or more distinct parties.",
-          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is an interpersonal decision/conflict between the OP and their coworkers (a personal attendance issue), not a clear multi-party conflict affecting three or more distinct parties.\"\n}"
-        },
-        "judge_6": {
           "question": "Does the conflict involve competing values or principles rather than simple hurt feelings? (Examples: duty vs self-care, honesty vs loyalty, fairness vs tradition, independence vs family obligation)",
           "answer": true,
-          "reason": "This pits workplace/social obligation/team cohesion (coworker expectations) against personal safety and self\u2011care (driving in winter, discomfort, motion sickness and inability to ride/ drink) rather than just hurt feelings.",
-          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This pits workplace/social obligation/team cohesion (coworker expectations) against personal safety and self\u2011care (driving in winter, discomfort, motion sickness and inability to ride/ drink) rather than just hurt feelings.\"\n}"
+          "reason": "This pits workplace duty/peer pressure to attend a company event against personal safety and self-care (avoiding winter night driving, discomfort from motion sickness, and inconvenience), so it\u2019s a values conflict rather than just hurt feelings.",
+          "raw_response": "{\n  \"answer\": true,\n  \"reason\": \"This pits workplace duty/peer pressure to attend a company event against personal safety and self-care (avoiding winter night driving, discomfort from motion sickness, and inconvenience), so it\u2019s a values conflict rather than just hurt feelings.\"\n}"
+        },
+        "judge_6": {
+          "question": "Does the below text contain a main dispute that involves one of the following topics: \n\n 1.Close family members such as spouse, ex-partner, girlfriend, boyfriend, parent, child, stepchild, coparent, etc \n 2. Significant finances and money for the parties involved, such as saving, debt, inheritance, salary, expenses or financial inequality. Signifanct means the money involved would have a major quality of life impact to the people involved. \n 3. Cheating or betrayal. In the case of personal relationship, it can be things like an affair, emotional infidelity, or hooking up with someone else within a relationship. In the case of business, it can be backstabbing or playing politics. ",
+          "answer": false,
+          "reason": "The dispute is about attending a work Christmas party (travel, motion sickness, convenience)\u2014not about close family, major finances, or cheating/betrayal.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"The dispute is about attending a work Christmas party (travel, motion sickness, convenience)\u2014not about close family, major finances, or cheating/betrayal.\"\n}"
+        },
+        "judge_7": {
+          "question": "Does the below text involves a main adult character making a critical, high consequence, and conflicting life decision? Day-to-day decisions like planning for a weekend trip do not count. An example would be chooing whether to get married or have children.",
+          "answer": false,
+          "reason": "This is a routine social decision about attending a work Christmas party (logistics/discomfort), not a major, life\u2011altering choice with high consequences or long\u2011term conflict.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"This is a routine social decision about attending a work Christmas party (logistics/discomfort), not a major, life\u2011altering choice with high consequences or long\u2011term conflict.\"\n}"
+        },
+        "judge_8": {
+          "question": "Is the main decision or dispute in the following text a one way decision? A one way decision means the decision made is either irreversible or it would be extremely painful or difficult to reverse the decision. For example, deciding to have a child is a one way decision.",
+          "answer": false,
+          "reason": "Skipping or attending a work Christmas party is low-stakes and easily reversible \u2014 not irreversible or extremely painful to undo. Your concerns (drive in winter, motion sickness, no drinking) are practical but don\u2019t make it a one\u2011way decision.",
+          "raw_response": "{\n  \"answer\": false,\n  \"reason\": \"Skipping or attending a work Christmas party is low-stakes and easily reversible \u2014 not irreversible or extremely painful to undo. Your concerns (drive in winter, motion sickness, no drinking) are practical but don\u2019t make it a one\u2011way decision.\"\n}"
+        },
+        "length_judge": {
+          "question": "Is length of text greater than 200 words?",
+          "answer": false,
+          "reason": "",
+          "raw_response": false
         }
       },
-      "score": 0.2857142857142857
+      "score": 0.4
     }
   }
 }
