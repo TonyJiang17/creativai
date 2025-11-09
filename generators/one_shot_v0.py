@@ -1,0 +1,44 @@
+import sys
+from pathlib import Path
+
+# Add project root to path so we can import from eval/ and util/
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from openai import OpenAI
+from eval.judge_text import evaluate_text
+
+client = OpenAI()
+
+prompt = """<Instructions>Your job is to write the most viral Reddit posts in the "am I the asshole" subreddit.
+
+You will be given a title, and you need to generate a post between 300-800 words. To be viral, it must be a relatable story with drama, conflict, no easy answer, and encourage a lot of responses. 
+
+Read the examples first and then the given title, and then write the post. Put the actual post content in between <Post> tags.</Instructions>
+
+<ExampleTitle>because I won't tell my wife what my son/her stepson has in savings from my late wife?</ExampleTitle>
+
+<ExamplePost>My wife (40s) and I (40s) have a blended family. I have a 16 year old son with my late wife. My wife has a 13 year old daughter and a 12 year old son with her ex-husband and they share custody. We have a 4 and a 2 year old together.
+
+When my late wife was sick she told me she wanted a percent of the compensation she was issued for her medical misdiagnosis to go to our son's savings. She also had a second savings account she wanted to add to it. This was on top of what the two of us had saved for him before her illness. I honored her wishes and I continued saving for our son's future. This is a promise I made to my late wife that I have stood by. I also promised I would protect it and make sure it was only ever for him, nobody else.
+
+When my present wife and I started seriously dating we talked about what saving would look like for our kids if/when we married. She knew I had always saved as had my late wife. We didn't discuss how much either of us had saved for our existing kids but we agreed to an amount every month that would be saved for all three and this was talked about again when we had children together.
+
+Recently there has been a lot of stress on my wife. Her ex has refused to discuss my stepkids savings and if he pays anything or not. She also feels like we haven't been able to save enough every month like promised because it was just one thing after another. There are month's we've missed because of things beyond our control. Life stuff mostly like things breaking, etc.
+
+A few weeks ago my wife told me we should put all the cards on the table and discuss what all five kids have and decide how we proceed with making sure everyone gets what they need for the future. I told her I would happily discuss what I have saved for my oldest, but I would not be discussing the money left by his mom. She pushed back on it and said all the money should be taken into consideration. I told her we don't know what all the money is. I said our parents could be saving money for the kids' futures, her ex could have money for my stepkids, his parents could have money for my stepkids. We can't say for certainty what everyone will have at the end and it's only fair to discuss what she and I have and can save.
+
+She told me it sounds like I don't trust her. I responded by asking why she wants to know this so badly. By only talking about what we've saved we're on an even footing. She told me if we knew everything we could focus on the kids who will have less a little more. That our younger two are probably going to be the worst off long term and she would be open to combining all the money and dividing it. I told her I was not on board with that and what my son has from his mom is not going to be shared or used for any of the other kids.
+
+We argued about it but I refused to say. She feels like that's wrong when we're married. I told her it's not my money, nor is it her money or money that we can or should be accessing. It's from my late wife to our son and that's all there is to it. My wife said she feels like I'm keeping her in the dark and not trusting her with something important. She said it cuts her ability to fully engage in conversations we need to be able to have and decisions we need to make as a couple.</ExamplePost> 
+
+<Title>AITAH for walking out of a date?</Title>
+"""
+
+response = client.responses.create(
+    model="gpt-5",
+    input=prompt
+)
+
+print(response.output_text)
+
+print(evaluate_text(response.output_text))
